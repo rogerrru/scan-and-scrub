@@ -4,11 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener("scroll", function () {
         if (navbarCollapse.classList.contains("show")) {
-            navbarToggler.click(); // Closes navbar when scrolling
+            navbarToggler.click();
         }
     });
 
-    // Smooth scrolling for navigation links
     document.querySelectorAll('.nav-link').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();

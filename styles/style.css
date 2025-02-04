@@ -3,12 +3,13 @@
 }
 
 .body{
-
+    padding-top: 56px;
 }
 
-.landing_page{
-    width: max-content;
-    height: 1080px;
+#home{
+    background-size: cover;
+    background: url("../media/home-bg.png") no-repeat center center;
+    position: relative;
 }
 .footer{
 
