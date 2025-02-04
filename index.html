@@ -7,22 +7,24 @@
     <link rel="icon" href="./media/logo-icon.png">
     <link href="./styles/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--    <script src="./js/script.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top bg-opacity-50">
     <div class="container">
-        <a class="navbar-brand" href="#">My Website</a>
+        <a class="navbar-brand me-auto" href="#">
+            <img src="media/logo-icon-2.png" alt="Scan&Scrub Logo" height="40">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#popular-procedures">Popular Procedures</a></li>
-                <li class="nav-item"><a class="nav-link" href="#significance">Significance</a></li>
-                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link fs-3 fw-bold text-white" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link fs-3 fw-bold text-white" href="./pages/procedures.html">Procedures</a></li>
+                <li class="nav-item"><a class="nav-link fs-3 fw-bold text-white" href="./pages/tools.html">Tools</a></li>
+                <li class="nav-item"><a class="nav-link fs-3 fw-bold text-white" href="./pages/about.html">About Us</a></li>
             </ul>
         </div>
     </div>
@@ -32,20 +34,26 @@
     <div class="container">
         <div class="row align-items-center vh-100">
             <div class="col-md-5 col-12 text-center text-md-start ms-md-auto">
-                <h1 class="display-1 font-weight-bold fw-bold">Scan&Scrub</h1>
+                <h1 class="display-1 fw-bold">Scan&Scrub</h1>
                 <h2>The QR Code Solution for OR Efficiency</h2>
-                <p>
+                <p class="fw-semibold">
                     By scanning a QR code, nurses could instantly access detailed information about
                     the specific instruments required for each operation, including their functions,
                     handling procedures, and sterilization protocols.
                 </p>
+                <div class="d-flex justify-content-center justify-content-md-start">
+                    <button class="btn btn-primary rounded-pill px-4 py-2 custom-btn fw-semibold">
+                        <a class="nav-link fw-bold text-white" href="./pages/about.html">
+                       View Procedures
+                        </a>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-
-<section id="popular-procedures" class="landing-page d-flex align-items-center justify-content-center bg-secondary text-white vh-100">
+<section id="popular-procedures" class="landing-page d-flex align-items-center justify-content-center text-white vh-100">
     <div class="container">
         <h2 class="text-center mb-4">Popular Procedures</h2>
         <div class="row">
@@ -77,48 +85,73 @@
     </div>
 </section>
 
-<section id="significance" class="landing-page d-flex align-items-center justify-content-center bg-success text-white vh-100">
-    <h2>Significance</h2>
+<section id="significance" class="landing-page d-flex align-items-center justify-content-center text-white vh-100">
+    <div class="container-fluid p-0">
+        <div class="row align-items-center vh-100">
+            <div class="col-md-6 col-12 text-md-start text-center px-md-5 px-3">
+                <h1 class="display-1 fw-bold">Why this matters?</h1>
+                <h2>The QR Code Solution for OR Efficiency</h2>
+                <p>
+                    New OR staff and student nurses often experience high anxiety due to unfamiliarity with surgical
+                    instruments, procedures, and protocols. This anxiety can reduce their efficiency, prolong surgeries,
+                    and increase the risk of errors, leading to negative feedback and a cycle of reduced confidence and
+                    performance. Comprehensive training programs can ease their anxiety, boost their confidence, and
+                    improve their efficiency and satisfaction by increasing their familiarity with OR procedures.
+                </p>
+            </div>
+            <div class="col-md-6 col-12 p-0 d-flex">
+                <img src="media/significance-bg.png" alt="OR Efficiency Image" class="img-fluid object-fit-cover w-100 h-100">
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="team" class="landing-page d-flex align-items-center justify-content-center bg-danger text-white vh-100">
-    <h2>Team</h2>
+<section id="team" class="landing-page d-flex align-items-center justify-content-center text-black vh-100">
+    <div class="container team-section">
+        <h2>Meet the Team</h2>
+        <p>Click on a team member to see more details.</p>
+
+        <!-- Grid Display -->
+        <div class="team-grid">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(0)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(1)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(2)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(3)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(4)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(5)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(6)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(7)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(8)">
+            <img src="media/logo-icon.png" class="team-member" onclick="selectMember(9)">
+        </div>
+
+        <!-- Selected Member Display -->
+        <div id="selected-container" class="team-container" style="display: none;">
+            <div class="selected-member">
+                <img id="selected-img" src="" alt="Selected Member">
+                <h3 id="selected-name"></h3>
+                <button class="btn btn-danger close-btn" onclick="resetSelection()">Close</button>
+            </div>
+            <div class="other-members">
+            </div>
+        </div>
+    </div>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        let navbarToggler = document.querySelector(".navbar-toggler");
-        let navbarCollapse = document.querySelector(".navbar-collapse");
-
-        // Close navbar when scrolling
-        window.addEventListener("scroll", function () {
-            if (navbarCollapse.classList.contains("show")) {
-                navbarToggler.click(); // Close the navbar
-            }
-        });
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('.nav-link').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetSection = document.getElementById(targetId);
-                window.scrollTo({
-                    top: targetSection.offsetTop - 50,
-                    behavior: "smooth"
-                });
-                if (navbarCollapse.classList.contains("show")) {
-                    navbarToggler.click(); // Close navbar after clicking a link
-                }
-            });
-        });
-    });
-</script>
+<script src="js/script.js"></script>
 </body>
 
-<footer>
-
+<footer class="footer">
+    <div class="footer-divider divider"></div>
+    <div class="social-icons">
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div>
+        <img src="media/logo-icon-2.png" alt="Scan&Scrub Logo" height="40">
+    </div>
+    <p>©2025 Scan&Scrub. All Rights Reserved</p>
 </footer>
 </html>
