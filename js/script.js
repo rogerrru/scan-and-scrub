@@ -1,16 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const navbar = document.querySelector(".navbar");
-    let lastScrollY = window.scrollY;
-
-    window.addEventListener("scroll", () => {
-        if (lastScrollY < window.scrollY) {
-            navbar.style.transform = "translateY(-100%)";
-        } else {
-            navbar.style.transform = "translateY(0)";
-        }
-        lastScrollY = window.scrollY;
-    });
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//     const navbar = document.querySelector(".navbar");
+//     let lastScrollY = window.scrollY;
+//
+//     window.addEventListener("scroll", () => {
+//         if (lastScrollY < window.scrollY) {
+//             navbar.style.transform = "translateY(-100%)";
+//         } else {
+//             navbar.style.transform = "translateY(0)";
+//         }
+//         lastScrollY = window.scrollY;
+//     });
+// });
 
 let teamMembers = [
     { name: "Alice Johnson", image: "media/team1.png" },
