@@ -19,13 +19,17 @@ h1, h2, h3, h4, h5, h6,
 p{
     color: #2F2E2E !important;
 }
+.btn{
+    background-color: #2E6AD9 !important;
+}
 
 .navbar {
     transition: transform 0.3s ease-in-out;
     margin-bottom: 0 !important;
 }
 
-.active-nav {
+.nav-link:hover{
+    transition: transform 0.8s  !important;
     color: #2E6AD9 !important;
 }
 
@@ -61,7 +65,7 @@ p{
     transition: 0.3s ease-in-out;
 }
 
-#home h1 {
+#home h1, #significance h1, #team h1 {
     color: #2E6AD9 !important;
 }
 
@@ -142,12 +146,23 @@ p{
 }
 
 /*CUSTOM STYLES*/
-.custom-padding {
-    padding-left: 8rem !important;
-    padding-right: 8rem !important;
-    padding-top: 1rem;
-    padding-bottom: 0;
-}
 .text-justify {
     text-align: justify;
+}
+
+.responsive-img {
+    width: 100% !important;   /* Ensures the image is responsive */
+    max-width: 90% !important; /* Prevents the image from exceeding 90% of its container */
+}
+
+@media (max-width: 768px) { /* Tablets & smaller screens */
+    .responsive-img {
+        max-width: 50% !important; /* Shrink image on smaller screens */
+    }
+}
+
+@media (max-width: 576px) { /* Mobile devices */
+    .responsive-img {
+        max-width: 40% !important; /* Further reduce size on very small screens */
+    }
 }

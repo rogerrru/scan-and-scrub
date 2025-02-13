@@ -44,11 +44,11 @@
         </nav>
     </header>
 
-    <section id="home" class="landing-page align-items-center text-dark vh-auto pt-4 px-5 pb-1">
-        <div class="container-fluid custom-padding">
+    <section id="home" class="landing-page align-items-center text-dark vh-80 px-5 pb-0">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <!-- Left Content -->
-                <div class="col-md-5 text-center text-md-start px-5">
+                <div class="col-md-5 text-center text-md-start px-5 px-lg-5">
                     <h1 class="fw-bold text-primary display-4">The QR Code Solution for OR Efficiency</h1>
                     <p class="fw-medium fs-3 text-justify lh-1 pb-4">
                         By scanning a QR code, nurses could instantly access detailed information about
@@ -70,23 +70,32 @@
     <!-- Significance Section -->
     <section id="significance" class="landing-page d-flex align-items-center justify-content-center text-white vh-100">
         <div class="container-fluid p-0">
-            <div class="row align-items-center vh-100">
-                <div class="col-md-6 col-12 text-md-start text-center px-md-5 px-3">
-                    <h1 class="display-1 fw-bold">Why this matters?</h1>
-                    <h2>The QR Code Solution for OR Efficiency</h2>
-                    <p class="fw-semibold">
+            <div class="row align-items-center">
+                <!-- Left Image -->
+                <div class="col-md-6 text-center px-5">
+                    <img src="assets/images/homepage/tools-placeholder.png" alt="Tools" class="img-fluid responsive-img">
+                </div>
+                <!-- Right Content -->
+                <div class="col-md-6 text-center px-5 py-1">
+                    <h1 class="display-1 fw-bold text-start">Why this matters?</h1>
+                    <p class="fw-medium fs-3 text-justify lh-1">
                         New OR staff and student nurses often experience high anxiety due to unfamiliarity with surgical
                         instruments, procedures, and protocols. This anxiety can reduce their efficiency, prolong
                         surgeries,
                         and increase the risk of errors, leading to negative feedback and a cycle of reduced confidence
                         and
-                        performance. Comprehensive training programs can ease their anxiety, boost their confidence, and
-                        improve their efficiency and satisfaction by increasing their familiarity with OR procedures.
+                        performance.
                     </p>
-                </div>
-                <div class="col-md-6 col-12 p-0 d-flex">
-                    <img src="assets/images/homepage/significance-bg.png" alt="OR Efficiency Image"
-                        class="img-fluid object-fit-cover w-100 h-100">
+                    <p class="fw-medium fs-3 text-justify lh-1">
+                    Comprehensive training programs can ease their anxiety, boost their confidence, and
+                    improve their efficiency and satisfaction by increasing their familiarity with OR procedures.
+                    </p>
+                    <div class="text-start">
+                        <a href="pages/about.html" class="btn btn-primary px-5 py-3 fs-3 fw-bold rounded-4">
+                            Learn More
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -95,8 +104,8 @@
     <!-- Team Section -->
     <section id="team" class="landing-page d-flex align-items-center justify-content-center text-black vh-100">
         <div class="container team-section">
-            <h2>Meet the Team</h2>
-            <p>Click on a team member to see more details.</p>
+            <h1 class="display-1 fw-bold text-start">Meet the Team</h1>
+            <p class="fw-medium fs-3 text-justify lh-1 pb-4">Click on a team member to see more details.</p>
 
             <div class="team-grid">
                 <img src="assets/logo-icon.png" class="team-member" onclick="selectMember(0)">
@@ -126,15 +135,15 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-divider divider"></div>
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+<!--        <div class="social-icons">-->
+<!--            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>-->
+<!--            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>-->
+<!--            <a href="#"><i class="fa-brands fa-instagram"></i></a>-->
+<!--        </div>-->
+        <div class="py-3">
+            <img src="assets/logo-icon-2.png" alt="Scan&Scrub Logo" height="40">
         </div>
-        <div>
-            <img src="assets/logo-icon.png" alt="Scan&Scrub Logo" height="40">
-        </div>
-        <p>©2025 Scan&Scrub. All Rights Reserved</p>
+        <p class="text-white">©2025 Scan&Scrub. All Rights Reserved</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
