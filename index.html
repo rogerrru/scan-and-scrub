@@ -8,22 +8,25 @@
     <link href="./styles/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <section id="home" class="landing-page align-items-center text-dark vh-100">
     <div class="container">
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand ms-3 ps-3" href="#">
+                <a class="navbar-brand" href="#">
                     <img src="./media/logo-icon-1.png" alt="Scan&Scrub Logo" height="40">
                 </a>
                 <a class="navbar-brand fw-bold" href="#">Scan&Scrub</a>
                 <button id="navbar-toggler" class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end ms-4 ps-4" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item fw-bold "><a class="nav-link text-black" href="index.html">Home</a></li>
+                        <li class="nav-item fw-bold "><a id="nav-item-active" class="nav-link text-black" href="index.html">Home</a></li>
                         <li class="nav-item fw-bold "><a class="nav-link text-black" href="pages/procedures.html">Procedures</a></li>
                         <li class="nav-item fw-bold "><a class="nav-link text-black" href="pages/tools.html">Tools</a></li>
                         <li class="nav-item fw-bold "><a class="nav-link text-black " href="pages/about.html">About Us</a></li>
@@ -36,14 +39,14 @@
     <div class="container mt-5 pt-5">
         <div class="row align-items-center">
             <!-- Left Content -->
-            <div class="col-md-6 text-center text-md-start">
-                <h1 class="fw-bold text-primary">The QR Code Solution for OR Efficiency</h1>
-                <p>
+            <div class="col-md-6 text-start">
+                <h1 class="fw-bold text-primary display-5">The QR Code Solution for OR Efficiency</h1>
+                <p class="fs-5">
                     By scanning a QR code, nurses could instantly access detailed information about
                     the specific instruments required for each operation, including their functions,
                     handling procedures, and sterilization protocols.
                 </p>
-                <a href="pages/procedures.html" class="btn btn-primary px-4 py-2">View Procedures</a>
+                <a href="pages/procedures.html" class="btn btn-primary px-5 py-3 fs-5 fw-bold rounded-4">View Procedures</a>
             </div>
 
             <!-- Right Image -->
@@ -55,34 +58,21 @@
 </section>
 
 
-
-<section id="popular-procedures" class="landing-page d-flex align-items-center justify-content-center text-white vh-100">
+<section id="popular-procedures" class="py-5">
     <div class="container">
-        <h2 class="text-center mb-4">Popular Procedures</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Procedure 1</h5>
-                        <p class="card-text">Description of procedure 1.</p>
-                    </div>
-                </div>
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="fw-bold w-50">Discover Popular Operating Room Procedures</h2>
+            <a href="#" class="btn btn-primary px-4 py-2 rounded-4">View More</a>
+        </div>
+
+        <div class="swiper mySwiper position-relative">
+            <div class="swiper-wrapper" id="procedure-cards">
             </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Procedure 2</h5>
-                        <p class="card-text">Description of procedure 2.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Procedure 3</h5>
-                        <p class="card-text">Description of procedure 3.</p>
-                    </div>
-                </div>
+
+            <div class="d-flex justify-content-center align-items-center mt-4">
+                <div class="swiper-button-prev custom-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next custom-next"></div>
             </div>
         </div>
     </div>
@@ -142,6 +132,7 @@
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 

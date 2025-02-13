@@ -1,16 +1,58 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//     const navbar = document.querySelector(".navbar");
-//     let lastScrollY = window.scrollY;
-//
-//     window.addEventListener("scroll", () => {
-//         if (lastScrollY < window.scrollY) {
-//             navbar.style.transform = "translateY(-100%)";
-//         } else {
-//             navbar.style.transform = "translateY(0)";
-//         }
-//         lastScrollY = window.scrollY;
-//     });
-// });
+// Function to load and parse CSV
+function loadProcedures() {
+    Papa.parse("data/procedures.csv", {
+        download: true,
+        header: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            const data = results.data;
+            let cardContainer = document.getElementById("procedure-cards");
+
+            data.forEach(procedure => {
+                let card = `
+                        <div class="swiper-slide">
+                            <div class="card shadow-lg border-0 rounded-4">
+                                <div class="position-relative">
+                                    <img src="media/procedures/${procedure['Image Filename']}" class="card-img-top rounded-top-4" alt="${procedure['Procedure Name']}">
+                                    <a href="#" class="btn btn-primary position-absolute top-0 end-0 m-2 rounded-circle">➜</a>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">${procedure['Procedure Name']}</h5>
+                                    <span class="badge ${procedure['Procedure Type'] === 'Major' ? 'bg-warning text-dark' : 'bg-success text-white'} px-3 py-2 rounded-pill">
+                                        ${procedure['Procedure Type']} Procedure
+                                    </span>
+                                    <p class="card-text">${procedure['Procedure Description']}</p>
+                                </div>
+                            </div>
+                        </div>`;
+
+                cardContainer.innerHTML += card;
+            });
+
+            // Initialize Swiper after cards are loaded
+            new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                loop: true,
+                navigation: {
+                    nextEl: ".custom-next",
+                    prevEl: ".custom-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    768: { slidesPerView: 2 },
+                    576: { slidesPerView: 1 }
+                }
+            });
+        }
+    });
+}
+
+// Call the function on page load
+document.addEventListener("DOMContentLoaded", loadProcedures);
 
 let teamMembers = [
     { name: "Alice Johnson", image: "media/team1.png" },

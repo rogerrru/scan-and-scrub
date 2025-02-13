@@ -4,9 +4,19 @@
 
 .body{
     padding-top: 56px;
+    font-family: 'Roboto', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6,
+.navbar, .btn, p {
+    font-family: 'Roboto', sans-serif !important;
+}
+
 .navbar {
     transition: transform 0.3s ease-in-out;
+}
+#nav-item-active{
+    color: #2E6AD9 !important;
 }
 
 #navbar-toggler:focus, #navbar-toggler:active {
@@ -18,17 +28,27 @@
     background-color: #F4F5F9;
 }
 
-#home button{
+#home .btn{
+    background-color: #2E6AD9;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-weight: bold;
     transition: 0.3s ease-in-out;
+}
+
+#home .btn:hover{
+    background-color: #2A5AB2;
+    transition: 0.3s ease-in-out;
+}
+
+#home h1 {
+    color: #2E6AD9 !important;
 }
 
 #popular-procedures{
     background-color: #FFFAF1;
 }
+
+
 #significance{
     background-color: #F4F5F9;
 }
