@@ -16,7 +16,8 @@ h1, h2, h3, h4, h5, h6,
     transition: transform 0.3s ease-in-out;
     margin-bottom: 0 !important;
 }
-#nav-item-active{
+
+.active-nav {
     color: #2E6AD9 !important;
 }
 
@@ -25,8 +26,15 @@ h1, h2, h3, h4, h5, h6,
     box-shadow: none;
 }
 
-#home, #header, #significance{
-    background-color: #F4F5F9;
+#home, #navbar, #team{
+    background-color: #F4F5F9 !important;
+}
+#nav-link-active{
+    color: #2E6AD9 !important;
+}
+
+#significance{
+    background-color: #FFFAF1;
 }
 
 #home .container{
@@ -49,13 +57,6 @@ h1, h2, h3, h4, h5, h6,
     color: #2E6AD9 !important;
 }
 
-#popular-procedures{
-    background-color: #FFFAF1;
-}
-
-#team{
-    background-color: #FFFAF1;
-}
 .team-section {
     text-align: center;
     padding: 50px;

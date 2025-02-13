@@ -99,3 +99,5 @@ function resetSelection() {
     document.querySelector('.team-grid').style.display = 'flex';
     document.getElementById('selected-container').style.display = 'none';
 }
+
+
