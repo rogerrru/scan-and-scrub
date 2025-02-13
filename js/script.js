@@ -13,7 +13,7 @@ function loadProcedures() {
                         <div class="swiper-slide">
                             <div class="card shadow-lg border-0 rounded-4">
                                 <div class="position-relative">
-                                    <img src="media/procedures/${procedure['Image Filename']}" class="card-img-top rounded-top-4" alt="${procedure['Procedure Name']}">
+                                    <img src="assets/procedures/${procedure['Image Filename']}" class="card-img-top rounded-top-4" alt="${procedure['Procedure Name']}">
                                     <a href="#" class="btn btn-primary position-absolute top-0 end-0 m-2 rounded-circle">➜</a>
                                 </div>
                                 <div class="card-body text-center">
@@ -55,16 +55,16 @@ function loadProcedures() {
 document.addEventListener("DOMContentLoaded", loadProcedures);
 
 let teamMembers = [
-    { name: "Alice Johnson", image: "media/team1.png" },
-    { name: "Bob Smith", image: "media/team2.png" },
-    { name: "Charlie Brown", image: "media/team3.png" },
-    { name: "David Lee", image: "media/team4.png" },
-    { name: "Emma Watson", image: "media/team5.png" },
-    { name: "Frank White", image: "media/team6.png" },
-    { name: "Grace Kim", image: "media/team7.png" },
-    { name: "Henry Clark", image: "media/team8.png" },
-    { name: "Isla Martinez", image: "media/team9.png" },
-    { name: "Jack Wilson", image: "media/team10.png" }
+    { name: "Alice Johnson", image: "assets/homepage/team1.png" },
+    { name: "Bob Smith", image: "assets/homepage/team2.png" },
+    { name: "Charlie Brown", image: "assets/homepage/team3.png" },
+    { name: "David Lee", image: "assets/homepage/team4.png" },
+    { name: "Emma Watson", image: "assets/homepage/team5.png" },
+    { name: "Frank White", image: "assets/homepage/team6.png" },
+    { name: "Grace Kim", image: "assets/homepage/team7.png" },
+    { name: "Henry Clark", image: "assets/homepage/team8.png" },
+    { name: "Isla Martinez", image: "assets/homepage/team9.png" },
+    { name: "Jack Wilson", image: "assets/homepage/team10.png" }
 ];
 
 function selectMember(index) {
