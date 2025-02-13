@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6,
     background-color: #F4F5F9;
 }
 
+#home .container{
+    background-color: #F4F5F9;
+}
+
 #home .btn{
     background-color: #2E6AD9;
     color: white;
