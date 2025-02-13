@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar {
     transition: transform 0.3s ease-in-out;
+    margin-bottom: 0 !important;
 }
 #nav-item-active{
     color: #2E6AD9 !important;
@@ -24,7 +25,7 @@ h1, h2, h3, h4, h5, h6,
     box-shadow: none;
 }
 
-#home{
+#home, #header, #significance{
     background-color: #F4F5F9;
 }
 
@@ -52,10 +53,6 @@ h1, h2, h3, h4, h5, h6,
     background-color: #FFFAF1;
 }
 
-
-#significance{
-    background-color: #F4F5F9;
-}
 #team{
     background-color: #FFFAF1;
 }
