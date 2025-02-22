@@ -4,23 +4,11 @@ import '../styles/index.css'
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import proceduresData from "../data/procedures.json"
 
 const Procedures = () => {
   const [searchProcedure, setSearchProcedure] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("major");
-
-  // hard coded for testing
-  const procedures = {
-    major: [
-      { id: 1, procedure_name: "Heart Surgery" },
-      { id: 2, procedure_name: "Brain Surgery" },
-      { id: 3, procedure_name: "Organ Transplant" },
-    ],
-    minor: [
-      { id: 4, procedure_name: "Stitches Removal" },
-      { id: 5, procedure_name: "Wound Dressing" },
-    ],
-  };
 
   return (
     <div>
@@ -72,15 +60,24 @@ const Procedures = () => {
         </div>
 
         {/* Procedure Cards */}
-        <div className="overflow-x-auto whitespace-nowrap flex gap-4 p-4">
-          {procedures[selectedCategory].map((procedure) => (
-            <div
-              key={procedure.id}
-              className="w-60 h-40 bg-white shadow-md rounded-lg p-4 flex items-center justify-center text-lg font-semibold border"
-            >
-              {procedure.name}
-            </div>
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 mt-12 mb-15">
+          {proceduresData[selectedCategory]
+            .filter((procedure) =>
+              procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
+            )
+            .map((procedure) => (
+              <div
+                key={procedure.id}
+                className="w-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center"
+              >
+                <img
+                  src={procedure.image}
+                  alt={procedure.name}
+                  className="w-60 h-60 mb-4"
+                />
+                <p className="text-lg text-center">{procedure.name}</p>
+              </div>
+            ))}
         </div>
       </div>
 
