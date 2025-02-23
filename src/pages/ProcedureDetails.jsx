@@ -43,16 +43,15 @@ const ProcedureDetails = () => {
     return (
         <div className="w-screen h-screen flex flex-col">
             <Header />
-            <div className="container mx-auto px-5 py-10v flex-1">
-                
+            <div className="container mx-auto px-5 py-10v flex-1 mt-10">
                 {/* Back Button */}
                 <div className="max-w-6xl mx-auto">
-                <button
-                    onClick={() => navigate(-1)}
-                    className="bg-[#2E6AD9] text-white px-9 py-2 rounded-md mb-6 cursor-pointer hover:bg-blue-700"
-                >
-                    Back
-                </button>
+                    <button
+                        onClick={() => navigate(-1)}
+                        className="bg-[#2E6AD9] text-white px-9 py-2 rounded-md mb-6 cursor-pointer hover:bg-blue-700"
+                    >
+                        Back
+                    </button>
                 </div>
 
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-20">
@@ -66,7 +65,7 @@ const ProcedureDetails = () => {
                             } min-w-[300px] max-w-[500px] w-full`}
                         />
 
-                        {/* Zoom Button - Overflowing the Corner */}
+                        {/* Zoom Button*/}
                         <div className="absolute top-[-15px] right-[-12px] w-14 h-14 bg-[#F4F5F9] rounded-full flex items-center justify-center">
                             <button
                                 onClick={() => setIsZoomed(!isZoomed)}
@@ -78,20 +77,25 @@ const ProcedureDetails = () => {
                         </div>
                     </div>
 
-                    {/*Procedure Details */}
+                    {/* Procedure Details */}
                     <div className="flex-1 text-center md:text-left">
                         <h2 className="text-3xl font-bold ">{procedure.name}</h2>
                         <div className="bg-[#A6E5B4] w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0">
                             <p className="text-sm text-white font-semibold">{procedureType === "major" ? "Major Procedure" : "Minor Procedure"}</p>
                         </div>
                         <p className="text-lg mt-4 text-gray-600">{procedure.description}</p>
-                        {/* Tools Used Section */}
+                        
+                        {/* Tools*/}
                         <div className="mt-8 mb-15">
                             <h3 className="text-xl font-bold mb-4">Tools</h3>
                             <div className="relative">
                                 <div className="flex overflow-x-auto space-x-4 pb-4 scrollbar-hide w-[calc(3*10rem+2rem)]"> 
                                 {procedureTools.map((tool) => (
-                                    <div key={tool.id} className="flex-none w-40 bg-white shadow-md rounded-lg p-3 cursor-pointer">
+                                    <div 
+                                        key={tool.id} 
+                                        className="flex-none w-40 bg-white shadow-md rounded-lg p-3 cursor-pointer"
+                                        onClick={() => navigate(`/tools/${tool.id}`)}
+                                    >
                                         <img 
                                             src={tool.image} 
                                             alt={tool.name} 

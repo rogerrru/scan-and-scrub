@@ -40,7 +40,7 @@ with open("src/data/tools.csv", newline="", encoding="utf-8") as csvfile:
     for row in reader:
         tools.append({
             "id": int(row["Tool ID"]),
-            "image": f"/assets/tools/{row['Image FileName']}",
+            "image": f"/src/assets/tools/{row['Image FileName']}",
             "name": row["Tool Name"],
             "description": row["Tool Description"],
             "uses": row["Tool Uses"],
