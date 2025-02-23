@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import Home from './pages/Home';
 import Procedures from './pages/Procedures';
+import ProcedureDetails from './pages/ProcedureDetails';
 import Tools from './pages/Tools';
 import About from './pages/About';
 
@@ -12,18 +13,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={
-          <Home
-          />} />
-        <Route path="/procedures"element={
-            <Procedures/>}
-        />
-        <Route path="/tools"element={
-            <Tools/>}
-        />
-        <Route path="/about"element={
-            <About/>}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/procedures" element={<Procedures />} />
+        <Route path="/procedure/:id" element={<ProcedureDetails />} /> 
+        <Route path="/tools" element={<Tools />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

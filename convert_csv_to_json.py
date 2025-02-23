@@ -14,7 +14,8 @@ with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
             "id": int(row["Procedure ID"]),
             "image": f"/src/assets/procedures/{row['Image Filename']}",
             "name": row["Procedure Name"],
-            "description": row["Procedure Description"]
+            "description": row["Procedure Description"],
+            "tools": [tool.strip() for tool in row["Tools"].split(",") if tool.strip()]
         }
         category = "major" if row["Procedure Type"].strip().lower() == "major" else "minor"
         procedures[category].append(procedure)

@@ -1,9 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "/logo-icon-1.png"; 
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+
+  const getLinkClass = (path) =>
+    location.pathname === path ? "text-[#2E6AD9]" : "text-black hover:text-blue-500";
 
   return (
     <header className="font-sserif text-sm text-[#5A5959] w-full flex justify-between items-center py-3 px-6 md:px-20">
@@ -23,10 +27,10 @@ const Header = () => {
 
       <nav className={`absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ${menuOpen ? "block" : "hidden"} md:flex justify-end`}>
         <ul className="flex flex-col text-lg font-semibold md:flex-row items-center gap-6 md:gap-10 py-4 md:py-0">
-          <li><Link className="text-[#2E6AD9] hover:text-blue-500" to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
-          <li><Link className="text-black hover:text-blue-500" to="/procedures" onClick={() => setMenuOpen(false)}>Procedures</Link></li>
-          <li><Link className="text-black hover:text-blue-500" to="/tools" onClick={() => setMenuOpen(false)}>Tools</Link></li>
-          <li><Link className="text-black hover:text-blue-500" to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
+          <li><Link className={getLinkClass("/")} to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+          <li><Link className={getLinkClass("/procedures")} to="/procedures" onClick={() => setMenuOpen(false)}>Procedures</Link></li>
+          <li><Link className={getLinkClass("/tools")} to="/tools" onClick={() => setMenuOpen(false)}>Tools</Link></li>
+          <li><Link className={getLinkClass("/about")} to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
         </ul>
       </nav>
     </header>

@@ -66,17 +66,16 @@ const Procedures = () => {
               procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
             )
             .map((procedure) => (
-              <div
-                key={procedure.id}
-                className="w-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center"
-              >
-                <img
-                  src={procedure.image}
-                  alt={procedure.name}
-                  className="w-60 h-60 mb-4"
-                />
-                <p className="text-lg text-center">{procedure.name}</p>
-              </div>
+              <Link to={`/procedure/${procedure.id}`} key={procedure.id}>
+                <div className="w-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
+                  <img
+                    src={procedure.image}
+                    alt={procedure.name}
+                    className="w-60 h-60 mb-4"
+                  />
+                  <p className="text-lg text-center">{procedure.name}</p>
+                </div>
+              </Link>
             ))}
         </div>
       </div>

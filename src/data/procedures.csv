@@ -1,9 +1,9 @@
-Procedure ID,Image Filename,Procedure Type,Procedure Name,Procedure Description,Other Information ,Other Information ,Other Information 
-1,image-placeholder.svg,Major ,Procedure 1,Lorem Ipsum ,,,
-2,image-placeholder.svg,Major ,Procedure 2,Lorem Ipsum ,,,
-3,image-placeholder.svg,Major ,Procedure 3,Lorem Ipsum ,,,
-4,image-placeholder.svg,Major ,Procedure 4,Lorem Ipsum ,,,
-5,image-placeholder.svg,Minor,Procedure 1,Lorem Ipsum ,,,
-6,image-placeholder.svg,Minor,Procedure 2,Lorem Ipsum ,,,
-7,image-placeholder.svg,Minor,Procedure 3,Lorem Ipsum ,,,
-8,image-placeholder.svg,Minor,Procedure 4,Lorem Ipsum ,,,
+Procedure ID,Image Filename,Procedure Type,Procedure Name,Procedure Description,Tools,Other Information ,Other Information 
+1,image-placeholder.svg,Major ,Procedure 1,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,
+2,image-placeholder.svg,Major ,Procedure 2,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,
+3,image-placeholder.svg,Major ,Procedure 3,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,
+4,image-placeholder.svg,Major ,Procedure 4,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,
+5,image-placeholder.svg,Minor,Procedure 1,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,
+6,image-placeholder.svg,Minor,Procedure 2,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,
+7,image-placeholder.svg,Minor,Procedure 3,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,
+8,image-placeholder.svg,Minor,Procedure 4,Lorem Ipsum ,"Tool 1, Tool 2, Tool 3, Tool 4",,

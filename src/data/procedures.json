@@ -3,52 +3,100 @@
         {
             "id": 1,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Major Procedure 1",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 1",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         },
         {
             "id": 2,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Major Procedure 2",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 2",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         },
         {
             "id": 3,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Major Procedure 3",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 3",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         },
         {
             "id": 4,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Major Procedure 4",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 4",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         }
     ],
     "minor": [
         {
             "id": 5,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Minor Procedure 1",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 1",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         },
         {
             "id": 6,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Minor Procedure 2",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 2",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         },
         {
             "id": 7,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Minor Procedure 3",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 3",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         },
         {
             "id": 8,
             "image": "/src/assets/procedures/image-placeholder.svg",
-            "name": "Minor Procedure 4",
-            "description": "Lorem Ipsum "
+            "name": "Procedure 4",
+            "description": "Lorem Ipsum ",
+            "tools": [
+                "Tool 1",
+                "Tool 2",
+                "Tool 3",
+                "Tool 4"
+            ]
         }
     ]
 }
