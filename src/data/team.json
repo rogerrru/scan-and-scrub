@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Doe",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 2,
+    "name": "John Smith",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 3,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 4,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 5,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 6,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 7,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 8,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 9,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  },
+  {
+    "id": 10,
+    "name": "Mary Johnson",
+    "image": "/src/assets/homepage/team1.png"
+  }
+]
