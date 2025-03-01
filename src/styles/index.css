@@ -10,7 +10,7 @@
 /* General Styles */
 
 html{
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 #root, body {
   margin: 0;

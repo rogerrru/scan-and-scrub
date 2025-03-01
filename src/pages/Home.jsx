@@ -9,7 +9,7 @@ import teamData from "../data/team.json";
 
 const Home = () => {
     return (
-        <div>
+        <div className="w-screen min-h-screen flex flex-col">
             <Header />
 
             {/* Hero Section */}
