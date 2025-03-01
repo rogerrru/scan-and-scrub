@@ -7,20 +7,21 @@ const Header = () => {
   const location = useLocation();
 
   const getLinkClass = (path) =>
-    location.pathname === path ? "text-[#2E6AD9]" : "text-black hover:text-blue-500";
+    location.pathname === path ? "text-[#2E6AD9]"
+                                : "text-black hover:text-blue-500 hover:scale-110 transition duration-300";
 
   return (
     <header className="font-sserif text-sm text-[#5A5959] w-full flex justify-between items-center py-3 px-6 md:px-20 z-50">
-      <a href="/" className="flex items-center">
-        <img src={logo} alt="Scan&Scrub Logo" className="h-15 w-auto" />
-        <div className="font-title text-xl text-black font-bold pl-5 cursor-pointer">
-          Scan&Scrub
-        </div>
-      </a>
+        <a href="/" className="flex items-center cursor-pointer hover:scale-105 transition duration-300">
+            <img src={logo} alt="Scan&Scrub Logo" className="h-15 w-auto"/>
+            <div className="font-title text-xl text-black font-bold pl-5 cursor-pointer">
+                Scan&Scrub
+            </div>
+        </a>
 
-      <button 
-        className="md:hidden text-black text-3xl cursor-pointer" 
-        onClick={() => setMenuOpen(!menuOpen)}
+        <button
+            className="md:hidden text-black text-3xl cursor-pointer"
+            onClick={() => setMenuOpen(!menuOpen)}
       >
         ☰
       </button>

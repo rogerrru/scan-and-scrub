@@ -40,7 +40,7 @@ const Tools = () => {
                   {toolsData.filter((tool) =>
                       tool.name.toLowerCase().includes(searchTool.toLowerCase())
                   ).length === 0 ? (
-                      <p className="text-center text-gray-500 col-span-3">
+                      <p className="text-lg text-center font-semibold">
                           No tools found.
                       </p>
                   ) : (

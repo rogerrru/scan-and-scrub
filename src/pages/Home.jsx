@@ -52,11 +52,11 @@ const Home = () => {
 
             {/* Our Team Section */}
             <div className="container mx-auto py-20" style={{ backgroundColor: "#F4F5F9" }}>
-                <h2 className="text-4xl font-bold text-[#2E6AD9] text-center mb-10">Our Team</h2>
+                <h2 className="text-4xl font-bold text-[#2E6AD9] text-left px-5 mb-10">Our Team</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 px-5">
                     {teamData.map((member) => (
                         <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                            <img src={member.image} alt={member.name} className="w-24 h-24 object-cover rounded-full mb-3" />
+                            <img src={member.image} alt={member.name} className="w-50 h-50 object-cover rounded-lg mb-3" />
                             <p className="text-center font-semibold">{member.name}</p>
                         </div>
                     ))}
