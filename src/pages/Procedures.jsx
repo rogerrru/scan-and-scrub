@@ -59,25 +59,34 @@ const Procedures = () => {
             </button>
           </div>
 
-          {/* Procedure Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 mt-6">
-            {proceduresData[selectedCategory]
-                .filter((procedure) =>
-                    procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
-                )
-                .map((procedure) => (
-                    <Link to={`/procedure/${procedure.id}`} key={procedure.id}>
-                      <div className="w-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
-                        <img
-                            src={procedure.image}
-                            alt={procedure.name}
-                            className="w-60 h-60 object-cover rounded-md mb-4"
-                        />
-                        <p className="text-lg text-center">{procedure.name}</p>
-                      </div>
-                    </Link>
-                ))}
-          </div>
+            {/* Procedure Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 mt-6">
+                {proceduresData[selectedCategory]
+                    .filter((procedure) =>
+                        procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
+                    ).length === 0 ? (
+                    <p className="text-center text-gray-500 col-span-3">
+                        No procedures found.
+                    </p>
+                ) : (
+                    proceduresData[selectedCategory]
+                        .filter((procedure) =>
+                            procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
+                        )
+                        .map((procedure) => (
+                            <Link to={`/procedure/${procedure.id}`} key={procedure.id}>
+                                <div className="w-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
+                                    <img
+                                        src={procedure.image}
+                                        alt={procedure.name}
+                                        className="w-60 h-60 object-cover rounded-md mb-4"
+                                    />
+                                    <p className="text-lg text-center">{procedure.name}</p>
+                                </div>
+                            </Link>
+                        ))
+                )}
+            </div>
         </div>
 
         <Footer />
