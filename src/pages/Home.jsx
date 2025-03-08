@@ -45,7 +45,7 @@ const Home = () => {
                             New OR staff and student nurses often experience high anxiety due to unfamiliarity with surgical instruments,
                             procedures, and protocols. This anxiety can reduce efficiency, prolong surgeries, and increase the risk of errors.
                         </p>
-                        <Link to="/learn-more" className="bg-[#2E6AD9] text-white px-6 py-3 rounded-md font-semibold inline-block">
+                        <Link to="/about" className="bg-[#2E6AD9] text-white px-6 py-3 rounded-md font-semibold inline-block">
                             Learn More
                         </Link>
                     </div>
