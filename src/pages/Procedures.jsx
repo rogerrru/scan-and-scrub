@@ -5,9 +5,16 @@ import Footer from "../components/Footer";
 import proceduresData from "../data/procedures.json";
 import "../styles/index.css";
 
+const procedureImages = import.meta.glob("../assets/procedures/*.png", { eager: true });
+
 const Procedures = () => {
   const [searchProcedure, setSearchProcedure] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("major");
+
+  const getProcedureImagePath = (imagePath) => {
+    const fileName = imagePath.replace("/assets/procedures/", ""); 
+    return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.png"]?.default;
+  };
 
   return (
       <div className="w-screen min-h-screen flex flex-col">
@@ -77,7 +84,7 @@ const Procedures = () => {
                             <Link to={`/procedure/${procedure.id}`} key={procedure.id}>
                                 <div className="w-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
                                     <img
-                                        src={procedure.image}
+                                        src={getProcedureImagePath(procedure.image)}
                                         alt={procedure.name}
                                         className="w-60 h-60 object-cover rounded-md mb-4"
                                     />

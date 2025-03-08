@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 1",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 2",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 3",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 4",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 5",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 6",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 7",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "image": "/src/assets/tools/image-placeholder.svg",
+        "image": "image-placeholder.png",
         "name": "Tool 8",
         "description": "Lorem Ipsum",
         "uses": "Lorem Ipsum",

@@ -10,6 +10,10 @@ import toolsData from "../data/tools.json";
 import zoomInIcon from "../assets/procedures/ZoomInButton.svg"
 import zoomOutIcon from "../assets/procedures/ZoomOutButton.svg"
 
+const procedureImages = import.meta.glob("../assets/procedures/*.png", { eager: true });
+const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
+
+
 const ProcedureDetails = () => {
     const { id } = useParams();
     const navigate = useNavigate();
@@ -17,6 +21,16 @@ const ProcedureDetails = () => {
 
     let procedureType = null;
     let procedure = null;
+
+    const getProcedureImagePath = (imagePath) => {
+        const fileName = imagePath.replace("/assets/procedures/", ""); 
+        return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.png"]?.default;
+    };
+
+    const getToolImagePath = (imagePath) => {
+        const fileName = imagePath.replace("/assets/tools/", ""); 
+        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.png"]?.default;
+    };
 
     // Find procedure and determine its type
     Object.entries(proceduresData).forEach(([type, procedures]) => {
@@ -58,7 +72,7 @@ const ProcedureDetails = () => {
                     {/*Procedure Image */}
                     <div className="relative flex-1 md:ml-0 flex justify-center">
                         <img
-                            src={procedure.image}
+                            src={getProcedureImagePath(procedure.image)}
                             alt={procedure.name}
                             className={`rounded-lg shadow transition-transform duration-300 ${
                                 isZoomed ? "scale-150" : "scale-100"
@@ -97,7 +111,7 @@ const ProcedureDetails = () => {
                                         onClick={() => navigate(`/tools/${tool.id}`)}
                                     >
                                         <img 
-                                            src={tool.image} 
+                                            src={getToolImagePath(tool.image)} 
                                             alt={tool.name} 
                                             className="w-full h-24 object-cover rounded-md mb-2" 
                                         />

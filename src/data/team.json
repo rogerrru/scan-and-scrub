@@ -2,51 +2,51 @@
   {
     "id": 1,
     "name": "Jasmine Caliboso",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 2,
     "name": "Lana Tiu",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 3,
     "name": "Kristine Acosta",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 4,
     "name": "Jhan Balanay",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 5,
     "name": "Aple Gravidez",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 6,
     "name": "Paul Galaboc",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 7,
     "name": "Rye Montino",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 8,
     "name": "Moriel Nabaysan",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 9,
     "name": "Alysson San Juan",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   },
   {
     "id": 10,
     "name": "Moira Versosa",
-    "image": "/src/assets/homepage/team1.png"
+    "image": "team1.png"
   }
 ]

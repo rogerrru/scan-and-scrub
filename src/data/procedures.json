@@ -2,7 +2,7 @@
     "major": [
         {
             "id": 1,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 1",
             "description": "Lorem Ipsum ",
             "tools": [
@@ -15,7 +15,7 @@
         },
         {
             "id": 2,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 2",
             "description": "Lorem Ipsum ",
             "tools": [
@@ -28,7 +28,7 @@
         },
         {
             "id": 3,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 3",
             "description": "Lorem Ipsum ",
             "tools": [
@@ -41,7 +41,7 @@
         },
         {
             "id": 4,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 4",
             "description": "Lorem Ipsum ",
             "tools": [
@@ -56,7 +56,7 @@
     "minor": [
         {
             "id": 5,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 1",
             "description": "Lorem Ipsum ",
             "tools": [
@@ -69,7 +69,7 @@
         },
         {
             "id": 6,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 2",
             "description": "Lorem Ipsum ",
             "tools": [
@@ -82,7 +82,7 @@
         },
         {
             "id": 7,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 3",
             "description": "Lorem Ipsum ",
             "tools": [
@@ -95,7 +95,7 @@
         },
         {
             "id": 8,
-            "image": "/src/assets/procedures/image-placeholder.svg",
+            "image": "image-placeholder.png",
             "name": "Procedure 4",
             "description": "Lorem Ipsum ",
             "tools": [

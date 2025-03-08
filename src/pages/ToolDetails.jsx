@@ -7,10 +7,18 @@ import toolsData from "../data/tools.json";
 import zoomInIcon from "../assets/procedures/ZoomInButton.svg";
 import zoomOutIcon from "../assets/procedures/ZoomOutButton.svg";
 
+const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
+
+
 const ToolDetails = () => {
     const { id } = useParams();
     const navigate = useNavigate();
     const [isZoomed, setIsZoomed] = useState(false);
+
+    const getToolImagePath = (imagePath) => {
+        const fileName = imagePath.replace("/assets/tools/", ""); 
+        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.png"]?.default;
+    };
 
     const tool = toolsData.find((t) => t.id === parseInt(id));
 
@@ -40,7 +48,7 @@ const ToolDetails = () => {
                     {/* Tool Image */}
                     <div className="relative flex-1 md:ml-0 flex justify-center">
                         <img
-                            src={tool.image}
+                            src={getToolImagePath(tool.image)} 
                             alt={tool.name}
                             className={`rounded-lg shadow transition-transform duration-300 ${
                                 isZoomed ? "scale-150" : "scale-100"

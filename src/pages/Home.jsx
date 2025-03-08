@@ -7,6 +7,8 @@ import nurse_icon from "../assets/homepage/nurse-placeholder.png"
 import tool_icon from "../assets/homepage/tools-placeholder.png"
 import teamData from "../data/team.json";
 
+const teamImages = import.meta.glob("../assets/homepage/*.png", { eager: true });
+
 const Home = () => {
     return (
         <div className="w-screen min-h-screen flex flex-col">
@@ -56,7 +58,10 @@ const Home = () => {
                 <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 px-5">
                     {teamData.map((member) => (
                         <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                            <img src={member.image} alt={member.name} className="w-50 h-50 object-cover rounded-lg mb-3" />
+                            <img 
+                                src={teamImages[`../assets/homepage/${member.image}`]?.default || teamImages["../assets/team/team-placeholder.png"]?.default} 
+                                alt={member.name} 
+                                className="w-50 h-50 object-cover rounded-lg mb-3" />
                             <p className="text-center font-semibold">{member.name}</p>
                         </div>
                     ))}
