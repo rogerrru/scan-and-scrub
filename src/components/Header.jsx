@@ -27,7 +27,7 @@ const Header = () => {
               ☰
           </button>
 
-          <nav className={`absolute md:static top-16 left-0 w-full md:w-auto bg-[#F4F5F9] md:bg-transparent shadow-md 
+          <nav className={`absolute md:static top-18 left-0 w-full md:w-auto bg-[#F4F5F9] md:bg-transparent shadow-md 
       md:shadow-none transition-all duration-300 ${menuOpen ? "block" : "hidden"} md:flex justify-end`}>
               <ul className="flex flex-col text-lg font-semibold md:flex-row items-center gap-6 md:gap-10 py-4 md:py-0">
                   <li><Link className={getLinkClass("/")} to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
