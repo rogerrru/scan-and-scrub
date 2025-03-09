@@ -41,12 +41,19 @@ const ProcedureDetails = () => {
         }
     });
 
-    const procedureTools = procedure?.tools?.length > 0
-    ? procedure.tools.map(toolName => 
-        toolsData.find(tool => tool.name === toolName) || 
-        console.warn(`Tool not found: ${toolName}`)
-    ).filter(Boolean)
+    const procedureTools = procedure?.instruments?.length > 0
+    ? procedure.instruments.map((toolName) => {
+        const matchedTool = toolsData.find(
+            (tool) => tool.name.trim().toLowerCase() === toolName.trim().toLowerCase()
+        );
+        if (!matchedTool) {
+            console.warn(`Tool not found: ${toolName}`);
+        }
+        return matchedTool;
+    }).filter(Boolean)
     : [];
+
+
 
     
     if (!procedure) {
@@ -57,9 +64,10 @@ const ProcedureDetails = () => {
         );
     }
     
-    console.log("Procedure:", procedure);
-    console.log("Procedure Tools:", procedure?.tools);
+    console.log("Procedure Instruments:", procedure?.instruments);
+    console.log("Available Tools Data:", toolsData.map((tool) => tool.name));
     console.log("Mapped Tools Data:", procedureTools);
+
 
     return (
         <div className="w-screen h-screen flex flex-col">

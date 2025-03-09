@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "image": "9_mayo scissors",
+        "image": "9_mayo scissors.png",
         "imageCitation": "https://amesco.ph/shop/wp-content/uploads/2021/12/Mayo-Surgical-Scissors-Cvd-5.5in-2.jpg",
         "name": "Mayo Scissors",
         "description": "Heavy-duty surgical scissors with straight or curved blades",
@@ -101,7 +101,7 @@
     },
     {
         "id": 11,
-        "image": "11_senn-miller retractor",
+        "image": "11_senn-miller retractor.png",
         "imageCitation": "https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_480125.jpg",
         "name": "Senn-Miller Retractor",
         "description": "A double-ended retractor, one end with a smooth blade and the other with multiple small, sharp teeth (rake)",
