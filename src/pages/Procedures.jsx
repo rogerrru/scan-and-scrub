@@ -67,7 +67,7 @@ const Procedures = () => {
           </div>
 
             {/* Procedure Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-4 mt-6">
                 {proceduresData[selectedCategory]
                     .filter((procedure) =>
                         procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
@@ -82,13 +82,13 @@ const Procedures = () => {
                         )
                         .map((procedure) => (
                             <Link to={`/procedure/${procedure.id}`} key={procedure.id}>
-                                <div className="w-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
+                                <div className=" bg-white shadow-md rounded-lg p-4 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
                                     <img
                                         src={getProcedureImagePath(procedure.image)}
                                         alt={procedure.name}
-                                        className="w-60 h-60 object-cover rounded-md mb-4"
+                                        className="w-110 h-60 object-cover rounded-md mb-4"
                                     />
-                                    <p className="text-lg text-center">{procedure.name}</p>
+                                    <p className="text-sm sm:text-base md:text-lg lg:text-xl text-center">{procedure.name}</p>
                                 </div>
                             </Link>
                         ))
