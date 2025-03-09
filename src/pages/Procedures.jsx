@@ -22,7 +22,7 @@ const Procedures = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-5 py-10 flex-1">
-        <h1 className="text-5xl md:text-6xl text-[#2E6AD9] font-bold text-center mb-6 mt-10">
+        <h1 className="text-5xl md:text-6xl text-[#2E6AD9] font-black text-center mb-6 mt-10">
           Operating Room Procedures
         </h1>
 
@@ -34,9 +34,9 @@ const Procedures = () => {
               placeholder="Search for Procedures..."
               value={searchProcedure}
               onChange={(e) => setSearchProcedure(e.target.value)}
-              className="border-2 border-[#2E6AD9] px-10 py-4 pr-16 rounded-full w-full font-semibold placeholder-[#716C68]"
+              className="border-2 border-[#2E6AD9] px-10 py-4 pr-16 rounded-full w-full font-bold placeholder-[#716C68]"
             />
-            <button className="bg-[#2E6AD9] absolute right-2 top-1/2 transform -translate-y-1/2 text-white px-6 py-3 rounded-full hidden sm:block cursor-pointer">
+            <button className="font-bold bg-[#2E6AD9] absolute right-2 top-1/2 transform -translate-y-1/2 text-white px-6 py-3 rounded-full hidden sm:block cursor-pointer">
               Search
             </button>
           </div>
@@ -48,7 +48,7 @@ const Procedures = () => {
             onClick={() => setSelectedCategory("major")}
             className={`px-5 py-2 md:px-7 md:py-2 rounded-md font-medium text-xl md:text-2xl cursor-pointer transition ${selectedCategory === "major"
                 ? "bg-[#2E6AD9] text-white"
-                : "bg-white text-[#2E6AD9] border-2 border-[#2E6AD9]"
+                : "bg-white text-[#2E6AD9] border-2 border-[#2E6AD9]" 
               }`}
           >
             Major Procedures
@@ -71,7 +71,7 @@ const Procedures = () => {
             .filter((procedure) =>
               procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
             ).length === 0 ? (
-            <p className="text-lg text-center font-semibold">
+            <p className="text-lg text-center font-semibold !text-[#898585]">
               No procedures found.
             </p>
           ) : (
@@ -87,7 +87,7 @@ const Procedures = () => {
                       alt={procedure.name}
                       className="w-110 h-60 object-cover rounded-md mb-4"
                     />
-                    <p className="text-xl md:text-lg lg:text-xl text-center">{procedure.name}</p>
+                    <p className="text-xl md:text-lg lg:text-xl font-bold text-center">{procedure.name}</p>
                   </div>
                 </Link>
               ))

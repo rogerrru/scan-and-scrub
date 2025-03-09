@@ -21,7 +21,7 @@ const Tools = () => {
 
             {/* Main Content */}
             <div className="container mx-auto px-5 py-10 flex-1">
-                <h1 className="text-5xl md:text-6xl text-[#2E6AD9] font-bold text-center mb-6 mt-10">
+                <h1 className="text-5xl md:text-6xl text-[#2E6AD9] font-black text-center mb-6 mt-10">
                     Operating Room Instruments
                 </h1>
 
@@ -47,7 +47,7 @@ const Tools = () => {
                     {toolsData.filter((tool) =>
                         tool.name.toLowerCase().includes(searchTool.toLowerCase())
                     ).length === 0 ? (
-                        <p className="text-lg text-center font-semibold">
+                        <p className="text-lg text-center font-semibold !text-[#898585]">
                             No instruments found.
                         </p>
                     ) : (
