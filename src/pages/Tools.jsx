@@ -22,7 +22,7 @@ const Tools = () => {
             {/* Main Content */}
             <div className="container mx-auto px-5 py-10 flex-1">
                 <h1 className="text-5xl md:text-6xl text-[#2E6AD9] font-bold text-center mb-6 mt-10">
-                    Operating Room Tools
+                    Operating Room Instruments
                 </h1>
 
                 {/* Search Bar */}
@@ -48,7 +48,7 @@ const Tools = () => {
                         tool.name.toLowerCase().includes(searchTool.toLowerCase())
                     ).length === 0 ? (
                         <p className="text-lg text-center font-semibold">
-                            No tools found.
+                            No instruments found.
                         </p>
                     ) : (
                         toolsData

@@ -25,7 +25,7 @@ const ToolDetails = () => {
     if (!tool) {
         return (
             <div className="text-center text-xl mt-20">
-                <h1>Tool not found.</h1>
+                <h1>Instrument not found.</h1>
             </div>
         );
     }

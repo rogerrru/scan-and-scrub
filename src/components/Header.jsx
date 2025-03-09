@@ -34,7 +34,7 @@ const Header = () => {
                   <li><Link className={getLinkClass("/procedures")} to="/procedures"
                             onClick={() => setMenuOpen(false)}>Procedures</Link></li>
                   <li><Link className={getLinkClass("/tools")} to="/tools"
-                            onClick={() => setMenuOpen(false)}>Tools</Link></li>
+                            onClick={() => setMenuOpen(false)}>Instruments</Link></li>
                   <li><Link className={getLinkClass("/about")} to="/about"
                             onClick={() => setMenuOpen(false)}>About Us</Link></li>
               </ul>
