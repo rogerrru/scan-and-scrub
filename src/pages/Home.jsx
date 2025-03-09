@@ -21,8 +21,8 @@ const Home = () => {
             <Header />
 
             {/* Hero Section */}
-            <div className="container mx-auto px-5 py-20 flex flex-col md:flex-row items-center gap-1" style={{ backgroundColor: "#F4F5F9" }}>
-                <div className="md:w-1/2 text-center md:text-left">
+            <div className="container mx-auto px-5 mt-20 md:mt-40 flex flex-col md:flex-row items-center gap-1" style={{ backgroundColor: "#F4F5F9" }}>
+                <div className="md:w-1/2 text-center md:text-left pb-10 md:pb-40">
                         <p className="text-3xl md:text-4xl font-bold">Scan&Scrub</p>
                         <h1 className="text-4xl md:text-6xl font-extrabold text-[#2E6AD9] leading-tight">
                             The QR Code Solution <br/> for OR Efficiency
@@ -72,7 +72,6 @@ const Home = () => {
                 <div
                     className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:gap-10 gap-3 px-5">
                     {teamData
-                        .filter((member) => member.id <= 10)
                         .map((member) => (
                             <div key={member.id}
                                  className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">

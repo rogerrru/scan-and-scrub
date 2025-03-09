@@ -46,7 +46,7 @@ const Procedures = () => {
         <div className="flex justify-center gap-6 mb-8">
           <button
             onClick={() => setSelectedCategory("major")}
-            className={`px-5 py-2 md:px-7 md:py-2 rounded-md font-medium text-xl md:text-2xl cursor-pointer transition ${selectedCategory === "major"
+            className={`px-5 py-2 md:px-7 md:py-2 rounded-md font-black text-xl md:text-2xl cursor-pointer transition ${selectedCategory === "major"
                 ? "bg-[#2E6AD9] text-white"
                 : "bg-white text-[#2E6AD9] border-2 border-[#2E6AD9]" 
               }`}
@@ -55,7 +55,7 @@ const Procedures = () => {
           </button>
           <button
             onClick={() => setSelectedCategory("minor")}
-            className={`px-5 py-2 md:px-7 md:py-2 rounded-md font-medium text-xl md:text-2xl cursor-pointer transition ${selectedCategory === "minor"
+            className={`px-5 py-2 md:px-7 md:py-2 rounded-md font-black text-xl md:text-2xl cursor-pointer transition ${selectedCategory === "minor"
                 ? "bg-[#2E6AD9] text-white"
                 : "bg-white text-[#2E6AD9] border-2 border-[#2E6AD9]"
               }`}

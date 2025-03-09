@@ -64,7 +64,7 @@ const Tools = () => {
                                             alt={tool.name}
                                             className="w-110 h-60 object-contain rounded-md mb-4"
                                         />
-                                        <p className="text-xl md:text-lg lg:text-xl text-center">{tool.name}</p>
+                                        <p className="text-xl md:text-lg lg:text-xl font-bold text-center">{tool.name}</p>
                                     </div>
                                 </Link>
                             ))

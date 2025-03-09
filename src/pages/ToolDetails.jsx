@@ -48,7 +48,7 @@ const ToolDetails = () => {
                     <div className="w-full h-full relative flex-1 md:ml-0 flex-col justify-center">
                         {/* Tool Image */}
                         <div
-                            className={`relative max-h-[500px] max-w-[500px] w-full h-full rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"}`}
+                            className={`relative w-full h-full rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"}`}
                                 style={{ touchAction: isZoomed ? "pan-x pan-y" : "auto",
                                 WebkitOverflowScrolling: "touch",
                             }}

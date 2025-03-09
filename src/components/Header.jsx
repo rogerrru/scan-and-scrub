@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
       <header
-          className="font-sserif text-sm text-[#5A5959] w-full flex justify-between items-center py-3 px-6 md:px-20 z-50">
+          className="font-sserif text-sm text-[#5A5959] w-full flex justify-between items-center py-3 px-6 sm:px-10 lg:px-35 z-50">
           <a href="/" className="flex items-center cursor-pointer hover:scale-105 transition duration-300">
               <img src={logo} alt="Scan&Scrub Logo" className="h-15 w-auto"/>
               <div className="font-title text-xl text-black font-black pl-5 cursor-pointer">

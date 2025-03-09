@@ -107,7 +107,6 @@ const About = () => {
                 <div
                     className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:gap-10 gap-3 px-5">
                     {teamData
-                        .filter((member) => member.id <= 10)
                         .map((member) => (
                             <div key={member.id}
                                  className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
@@ -125,24 +124,22 @@ const About = () => {
                         For inquiries about the website, reach out to us:
                     </p>
                     <div className="flex justify-center">
-                        <div className="grid grid-cols-2 xl:gap-10 gap-3 px-5">
-                            {teamData
-                                .filter((member) => member.id > 10)
-                                .map((member) => (
-                                    <a
-                                        key={member.id}
-                                        href={`mailto:${member.email}`}
-                                        className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-lg max-w-xs w-full"
-                                    >
-                                        <img
-                                            src={getTeamImagePath(member.image)}
-                                            alt={member.name}
-                                            className="sm:w-50 sm:h-50 object-cover rounded-lg mb-3"
-                                        />
-                                        <p className="text-center font-black">{member.name}</p>
-                                        <p className="text-sm text-gray-500">{member.email}</p>
-                                    </a>
-                                ))}
+                        <div className="flex flex-col items-center justify-center space-y-4">
+                            <div>
+                                <p className="text-sm md:text-lg font-semibold text-gray-800">Haydee Shane Saguid</p>
+                                <a href="mailto:haydeeshanesaguid@gmail.com"
+                                   className="text-sm md:text-lg font-semibold text-gray-800 underline">
+                                    haydeeshanesaguid@gmail.com
+                                </a>
+                            </div>
+
+                            <div>
+                                <p className="text-sm md:text-lg font-semibold text-gray-800">Roger Jr. Chegyem</p>
+                                <a href="mailto:rhchegyem@gmail.com"
+                                   className="text-sm md:text-lg font-semibold text-gray-800 underline">
+                                    rhchegyem@gmail.com
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
