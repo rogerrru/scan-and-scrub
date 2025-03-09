@@ -71,14 +71,13 @@ const ProcedureDetails = () => {
                     <div className="w-full h-full relative flex-1 flex-col justify-center">
                         {/* Image*/}
                         <div
-                            className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"
-                                }`}
+                            className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-scroll" : "overflow-hidden"}`}
+                            style={{ touchAction: isZoomed ? "pan-x pan-y" : "auto" }}
                         >
                             <img
                                 src={getProcedureImagePath(procedure.image)}
                                 alt={procedure.name}
-                                className={`rounded-lg transition-transform duration-300 ${isZoomed ? "scale-150 w-auto h-auto" : "scale-100 w-full h-full"
-                                    } object-contain`}
+                                className={`rounded-lg transition-transform duration-300 ${isZoomed ? "scale-150" : "scale-100"} object-contain`}
                                 style={{
                                     minWidth: isZoomed ? "100%" : "100%",
                                     minHeight: isZoomed ? "100%" : "100%",
@@ -87,6 +86,7 @@ const ProcedureDetails = () => {
                                 draggable="false"
                             />
                         </div>
+
 
                         {/* Source Link */}
                         {procedure.imageCitation && procedure.imageUrl && (
@@ -162,7 +162,7 @@ const ProcedureDetails = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 };
