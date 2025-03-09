@@ -41,10 +41,14 @@ const ProcedureDetails = () => {
         }
     });
 
-    const procedureTools = procedure.tools
-    .map(toolName => toolsData.find(tool => tool.name === toolName) || console.warn(`Tool not found: ${toolName}`))
-    .filter(Boolean);
+    const procedureTools = procedure?.tools?.length > 0
+    ? procedure.tools.map(toolName => 
+        toolsData.find(tool => tool.name === toolName) || 
+        console.warn(`Tool not found: ${toolName}`)
+    ).filter(Boolean)
+    : [];
 
+    
     if (!procedure) {
         return (
         <div className="text-center text-xl mt-20">
@@ -53,6 +57,9 @@ const ProcedureDetails = () => {
         );
     }
     
+    console.log("Procedure:", procedure);
+    console.log("Procedure Tools:", procedure?.tools);
+    console.log("Mapped Tools Data:", procedureTools);
 
     return (
         <div className="w-screen h-screen flex flex-col">
@@ -99,27 +106,29 @@ const ProcedureDetails = () => {
                         </div>
                         <p className="text-lg mt-4 text-gray-600">{procedure.description}</p>
                         
-                        {/* Tools*/}
+                        {/* Tools */}
                         <div className="mt-8 mb-15">
                             <h3 className="text-xl font-bold mb-4">Tools</h3>
-                            <div className="relative">
-                                <div className="flex overflow-x-auto space-x-4 pb-4 scrollbar-hide w-[calc(3*10rem+2rem)]"> 
-                                {procedureTools.map((tool) => (
-                                    <div 
-                                        key={tool.id} 
-                                        className="flex-none w-40 bg-white shadow-md rounded-lg p-3 cursor-pointer"
-                                        onClick={() => navigate(`/tools/${tool.id}`)}
-                                    >
-                                        <img 
-                                            src={getToolImagePath(tool.image)} 
-                                            alt={tool.name} 
-                                            className="w-full h-24 object-cover rounded-md mb-2" 
-                                        />
-                                        <p className="text-center text-sm font-semibold">{tool.name}</p>
-                                    </div>
-                                ))}
+                            {procedureTools?.length > 0 ? (
+                                <div className="grid grid-flow-col overflow-x-auto gap-4">
+                                    {procedureTools.map((tool, index) => (
+                                        <div 
+                                            key={index} 
+                                            className="flex-none w-40 bg-white shadow-md rounded-lg p-3 cursor-pointer"
+                                            onClick={() => navigate(`/tools/${tool.id}`)}
+                                        >
+                                            <img 
+                                                src={getToolImagePath(tool.image)} 
+                                                alt={tool.name} 
+                                                className="w-full h-24 object-cover rounded-md mb-2" 
+                                            />
+                                            <p className="text-center text-sm font-semibold">{tool.name}</p>
+                                        </div>
+                                    ))}
                                 </div>
-                            </div>
+                            ) : (
+                                <p>No tools available for this procedure.</p>
+                            )}
                         </div>
                     </div>
                 </div>

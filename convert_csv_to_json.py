@@ -1,4 +1,3 @@
-# # PROCEDURES
 # import csv
 # import json
 
@@ -12,10 +11,12 @@
 #     for row in reader:
 #         procedure = {
 #             "id": int(row["Procedure ID"]),
-#             "image": f"/src/assets/procedures/{row['Image Filename']}",
+#             "image": row['Image Filename'],
+#             "imageCitation": row['Image Citation'],
 #             "name": row["Procedure Name"],
 #             "description": row["Procedure Description"],
-#             "tools": [tool.strip() for tool in row["Tools"].split(",") if tool.strip()]
+#             "indications": row["Indications"],
+#             "instruments": [instrument.strip() for instrument in row["Instruments"].split(",") if instrument.strip()]
 #         }
 #         category = "major" if row["Procedure Type"].strip().lower() == "major" else "minor"
 #         procedures[category].append(procedure)
@@ -26,9 +27,10 @@
 
 # print("CSV successfully converted to JSON.")
 
+
 # --------------------------------------------------------
 
-# TOOLS
+#TOOLS
 
 import csv
 import json
@@ -36,16 +38,17 @@ import json
 # Read CSV and convert to JSON
 tools = []
 with open("src/data/tools.csv", newline="", encoding="utf-8") as csvfile:
-    reader = csv.DictReader(csvfile, delimiter="\t")  # Adjust delimiter if needed
+    reader = csv.DictReader(csvfile, delimiter=",")  # Use comma as delimiter
     for row in reader:
         tools.append({
-            "id": int(row["Tool ID"]),
-            "image": f"/src/assets/tools/{row['Image FileName']}",
-            "name": row["Tool Name"],
-            "description": row["Tool Description"],
-            "uses": row["Tool Uses"],
-            "other_names": row["Other Names"],
-            "handling": row["Handling/Sterilization"]
+            "id": int(row["Instrument ID"]),
+            "image": row['Image Filename'].strip(),
+            "imageCitation": row['Image Citation'].strip(),
+            "name": row["Instrument Name"].strip(),
+            "description": row["Instrument Description"].strip(),
+            "uses": row["Instrument Uses"].strip(),
+            "other_names": row["Other Names"].strip(),
+            "imageCitationUrl": row["Image Citation"].strip()
         })
 
 # Save to JSON
