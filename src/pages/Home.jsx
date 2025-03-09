@@ -32,10 +32,14 @@ const Home = () => {
                             instruments required for each operation, including their functions, handling procedures, and
                             sterilization protocols.
                         </p>
-                        <Link to="/procedures"
-                              className="bg-[#2E6AD9] text-lg md:text-xl text-white px-6 py-3 rounded-md font-semibold inline-block">
-                            View Procedures
-                        </Link>
+                    <Link
+                        to="/procedures"
+                        className="bg-[#2E6AD9] text-lg md:text-xl text-white px-6 py-3 rounded-md font-semibold inline-block
+             transition duration-300 ease-in-out transform hover:scale-105 hover:bg-[#1D4BB8]"
+                    >
+                        View Procedures
+                    </Link>
+
                 </div>
                 <div className="md:w-1/2 flex justify-center">
                     <img src={nurse_icon} alt="Nurse with QR Code" className="max-w-full h-auto" />
@@ -59,7 +63,9 @@ const Home = () => {
                             increase the risk of errors.
                         </p>
                         <Link to="/about"
-                              className="bg-[#2E6AD9] text-xl text-white px-6 py-3 rounded-md font-semibold inline-block">
+                              className="bg-[#2E6AD9] text-lg md:text-xl text-white px-6 py-3 rounded-md font-semibold inline-block
+             transition duration-300 ease-in-out transform hover:scale-105 hover:bg-[#1D4BB8]"
+                        >
                             Learn More
                         </Link>
                     </div>

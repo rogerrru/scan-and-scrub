@@ -6,11 +6,21 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
-  const getLinkClass = (path) =>
-    location.pathname === path ? "text-[#2E6AD9]"
-                                : "text-black hover:text-blue-500 hover:scale-110 transition duration-300";
+  const getLinkClass = (path) => {
+    if (path === "/") {
+        return location.pathname === "/"
+            ? "text-[#2E6AD9]"
+            : "text-black hover:text-blue-500 hover:scale-110 transition duration-300";
+    }
+    if (path === "/procedures" && location.pathname.startsWith("/procedure")) {
+        return "text-[#2E6AD9]"; // Keep "Procedures" highlighted for details pages
+    }
+    return location.pathname.startsWith(path)
+        ? "text-[#2E6AD9]"
+        : "text-black hover:text-blue-500 hover:scale-110 transition duration-300";
+  };
 
-  return (
+    return (
       <header
           className="font-sserif text-sm text-[#5A5959] w-full flex justify-between items-center py-3 px-6 sm:px-10 lg:px-35 z-50">
           <a href="/" className="flex items-center cursor-pointer hover:scale-105 transition duration-300">
