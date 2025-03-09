@@ -45,10 +45,10 @@ const ToolDetails = () => {
                 </div>
 
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-20">
-                    <div className="relative flex-1 md:ml-0 flex-col justify-center">
+                    <div className="w-full h-full relative flex-1 md:ml-0 flex-col justify-center">
                         {/* Tool Image */}
                         <div
-                            className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"
+                            className={`relative max-h-[500px] max-w-[500px] w-full h-full rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"
                                 }`}
                         >
                             <img

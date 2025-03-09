@@ -7,10 +7,8 @@ import nurse_icon from "../assets/homepage/nurse-placeholder.png";
 import tool_icon from "../assets/homepage/tools-placeholder.png";
 import teamData from "../data/team.json";
 
-// Import all images from the team directory
 const teamImages = import.meta.glob("../assets/homepage/team/*.png", { eager: true });
 
-// Function to retrieve the correct image path
 const getTeamImagePath = (imagePath) => {
     const fileName = imagePath.replace("/assets/homepage/team/", ""); // Extract filename
     return teamImages[`../assets/homepage/team/${fileName}`]?.default ||
