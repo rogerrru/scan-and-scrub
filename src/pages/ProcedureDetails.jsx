@@ -64,14 +64,18 @@ const ProcedureDetails = () => {
                 </div>
 
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-20">
-                    <div className="relative flex-1 flex justify-center">
+                    <div className="relative flex-1 flex-col items-center justify-center">
                         <img
                             src={getProcedureImagePath(procedure.image)}
                             alt={procedure.name}
                             className={`rounded-lg shadow transition-transform duration-300 ${isZoomed ? "scale-150" : "scale-100"} min-w-[300px] max-w-[500px] w-full`}
                         />
-
-                        <div
+                        {procedure.imageCitation && (
+                            <p className="mt-2 text-sm text-gray-500 text-center italic">
+                                Source: {procedure.imageCitation}
+                            </p>
+                        )}
+                            <div
                             className="absolute top-[-15px] right-[-12px] w-14 h-14 bg-[#F4F5F9] rounded-full flex items-center justify-center">
                             <button
                                 onClick={() => setIsZoomed(!isZoomed)}
@@ -81,9 +85,10 @@ const ProcedureDetails = () => {
                                 <img src={isZoomed ? zoomOutIcon : zoomInIcon} alt="Zoom Icon" className="w-5 h-5"/>
                             </button>
                         </div>
+                        
                     </div>
-
-                    <div className="w-full h-full flex-1 text-center text-justify md:text-left overflow-hidden">
+                    
+                    <div className="w-full h-full flex-1 text-justify md:text-left overflow-hidden">
                         <h2 className="text-3xl font-bold">{procedure.name}</h2>
                         <div
                             className="bg-[#A6E5B4] w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0">
