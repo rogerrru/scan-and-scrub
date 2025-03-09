@@ -3,11 +3,19 @@ import "../styles/index.css";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import nurse_icon from "../assets/homepage/nurse-placeholder.png"
-import tool_icon from "../assets/homepage/tools-placeholder.png"
+import nurse_icon from "../assets/homepage/nurse-placeholder.png";
+import tool_icon from "../assets/homepage/tools-placeholder.png";
 import teamData from "../data/team.json";
 
-const teamImages = import.meta.glob("../assets/homepage/*.png", { eager: true });
+// Import all images from the team directory
+const teamImages = import.meta.glob("../assets/homepage/team/*.png", { eager: true });
+
+// Function to retrieve the correct image path
+const getTeamImagePath = (imagePath) => {
+    const fileName = imagePath.replace("/assets/homepage/team/", ""); // Extract filename
+    return teamImages[`../assets/homepage/team/${fileName}`]?.default ||
+        teamImages["../assets/homepage/team/team-placeholder.png"]?.default;
+};
 
 const Home = () => {
     return (
@@ -59,9 +67,10 @@ const Home = () => {
                     {teamData.map((member) => (
                         <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                             <img
-                                src={teamImages[`../assets/homepage/${member.image}`]?.default || teamImages["../assets/team/team-placeholder.png"]?.default}
+                                src={getTeamImagePath(member.image)}
                                 alt={member.name}
-                                className="w-50 h-50 object-cover rounded-lg mb-3" />
+                                className="w-50 h-50 object-cover rounded-lg mb-3"
+                            />
                             <p className="text-center font-semibold">{member.name}</p>
                         </div>
                     ))}
