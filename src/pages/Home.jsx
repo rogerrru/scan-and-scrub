@@ -67,23 +67,27 @@ const Home = () => {
             </div>
 
             {/* Our Team Section */}
-            <div className="container mh-100  mx-auto pt-5 pb-15 md:py-20" style={{ backgroundColor: "#F4F5F9" }}>
+            <div className="container mh-100  mx-auto pt-5 pb-15 md:py-20" style={{backgroundColor: "#F4F5F9"}}>
                 <h1 className="text-4xl md:text-6xl font-extrabold px-5 text-[#2E6AD9] leading-tight my-3">Our Team</h1>
-                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:gap-10 gap-3 px-5">
-                    {teamData.map((member) => (
-                        <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                            <img
-                                src={getTeamImagePath(member.image)}
-                                alt={member.name}
-                                className="sm:w-50 sm:h-50 object-cover rounded-lg mb-3"
-                            />
-                            <p className="text-center font-semibold">{member.name}</p>
-                        </div>
-                    ))}
+                <div
+                    className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:gap-10 gap-3 px-5">
+                    {teamData
+                        .filter((member) => member.id <= 10)
+                        .map((member) => (
+                            <div key={member.id}
+                                 className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                                <img
+                                    src={getTeamImagePath(member.image)}
+                                    alt={member.name}
+                                    className="sm:w-50 sm:h-50 object-cover rounded-lg mb-3"
+                                />
+                                <p className="text-center font-black">{member.name}</p>
+                            </div>
+                        ))}
                 </div>
             </div>
 
-            <Footer />
+            <Footer/>
         </div>
     );
 };

@@ -102,36 +102,51 @@ const About = () => {
                 <h1 className="text-4xl md:text-6xl text-[#2E6AD9] font-black  text-center mb-1 md:mb-6">
                     Our Team
                 </h1>
-                <p className="text-sm md:text-lg text-gray-700 text-center px-5 pb-1 md:pb-5">For inquiries about our information, reach out to us:</p>
+                <p className="text-sm md:text-lg !text-[#898585] font-semibold text-center px-5 pb-3 md:pb-5">For inquiries about our
+                    information, reach out to us:</p>
                 <div
                     className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:gap-10 gap-3 px-5">
-                    {teamData.map((member) => (
-                        <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                            <img
-                                src={getTeamImagePath(member.image)}
-                                alt={member.name}
-                                className="sm:w-50 sm:h-50 object-cover rounded-lg mb-3"
-                            />
-                            <p className="text-center font-semibold">{member.name}</p>
-                        </div>
-                    ))}
+                    {teamData
+                        .filter((member) => member.id <= 10)
+                        .map((member) => (
+                            <div key={member.id}
+                                 className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                                <img
+                                    src={getTeamImagePath(member.image)}
+                                    alt={member.name}
+                                    className="sm:w-50 sm:h-50 object-cover rounded-lg mb-3"
+                                />
+                                <p className="text-center font-black">{member.name}</p>
+                            </div>
+                        ))}
                 </div>
                 <div className="text-center mt-10">
-                    <p className="text-sm md:text-lg text-gray-700">For inquiries about the website, reach out to
-                        us:</p>
-                    <p className="text-sm md:text-lg font-semibold text-gray-800 text-center">
-                        Haydee Shane Saguid
+                    <p className="text-sm md:text-lg !text-[#898585] font-semibold text-center px-5 pb-3 md:pb-5">
+                        For inquiries about the website, reach out to us:
                     </p>
-                    <a href="mailto:haydeeshanesaguid@gmail.com"
-                       className="text-sm md:text-lg font-semibold text-gray-800 text-center underline">haydeeshanesaguid@gmail.com</a>
-                    <p className="text-sm md:text-lg font-semibold text-gray-800">
-                        Roger Jr. Chegyem:
-                    </p>
-                    <a href="mailto:rhchegyem@gmail.com"
-                       className="text-sm md:text-lg font-semibold text-gray-800 text-center underline">rhchegyem@gmail.com</a>
+                    <div className="flex justify-center">
+                        <div className="grid grid-cols-2 xl:gap-10 gap-3 px-5">
+                            {teamData
+                                .filter((member) => member.id > 10)
+                                .map((member) => (
+                                    <a
+                                        key={member.id}
+                                        href={`mailto:${member.email}`}
+                                        className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-lg max-w-xs w-full"
+                                    >
+                                        <img
+                                            src={getTeamImagePath(member.image)}
+                                            alt={member.name}
+                                            className="sm:w-50 sm:h-50 object-cover rounded-lg mb-3"
+                                        />
+                                        <p className="text-center font-black">{member.name}</p>
+                                        <p className="text-sm text-gray-500">{member.email}</p>
+                                    </a>
+                                ))}
+                        </div>
+                    </div>
                 </div>
             </div>
-
             <Footer/>
         </div>
     );
