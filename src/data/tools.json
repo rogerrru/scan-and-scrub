@@ -111,7 +111,7 @@
     },
     {
         "id": 12,
-        "image": "12_ocshner clamp.png",
+        "image": "12_ochsner clamp.png",
         "imageCitation": "https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_182620.jpg",
         "name": "Ochsner Clamp",
         "description": "A strong clamp with interlocking teeth at the tips",
@@ -680,16 +680,6 @@
         "imageCitationUrl": "https://www.merillife.com/medical-devices/endosurgery/endo-mechancial-staplers/open-surgery/mirus-skin-stapler"
     },
     {
-        "id": 69,
-        "image": "",
-        "imageCitation": "",
-        "name": "",
-        "description": "",
-        "uses": "",
-        "other_names": "",
-        "imageCitationUrl": ""
-    },
-    {
         "id": 70,
         "image": "70_yankauer suction tip.png",
         "imageCitation": "http://centramedphils.com/product/yankauer-suction-tip/",
@@ -708,26 +698,6 @@
         "uses": "Used in open abdominal surgeries, such as exploratory laparotomies, to efficiently remove irrigation fluid and blood.",
         "other_names": "Abdominal Suction Tip",
         "imageCitationUrl": "https://surtex-instruments.com/product/poole-suction-tube/"
-    },
-    {
-        "id": 72,
-        "image": "",
-        "imageCitation": "",
-        "name": "",
-        "description": "",
-        "uses": "",
-        "other_names": "",
-        "imageCitationUrl": ""
-    },
-    {
-        "id": 73,
-        "image": "",
-        "imageCitation": "",
-        "name": "",
-        "description": "",
-        "uses": "",
-        "other_names": "",
-        "imageCitationUrl": ""
     },
     {
         "id": 74,
@@ -888,16 +858,6 @@
         "uses": "Used in gastrointestinal surgeries, such as sleeve gastrectomy or bowel resection, for secure, efficient anastomoses and resections.",
         "other_names": "Endoscopic Linear Stapler",
         "imageCitationUrl": "https://www.medtronic.com/en-us/healthcare-professionals/products/surgical-stapling/surgical-staplers/laparoscopic-staplers/endo-gia-ultra-universal-stapler.html"
-    },
-    {
-        "id": 90,
-        "image": "",
-        "imageCitation": "",
-        "name": "",
-        "description": "",
-        "uses": "",
-        "other_names": "",
-        "imageCitationUrl": ""
     },
     {
         "id": 91,

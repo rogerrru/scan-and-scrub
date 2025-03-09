@@ -43,7 +43,7 @@ const Tools = () => {
                 </div>
 
                 {/* Tools Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 mt-6 mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-4 mt-6">
                     {toolsData.filter((tool) =>
                         tool.name.toLowerCase().includes(searchTool.toLowerCase())
                     ).length === 0 ? (
@@ -62,9 +62,9 @@ const Tools = () => {
                                         <img
                                             src={getToolImagePath(tool.image)}
                                             alt={tool.name}
-                                            className="w-60 h-60 object-cover rounded-lg mb-4"
+                                            className="w-110 h-60 object-cover rounded-md mb-4"
                                         />
-                                        <p className="text-lg text-center font-semibold">{tool.name}</p>
+                                        <p className="text-xl md:text-lg lg:text-xl text-center">{tool.name}</p>
                                     </div>
                                 </Link>
                             ))
