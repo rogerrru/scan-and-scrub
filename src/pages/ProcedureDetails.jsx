@@ -8,6 +8,7 @@ import toolsData from "../data/tools.json";
 
 import zoomInIcon from "../assets/procedures/ZoomInButton.svg";
 import zoomOutIcon from "../assets/procedures/ZoomOutButton.svg";
+import clsx from "clsx";
 
 const procedureImages = import.meta.glob("../assets/procedures/*.png", { eager: true });
 const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
@@ -118,8 +119,14 @@ const ProcedureDetails = () => {
                     <div className="w-full h-full flex-1 text-justify md:text-left overflow-hidden">
                         <h2 className="text-3xl font-bold">{procedure.name}</h2>
                         <div
-                            className="bg-[#A6E5B4] w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0">
-                            <p className="text-sm text-white font-semibold">{procedureType === "major" ? "Major Procedure" : "Minor Procedure"}</p>
+                            className={clsx(
+                                "w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0",
+                                procedureType === "major" ? "bg-[#A6E5B4]" : "bg-[#E5DCA6]"
+                            )}
+                        >
+                            <p className="text-sm text-white font-semibold">
+                                {procedureType === "major" ? "Major Procedure" : "Minor Procedure"}
+                            </p>
                         </div>
                         <p className="text-justify text-lg mt-4 text-gray-600">{procedure.description}</p>
 
@@ -155,7 +162,7 @@ const ProcedureDetails = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer/>
         </div>
     );
 };

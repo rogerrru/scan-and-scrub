@@ -23,18 +23,21 @@ const Home = () => {
             <Header />
 
             {/* Hero Section */}
-            <div className="container mx-auto px-5 py-20 flex flex-col md:flex-row items-center" style={{ backgroundColor: "#F4F5F9" }}>
+            <div className="container mx-auto px-5 py-20 flex flex-col md:flex-row items-center gap-1" style={{ backgroundColor: "#F4F5F9" }}>
                 <div className="md:w-1/2 text-center md:text-left">
-                    <h1 className="text-5xl font-bold text-[#2E6AD9] leading-tight">
-                        The QR Code Solution <br /> for OR Efficiency
-                    </h1>
-                    <p className="text-gray-700 my-5">
-                        By scanning a QR code, nurses could instantly access detailed information about the specific
-                        instruments required for each operation, including their functions, handling procedures, and sterilization protocols.
-                    </p>
-                    <Link to="/procedures" className="bg-[#2E6AD9] text-white px-6 py-3 rounded-md font-semibold inline-block">
-                        View Procedures
-                    </Link>
+                    <p className="text-4xl font-bold my-5">Scan&Scrub</p>
+                        <h1 className="text-6xl font-bold text-[#2E6AD9] leading-tight">
+                            The QR Code Solution <br/> for OR Efficiency
+                        </h1>
+                        <p className="text-xl text-gray-700 mt-6 mb-2 mr-3">
+                            By scanning a QR code, nurses could instantly access detailed information about the specific
+                            instruments required for each operation, including their functions, handling procedures, and
+                            sterilization protocols.
+                        </p>
+                        <Link to="/procedures"
+                              className="bg-[#2E6AD9] text-xl text-white px-6 py-3 rounded-md font-semibold inline-block">
+                            View Procedures
+                        </Link>
                 </div>
                 <div className="md:w-1/2 flex justify-center">
                     <img src={nurse_icon} alt="Nurse with QR Code" className="max-w-full h-auto" />
