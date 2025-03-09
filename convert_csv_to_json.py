@@ -49,7 +49,7 @@ with open("src/data/tools.csv", newline="", encoding="utf-8") as csvfile:
             "description": row["Instrument Description"].strip(),
             "uses": row["Instrument Uses"].strip(),
             "other_names": row["Other Names"].strip(),
-            "imageCitationUrl": row["Image URL"].strip()
+            "imageUrl": row["Image URL"].strip()
         })
 
 # Save to JSON

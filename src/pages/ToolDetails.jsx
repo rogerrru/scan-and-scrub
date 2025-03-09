@@ -16,7 +16,7 @@ const ToolDetails = () => {
     const [isZoomed, setIsZoomed] = useState(false);
 
     const getToolImagePath = (imagePath) => {
-        const fileName = imagePath.replace("/assets/tools/", ""); 
+        const fileName = imagePath.replace("/assets/tools/", "");
         return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.png"]?.default;
     };
 
@@ -45,15 +45,40 @@ const ToolDetails = () => {
                 </div>
 
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-20">
-                    {/* Tool Image */}
-                    <div className="relative flex-1 md:ml-0 flex justify-center">
-                        <img
-                            src={getToolImagePath(tool.image)} 
-                            alt={tool.name}
-                            className={`rounded-lg shadow transition-transform duration-300 ${
-                                isZoomed ? "scale-150" : "scale-100"
-                            } min-w-[300px] max-w-[500px] w-full`}
-                        />
+                    <div className="relative flex-1 md:ml-0 flex-col justify-center">
+                        {/* Tool Image */}
+                        <div
+                            className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"
+                                }`}
+                        >
+                            <img
+                                src={getToolImagePath(tool.image)}
+                                alt={tool.name}
+                                className={`rounded-lg transition-transform duration-300 ${isZoomed ? "scale-150 w-auto h-auto" : "scale-100 w-full h-full"
+                                    } object-contain`}
+                                style={{
+                                    minWidth: isZoomed ? "100%" : "100%",
+                                    minHeight: isZoomed ? "100%" : "100%",
+                                    transformOrigin: isZoomed ? "top left" : "center",
+                                }}
+                                draggable="false"
+                            />
+                        </div>
+
+                        {/* Source Link */}
+                        {tool.imageCitation && tool.imageUrl && (
+                            <p className="mt-4 text-sm text-gray-500 text-center italic max-w-[500px]">
+                                Source:{" "}
+                                <a
+                                    href={tool.imageUrl.startsWith("http") ? tool.imageUrl : `https://${tool.imageUrl}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-[#2E6AD9] hover:text-blue-600 cursor-pointer"
+                                >
+                                    {tool.imageCitation}
+                                </a>
+                            </p>
+                        )}
 
                         {/* Zoom Button */}
                         <div className="absolute top-[-15px] right-[-12px] w-14 h-14 bg-[#F4F5F9] rounded-full flex items-center justify-center">
@@ -73,7 +98,6 @@ const ToolDetails = () => {
                         <p className="text-lg mt-0.5 text-[#716C68] italic uppercase text-justify"><strong>{tool.other_names}</strong></p>
                         <p className="text-lg mt-5 text-[#716C68] text-justify"><strong>Uses:</strong> {tool.uses}</p>
                         <p className="text-lg mt-2 text-[#716C68] text-justify"><strong>Description:</strong> {tool.description}</p>
-                        <p className="text-lg mt-2 text-[#716C68] text-justify"><strong>Handling & Sterilization:</strong> {tool.handling}</p>
                     </div>
                 </div>
             </div>

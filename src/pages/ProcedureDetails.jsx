@@ -68,7 +68,7 @@ const ProcedureDetails = () => {
                 </div>
 
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-20">
-                    <div className="relative flex-1 flex justify-center">
+                    <div className="relative flex-1 flex-col justify-center">
                         {/* Image*/}
                         <div
                             className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"
@@ -90,7 +90,7 @@ const ProcedureDetails = () => {
 
                         {/* Source Link */}
                         {procedure.imageCitation && procedure.imageUrl && (
-                            <p className="mt-2 text-sm text-gray-500 text-center italic w-full absolute bottom-[-90px]">
+                            <p className="mt-4 text-sm text-gray-500 text-center italic max-w-[500px]">
                                 Source:{" "}
                                 <a
                                     href={procedure.imageUrl.startsWith("http") ? procedure.imageUrl : `https://${procedure.imageUrl}`}
