@@ -3,7 +3,8 @@
         {
             "id": 1,
             "image": "1_Abdominal Hysterectomy_TAHBS_TAHBSO.png",
-            "imageCitation": "https://blog.medithics.com/laparoscopic-abdominal-hysterectomy/",
+            "imageCitation": "Medithics. (n.d.). Laparoscopic abdominal hysterectomy. Medithics Blog. Retrieved March 9, 2025, from https://blog.medithics.com/laparoscopic-abdominal-hysterectomy/",
+            "imageUrl": "https://blog.medithics.com/laparoscopic-abdominal-hysterectomy/",
             "name": "Abdominal Hysterectomy/TAHBS/TAHBSO",
             "description": "TAHBS (Total Abdominal Hysterectomy) and TAHBSO (Total Abdominal Hysterectomy with Bilateral Salpingo-Oophorectomy), involves surgically removing the uterus through an abdominal incision, either transverse or vertical, performed under general anesthesia. The surgeon ligates the uterine vessels and carefully separates the uterus from its supporting ligaments and vaginal attachments. In a TAHBSO, the fallopian tubes and ovaries are also removed. The vaginal cuff is then closed, and the abdominal layers are sutured for closure. The abdominal approach is typically chosen when the uterus is enlarged, when malignancy is suspected, or when other conditions such as adhesions limit access through the vaginal route ( variations in surgical techniques exist) (Cuenca et al, 2021).",
             "indications": "Enlarged uterus (e.g., large fibroids), suspected malignancy (uterine, cervical, or ovarian cancer), adhesions, endometriosis, prior surgeries limiting vaginal access, abnormal uterine bleeding unresponsive to other treatments, adenomyosis, pelvic inflammatory disease, uterine prolapse (in some cases).",
@@ -38,8 +39,9 @@
         },
         {
             "id": 2,
-            "image": "2_ACL Repair.png",
-            "imageCitation": "https://ijspt.scholasticahq.com/article/94015-why-your-patient-may-need-an-acl-reconstruction-plus-lateral-extra-articular-tenodesis-procedure",
+            "image": "2_ACL repair.png",
+            "imageCitation": "Momaya, A., Harris, C., & Hargreaves, M. (2024). Why your patient may need an ACL reconstruction plus lateral extra-articular tenodesis procedure. International Journal of Sports Physical Therapy, 19(3), 251-257. https://doi.org/10.26603/001c.94015",
+            "imageUrl": "https://ijspt.scholasticahq.com/article/94015-why-your-patient-may-need-an-acl-reconstruction-plus-lateral-extra-articular-tenodesis-procedure",
             "name": "ACL Repair",
             "description": "Arthroscopic ACL reconstruction is a minimally invasive procedure to address a torn anterior cruciate ligament (ACL). Through small incisions, a camera and instruments are inserted to evaluate the knee. The surgeon removes damaged tissue. A graft, usually autograft (hamstring or bone-patellar tendon-bone), is shaped and positioned within the knee to replicate the original ACL. Tunnels are created in the tibia and femur, and the graft is secured with screws or other fixation devices. The surgeon assesses knee stability and range of motion before closing the incisions (Dove Press, n.d.).",
             "indications": "Symptomatic ACL tear, knee instability affecting activities of daily living, failure of conservative treatment (physical therapy, bracing), desire to return to high-demand sports or activities, recurrent giving way or instability episodes, associated meniscal tear requiring surgery, associated cartilage damage, significant functional limitations despite non-operative management.",
@@ -69,7 +71,8 @@
         {
             "id": 3,
             "image": "3_AmputationofMajorLimbs.png",
-            "imageCitation": "https://www.sciencedirect.com/science/article/pii/S2772687821000039",
+            "imageCitation": "Fluss, G., Greenspan, J., Szczerepa, D., & Finlay, D. J. (2021). The optimal below knee amputation flap. Annals of Vascular Surgery - Brief Reports and Innovations, 1(1), 100003. https://doi.org/10.1016/j.avsurg.2021.100003",
+            "imageUrl": "https://www.sciencedirect.com/science/article/pii/S2772687821000039",
             "name": "Amputation of Major Limbs",
             "description": "Amputation of a major limb is a surgical procedure involving the removal of a limb (arm or leg) due to severe trauma, disease, or congenital conditions. The surgery aims to remove the affected limb while preserving as much healthy tissue as possible to optimize healing, function, and prosthetic fitting. The process involves dividing muscles, ligating blood vessels to control bleeding, carefully cutting nerves, and transecting bone at a specific level. The remaining skin and soft tissue are then used to create flaps to cover the end of the bone, forming a stump that will interface with a prosthesis (Sarwal & Gupta, 2024).",
             "indications": "Severe peripheral vascular disease with critical limb ischemia, non-reconstructible arterial blockage, uncontrolled infection (osteomyelitis, sepsis), severe trauma with irreparable damage, non-viable limb, malignancy (bone or soft tissue sarcoma), congenital limb deficiency, chronic non-healing ulcer, intractable pain, frostbite with extensive tissue necrosis.",
@@ -101,7 +104,8 @@
         {
             "id": 4,
             "image": "4_Arthroplasty.png",
-            "imageCitation": "https://www.orthoracle.com/library/vanguard-total-knee-replacement-cruciate-retaining-zimmer-biomet/",
+            "imageCitation": "Zimmer Biomet. (n.d.). Vanguard total knee replacement: Cruciate retaining. https://www.orthoracle.com/library/vanguard-total-knee-replacement-cruciate-retaining-zimmer-biomet/",
+            "imageUrl": "https://www.orthoracle.com/library/vanguard-total-knee-replacement-cruciate-retaining-zimmer-biomet/",
             "name": "Arthroplasty",
             "description": "Arthroplasty (joint replacement surgery) is a surgical procedure where a surgeon removes part of a damaged or arthritic joint and replaces it with a plastic, metal, or ceramic device, known as a prosthesis. The prosthesis is made to replicate a healthy, normal joint movement.Arthroplasty restores joint function. A surgeon can restore a joint by resurfacing the bones. A prosthesis (artificial joint) might also be used. Numerous types of arthritis might impact your joints. Degenerative joint disease, or osteoarthritis, is a loss of your cushion or cartilage in a joint and is a very common reason for arthroplasty (Williams & Williams, n.d.).",
             "indications": "Osteoarthritis (OA), Rheumatoid Arthritis (RA), Post-traumatic Arthritis, Avascular Necrosis (AVN), Joint Deformities or Malalignment, Failed Conservative Treatment, Bone Tumors, Infectious Arthritis, Joint Instability, Severe Joint Pain with Limited Mobility",
@@ -131,7 +135,8 @@
         {
             "id": 5,
             "image": "5_Cesarean Section.png",
-            "imageCitation": "https://www.hirslanden.ch/en/corporate/treatments/caesarean-birth.html",
+            "imageCitation": "Hirslanden. (n.d.). Caesarean birth. https://www.hirslanden.ch/en/corporate/treatments/caesarean-birth.html",
+            "imageUrl": "https://www.hirslanden.ch/en/corporate/treatments/caesarean-birth.html",
             "name": "Cesarean Section",
             "description": "Cesarean delivery is a surgical procedure that involves delivering a baby through an abdominal incision (laparotomy) and a uterine incision (hysterotomy). The surgery is typically performed when vaginal birth poses a greater risk to the mother or baby, such as when complications arise during labor in an otherwise planned vaginal delivery or when a condition prevents a vaginal delivery (such as obstruction). Cesarean delivery is considered the most common and safe surgical procedure in the United States. This procedure is often performed for indications such as labor dystocia, fetal distress, abnormal fetal positioning, placental complications, or a history of prior cesarean delivery (Sung et al., 2024).",
             "indications": "Fetal Distress, Breech Presentation, Multiple Pregnancies (Twins, Triplets, etc.), Placental Problems (Placenta Previa, Placental Abruption), Failure to Progress in Labor (Dystocia), Cephalopelvic Disproportion (CPD), Maternal Health Conditions (e.g., preeclampsia, heart disease), Previous C-section (or other uterine surgeries), Infection (e.g., active genital herpes), Umbilical Cord Prolapse, Large Baby (Macrosomia), Failure of Induction, Maternal Request (in some cases)",
@@ -155,7 +160,8 @@
         {
             "id": 6,
             "image": "6_Cholecystectomy.png",
-            "imageCitation": "https://www.researchgate.net/figure/Conventional-laparoscopic-cholecystectomy_fig1_309182289",
+            "imageCitation": "ResearchGate. (2016). Conventional laparoscopic cholecystectomy. https://www.researchgate.net/figure/Conventional-laparoscopic-cholecystectomy_fig1_309182289",
+            "imageUrl": "https://www.researchgate.net/figure/Conventional-laparoscopic-cholecystectomy_fig1_309182289",
             "name": "Cholecystectomy",
             "description": "A cholecystectomy is a surgical procedure to remove your gallbladder \u2014 the small, hollow organ that stores bile for your digestive system. Gallbladder removal surgery is a common treatment for many types of gallbladder disease. This is because the downsides of having your gallbladder removed are generally fewer than those of the diseases it treats. You can live a healthy life without a gallbladder (Professional, 2025). ",
             "indications": "Symptomatic Gallstones (Cholelithiasis), Cholecystitis (Acute or Chronic), Gallbladder Dysfunction (Biliary Dyskinesia), Choledocholithiasis (Gallstones in the Common Bile Duct), Pancreatitis (due to Gallstones), Gallbladder Polyps (greater than 1 cm or symptomatic), Gallbladder Cancer (rare), Biliary Colic (Severe Pain), Cholangitis (Infection of the Bile Ducts), Postoperative Complications (after bariatric surgery or other abdominal surgery)",
@@ -186,7 +192,8 @@
         {
             "id": 7,
             "image": "7_Gastrectomy.png",
-            "imageCitation": "https://link.springer.com/chapter/10.1007/978-3-030-17223-7_7",
+            "imageCitation": "Puy, R. V., Alatorre, R., & Fort, J. M. (2019). Robotic Sleeve Gastrectomy. In Springer eBooks (pp. 63\u201370). https://doi.org/10.1007/978-3-030-17223-7_7",
+            "imageUrl": "https://link.springer.com/chapter/10.1007/978-3-030-17223-7_7",
             "name": "Gastrectomy/Gastrojejunostomy",
             "description": "Gastrojejunostomy is a surgical procedure that establishes an anastomosis between the stomach and the jejunum, effectively bypassing the duodenum. This intervention is typically performed to alleviate obstructions or as part of reconstructive surgeries. The procedure can be executed via open surgery or laparoscopically, depending on the patient\u2019s condition and the surgeon\u2019s expertise. During the operation, an anastomosis is created between the stomach and the proximal loop of the jejunum, facilitating the passage of food directly into the small intestine. Postoperative care involves monitoring for potential complications such as anastomotic leakage, infection, and ensuring proper gastric emptying (Mascrs, n.d.).",
             "indications": "Malignant Gastric Outlet Obstruction: Caused by cancers such as those of the stomach, pancreas, or duodenum, leading to blockage of food passage, Benign Gastric Outlet Obstruction: Results from conditions like peptic ulcer disease, chronic inflammation, or strictures causing narrowing of the duodenum, Chronic Gastric Motility Disorders: Conditions such as gastroparesis, where the stomach fails to empty properly, leading to persistent symptoms like nausea, vomiting, and malnutrition,\tPostgastrectomy Complications: Situations where previous stomach surgeries have altered normal anatomy, necessitating a bypass to restore digestive function",
@@ -201,7 +208,8 @@
         {
             "id": 8,
             "image": "8_Colonic surgery.png",
-            "imageCitation": "https://www.shutterstock.com/image-photo/constricting-sigmoid-colon-tumour-639055660",
+            "imageCitation": "Shutterstock. (2017). Constricting sigmoid colon tumour. https://www.shutterstock.com/image-photo/constricting-sigmoid-colon-tumour-639055660",
+            "imageUrl": "https://www.shutterstock.com/image-photo/constricting-sigmoid-colon-tumour-639055660",
             "name": "Colonic Surgery",
             "description": "Colonic surgery encompasses a range of surgical interventions on the large intestine, including resections (colectomies), anastomoses, and colostomy creations. These procedures address various conditions affecting the colon, such as malignancies, inflammatory diseases, obstructions, and traumatic injuries. Depending on the specific pathology, a segment of the colon may be removed, and the remaining ends reconnected, or an artificial opening (stoma) may be created to divert fecal flow. Surgical approaches can be open or minimally invasive (laparoscopic), with the choice influenced by the disease extent and patient factors. Postoperative management focuses on monitoring for complications like anastomotic leaks, infections, and ensuring the return of normal bowel function (Professional, 2024).",
             "indications": "Colorectal Cancer: Surgical resection is the primary treatment for removing malignant tumors within the colon to prevent cancer progression and metastasis, Diverticulitis: Complicated cases, such as those with perforation, abscess formation, or fistulas, may require surgical intervention to remove the affected colon segment, Bowel Obstruction: Obstructions due to strictures, tumors, or adhesions that impede the passage of intestinal contents necessitate surgical resolution, Inflammatory Bowel Disease (IBD): Severe or refractory cases of Crohn\u2019s disease or ulcerative colitis may require colectomy when medical therapies are insufficient, Trauma: Injuries resulting from blunt or penetrating trauma that damage the colon may require surgical repair or resection to restore intestinal integrity.",
@@ -227,7 +235,8 @@
         {
             "id": 9,
             "image": "9_Craniectomy.png",
-            "imageCitation": "https://stock.adobe.com/search?k=craniotomy",
+            "imageCitation": "Adobe Stock. (n.d.). Craniotomy images. Adobe. Retrieved March 9, 2025, from https://stock.adobe.com/search?k=craniotomy",
+            "imageUrl": "https://stock.adobe.com/search?k=craniotomy",
             "name": "Craniectomy",
             "description": "Craniectomy is a neurosurgical procedure involving the removal of a portion of the skull to alleviate elevated intracranial pressure (ICP) resulting from conditions such as traumatic brain injury, stroke, or other causes of cerebral edema. Unlike a craniotomy, where the bone flap is temporarily removed and then replaced, a craniectomy involves leaving the bone flap off, allowing the swollen brain to expand beyond the confines of the skull, thereby reducing the risk of further injury. Postoperatively, patients may require protective measures, such as wearing a helmet, to shield the unprotected area of the brain until a subsequent cranioplasty is performed to restore the skull\u2019s integrity (Craniotomy, 2024).",
             "indications": "Traumatic Brain Injury (TBI): Severe head injuries leading to significant brain swelling and elevated ICP unresponsive to medical management, Malignant Middle Cerebral Artery (MCA) Infarction: Large ischemic strokes causing substantial cerebral edema and midline shift, posing a risk of herniation, Intracerebral Hemorrhage: Spontaneous bleeding within the brain parenchyma resulting in increased ICP and mass effect, Subarachnoid Hemorrhage: Bleeding into the subarachnoid space leading to hydrocephalus and raised ICP,Infectious Causes: Conditions like encephalitis or abscesses causing brain swelling unmanageable by antibiotics alone.",
@@ -262,7 +271,8 @@
         {
             "id": 10,
             "image": "10_Craniotomy.png",
-            "imageCitation": "https://depositphotos.com/photos/craniotomy.html",
+            "imageCitation": "Depositphotos. (n.d.). Craniotomy. https://depositphotos.com/photos/craniotomy.html",
+            "imageUrl": "https://depositphotos.com/photos/craniotomy.html",
             "name": "Craniotomy",
             "description": "A craniotomy is a surgical procedure where a section of the skull (a bone flap) is temporarily removed to access the brain. This procedure is performed for various reasons, including treating brain tumors, aneurysms, traumatic injuries, or hemorrhages. After making an incision in the scalp, the surgeon drills small burr holes into the skull, then uses a special saw to cut and lift a section of bone. Once the brain surgery is complete, the bone flap is replaced and secured with plates or screws. Craniotomies can be small (keyhole) or large, depending on the underlying condition. Specialized variations include the burr hole procedure, awake craniotomy, and stereotactic craniotomy (Akhigbe & Zolnourian, 2017).",
             "indications": "A craniotomy is indicated for brain tumors (for biopsy or resection), traumatic brain injury with hematoma or swelling, cerebral aneurysm or arteriovenous malformation (AVM), epilepsy surgery (when seizures don\u2019t respond to medication), hydrocephalus (for shunt placement or third ventriculostomy), and brain abscess or severe infection requiring drainage.",
@@ -297,7 +307,8 @@
         {
             "id": 11,
             "image": "11_ExcisionofBreastMass.png",
-            "imageCitation": "https://www.researchgate.net/figure/a-Preoperative-marking-of-the-breast-mass-b-Surgical-specimen-after-wide-local_fig2_338666635",
+            "imageCitation": "ResearchGate. (2020). Preoperative marking of the breast mass and surgical specimen after wide local excision. https://www.researchgate.net/figure/a-Preoperative-marking-of-the-breast-mass-b-Surgical-specimen-after-wide-local_fig2_338666635",
+            "imageUrl": "https://www.researchgate.net/figure/a-Preoperative-marking-of-the-breast-mass-b-Surgical-specimen-after-wide-local_fig2_338666635",
             "name": "Excision of Breast Mass",
             "description": "An excision of a breast mass is a surgical procedure to remove an abnormal lump or growth from the breast, either for diagnostic biopsy or therapeutic treatment. It may be done for benign or malignant masses. The surgeon makes an incision over or near the mass, carefully dissects around it to remove the entire lesion, and sends it for pathology. The goal is to excise the mass with clean margins while preserving as much healthy tissue as possible. This procedure is often done under local or general anesthesia and can be combined with imaging techniques like wire localization for small, hard-to-palpate masses (Karakas & Yildirim, 2022).",
             "indications": "Excision of a breast mass is indicated for a palpable breast lump with suspicious features (irregular shape, rapid growth, immobility), abnormal imaging findings (e.g., mammogram or ultrasound shows a concerning lesion), biopsy-proven malignancy (as part of breast-conserving surgery), symptomatic benign masses causing pain, discomfort, or deformity, and patient preference or anxiety about a mass, even if benign.",
@@ -320,7 +331,8 @@
         {
             "id": 12,
             "image": "12_ExcisionofCystMassLipomaMultipleDeep.png",
-            "imageCitation": "https://www.drsandrakrishnan.com.au/lumps-and-bump-removal",
+            "imageCitation": "Dr. Sandra Krishnan. (2025). Lumps and bump removal. https://www.drsandrakrishnan.com.au/lumps-and-bump-removal",
+            "imageUrl": "https://www.drsandrakrishnan.com.au/lumps-and-bump-removal",
             "name": "Excision of Cyst Mass Lipoma: Multiple Deep",
             "description": "An excision of multiple deep cysts or lipomas is a surgical procedure to remove several abnormal growths located beneath the skin or within deeper soft tissues. Cysts are fluid-filled sacs, while lipomas are benign fatty tumors. The surgeon makes incisions over each mass, carefully dissects through the layers of tissue, and removes the cyst or lipoma along with its capsule to prevent recurrence. For deeper masses, more extensive dissection may be necessary, sometimes involving muscles or nerves. Depending on the number and size of the masses, this procedure can take longer and may require general anesthesia. After removal, the incisions are sutured, and the tissues are sent for pathology to rule out malignancy (Sabir et al., 2024)",
             "indications": "Excision of multiple deep cysts or lipomas is indicated for symptomatic cysts or lipomas causing pain, pressure, or limited range of motion, cosmetic concerns (visible deformity or disfigurement), rapid growth, size >5 cm, or suspicious imaging features (raising concern for malignancy), recurrent or infected cysts, and diagnostic uncertainty (removal for histopathological evaluation).",
@@ -341,7 +353,8 @@
         {
             "id": 13,
             "image": "13_Exploratory Laparotomy.png",
-            "imageCitation": "https://www.instagram.com/firthy_/p/C4ISm_KPxg-/?img_index=1",
+            "imageCitation": "Exploratory Laparotomy. (n.d.). [Photograph of an exploratory laparotomy procedure]. Retrieved from https://www.instagram.com/firthy_/p/C4ISm_KPxg-/?img_index=1",
+            "imageUrl": "https://www.instagram.com/firthy_/p/C4ISm_KPxg-/?img_index=1",
             "name": "Exploratory Laparotomy",
             "description": "Exploratory laparotomy is surgery to open up the belly area (abdomen). This surgery is done to find the cause of problems (such as pain or bleeding) that testing could not diagnose. It's also used when an abdominal injury needs emergency medical care. This surgery uses one large cut (incision). The provider can then see and check the organs inside the abdomen. If the cause of the problem is found during the procedure, then treatment is often done at the same time. In some cases, a minimally invasive surgery called exploratory laparoscopy may be used instead. That method uses a tiny camera and several small incisions. But in many cases, an exploratory laparotomy is preferred (Exploratory Laparotomy, n.d.).",
             "indications": "Blunt Abdominal Trauma, Penetrating Abdominal Trauma, Hemoperitoneum, Perforated Peptic Ulcer, Perforated Diverticulitis, Perforated Appendix, Perforated Bowel (Ischemic or Iatrogenic), Small Bowel Obstruction with Strangulation, Large Bowel Obstruction with Perforation Risk, Mesenteric Ischemia/Infarction, Generalized Peritonitis, Ruptured Hepatic or Splenic Abscess, Severe Pancreatitis with Infected Necrosis, Ruptured Ectopic Pregnancy, Ovarian Torsion with Necrosis, Ruptured Ovarian Cyst with Hemoperitoneum, Ruptured Abdominal Aortic Aneurysm or Iliac Aneurysm",
@@ -375,7 +388,8 @@
         {
             "id": 14,
             "image": "14_Hemorrhoidectomy_Anal Encirclement.png",
-            "imageCitation": "https://www.karanhospital.com/hemorrhoids-treatment-jalandhar.php",
+            "imageCitation": "Laser surgery for Hemorrhoids in Jalandhar,Punjba|laser treatment for Bawaseer in North india. (n.d.). https://www.karanhospital.com/hemorrhoids-treatment-jalandhar.php",
+            "imageUrl": "https://www.karanhospital.com/hemorrhoids-treatment-jalandhar.php",
             "name": "Hemorrhoidectomy/Anal Encirclement",
             "description": "A hemorrhoidectomy is surgery to remove internal or external hemorrhoids that are extensive or severe. Surgical hemorrhoidectomy is the most effective treatment for hemorrhoids, though it is associated with the greatest rate of complications. Surgical hemorrhoidectomy is necessary for large third- and fourth-degree hemorrhoids when medical management has failed, when a significant external component is present, or when incarcerated internal hemorrhoids need immediate medical treatment (Cristea & Lewis, 2024).",
             "indications": "Severe Internal Hemorrhoid (Grade III & IV), Recurrent or Persistent Bleeding, Thrombosed External Hemorrhoids, Chronic Anal Pain/Discomfort, Large External Hemorrhoids, Hemorrhoids with Associated Fissures or Fistulas",
@@ -403,7 +417,8 @@
         {
             "id": 15,
             "image": "15_Laparoscopic Cholecystectomy.png",
-            "imageCitation": "https://venushospital.com.np/laparoscopic-appendectomy-in-nepal/",
+            "imageCitation": "[Laparoscopic Cholecystectomy]. (n.d.). Retrieved from https://venushospital.com.np/laparoscopic-appendectomy-in-nepal/",
+            "imageUrl": "https://venushospital.com.np/laparoscopic-appendectomy-in-nepal/",
             "name": "Laparoscopic Appendectomy ",
             "description": "A laparoscopic or \u201clap\u201d appendectomy is a minimally invasive surgery to remove the appendix through several small incisions, rather than through one large one. Recovery time from the lap appendectomy is short. The operation will generally be performed within the first 24 hours of admission. If a significant infection is present at the time of presentation, it is possible that your child will be treated with antibiotics only during their hospitalization and will need to return in 6-8 weeks for the appendectomy (Laparoscopic Appendectomy, n.d.).",
             "indications": "Acute Appendicitis, Complicated Appendicitis, Recurrent Appendicitis, Appendiceal Mucocele or Tumor, Interval Appendectomy",
@@ -431,7 +446,8 @@
         {
             "id": 16,
             "image": "16_laparoscopic cholecystectomy.png",
-            "imageCitation": "https://marinasclinic.com/what-is-laparoscopic-cholecystectomy-procedure-risks-and-recovery/",
+            "imageCitation": "Marina's Clinic. (n.d.). Surgeons performing a Laparoscopic Cholecystectomy. Retrieved February 22, 2025, from https://marinasclinic.com/what-is-laparoscopic-cholecystectomy-procedure-risks-and-recovery/",
+            "imageUrl": "https://marinasclinic.com/what-is-laparoscopic-cholecystectomy-procedure-risks-and-recovery/",
             "name": "Laparoscopic Cholecystectomy",
             "description": "Laparoscopic cholecystectomy is the treatment of choice for symptomatic gallstones, except in cases of severe obesity, significant adhesions from prior surgeries or recurrent cholecystitis, or the presence of ductal or vascular abnormalities. If unforeseen complications arise, such as acute inflammation altering normal tissue structures, heavy bleeding, or surgical injuries, the procedure is swiftly switched to an open laparotomy (Goldman, 2008).",
             "indications": "Symptomatic cholelithiasis (gallstones),Acute cholecystitis,Chronic cholecystitis,Gallstone pancreatitis, Biliary dyskinesia",
@@ -464,7 +480,8 @@
         {
             "id": 17,
             "image": "17_lymphadenectomy.png",
-            "imageCitation": "https://clf1.medpagetoday.com/assets/images/resource-center/Surg.jpg",
+            "imageCitation": "MedPage Today. (n.d.) ",
+            "imageUrl": "https://clf1.medpagetoday.com/assets/images/resource-center/Surg.jpg",
             "name": "Lymphadenectomy",
             "description": "Lymphadenectomy, or lymph node dissection, is a surgical procedure that involves removing lymph nodes and examining a tissue sample under a microscope to detect cancer. It is commonly performed to manage malignant tumors and can be categorized into regional lymphadenectomy, which removes nearby lymph nodes, and radical lymphadenectomy, which involves a more extensive removal of lymph nodes (Mulita et al., 2023).",
             "indications": "Malignant lymphadenopathy (e.g., metastasis from melanoma or other cancers), Diagnostic biopsy for lymphatic disease, Persistent lymphadenitis unresponsive to medical treatment, Removal of lymph nodes involved in chronic infections (e.g., tuberculosis), Part of cancer staging and treatment (e.g., breast cancer, melanoma)",
@@ -497,7 +514,8 @@
         {
             "id": 18,
             "image": "18_pharyngectomy.png",
-            "imageCitation": "https://www.scielo.br/j/bjorl/a/qbhCkH3qx7bXXCfGZZN9zTK/",
+            "imageCitation": "Ba\u015faran, B., & \u00dcnsaler, S. (2020). Carcinoma of the posterior wall of the hypopharynx: surgical treatment with larynx preservation. Brazilian Journal of Otorhinolaryngology, 88(2), 174\u2013180. https://doi.org/10.1016/j.bjorl.2020.05.013",
+            "imageUrl": "https://www.scielo.br/j/bjorl/a/qbhCkH3qx7bXXCfGZZN9zTK/",
             "name": "Pharyngectomy",
             "description": "Pharyngectomy is a surgical procedure that involves the removal of all or part of the pharynx, which is the hollow tube in the neck connecting the area behind the nose to the top of the trachea (windpipe) and esophagus (the passage leading to the stomach). This surgery is commonly performed to treat certain types of throat cancer, particularly when tumors are located in the nasopharynx, oropharynx, or hypopharynx. Depending on the extent of the disease, a partial or total pharyngectomy may be performed, and reconstructive techniques may be needed to restore swallowing and speech functions (NCI Dictionary of Cancer Terms, n.d.).",
             "indications": "Pharyngeal cancer, Severe trauma to the pharynx, Recurrent or persistent pharyngeal tumors, Extensive necrotizing infections, Radiation-induced necrosis",
@@ -508,7 +526,8 @@
         {
             "id": 19,
             "image": "19_AmputationofToes&Fingers.png",
-            "imageCitation": "https://musculoskeletalkey.com/fifth-ray-osteomyelitis/",
+            "imageCitation": "Musculoskeletal Key. (n.d.). Fifth ray osteomyelitis. Musculoskeletal Key. Retrieved March 9, 2025, from https://musculoskeletalkey.com/fifth-ray-osteomyelitis/",
+            "imageUrl": "https://musculoskeletalkey.com/fifth-ray-osteomyelitis/",
             "name": "Amputation of Toes/Fingers",
             "description": "Toe or finger amputation involves surgically removing a digit at a specific level, ranging from partial to complete removal at the metatarsophalangeal/metacarpophalangeal joint. Typically performed under local, regional, or general anesthesia, the procedure begins with a circumferential incision around the digit. The surgeon carefully dissects through skin, subcutaneous tissue, tendons, and ligaments. Blood vessels are ligated to control bleeding, and nerves are transected, often with consideration for minimizing neuroma formation. The bone is divided, smoothed, and the skin and soft tissue are used to create a flap to cover the bone, ensuring adequate padding. The flap is sutured closed, and a sterile dressing is applied (Pinzur, 2017). ",
             "indications": "Severe infection (osteomyelitis, cellulitis) unresponsive to antibiotics, irreversible ischemia or necrosis (gangrene), severe trauma with irreparable damage, non-reconstructible deformities causing pain or functional impairment, tumors (bone or soft tissue), chronic non-healing ulcers, frostbite with tissue loss, congenital deformities.",
@@ -530,7 +549,8 @@
         {
             "id": 20,
             "image": "20_Appendectomy.png",
-            "imageCitation": "https://www.sciencephoto.com/media/764641/view/appendix-removal-surgery",
+            "imageCitation": "Appendectomy. (n.d.). [Photograph of an appendix removal surgery]. Retrieved from https://www.sciencephoto.com/media/764641/view/appendix-removal-surgery",
+            "imageUrl": "https://www.sciencephoto.com/media/764641/view/appendix-removal-surgery",
             "name": "Appendectomy (Ruptured/Suppurative or Congestive)",
             "description": "Appendectomy for ruptured, suppurative, or congestive appendicitis is a surgical procedure to remove an appendix that has become severely inflamed, infected, and potentially perforated. \"Ruptured\" indicates the appendix has burst, releasing infected material into the abdominal cavity. \"Suppurative\" means the appendix is producing pus due to infection. \"Congestive\" refers to an appendix that is severely inflamed and swollen, potentially leading to tissue death (necrosis). The surgery aims to remove the diseased appendix, control infection, and prevent complications like peritonitis (inflammation of the abdominal lining) (Crnogorac et' al, 2013).",
             "indications": "Ruptured appendix, suppurative appendicitis, congestive appendicitis, suspicion of perforation, signs of peritonitis, failure of non-operative management (if attempted), presence of appendicolith with acute appendicitis, sepsis secondary to appendicitis.",
@@ -554,7 +574,8 @@
         {
             "id": 21,
             "image": "21_ApplicationOfLongLegCast.png",
-            "imageCitation": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/partial-articular-fracture-lateral-condyle-sagittal-simple/long-leg-cast-then-hinged-knee-brace",
+            "imageCitation": "Long leg cast then hinged knee brace for Partial articular fracture, lateral condyle, sagittal simple. (n.d.). https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/partial-articular-fracture-lateral-condyle-sagittal-simple/long-leg-cast-then-hinged-knee-brace",
+            "imageUrl": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/partial-articular-fracture-lateral-condyle-sagittal-simple/long-leg-cast-then-hinged-knee-brace",
             "name": "Application of Long Leg Cast",
             "description": "Application of a long leg cast involves encasing the leg from the upper thigh to the toes in a rigid cast material to immobilize fractures, dislocations, or soft tissue injuries. The limb is first covered with a stockinette, followed by padding (typically cast padding) to protect the skin and bony prominences. Plaster or fiberglass casting material is then applied in layers, molded to conform to the leg's shape, and allowed to harden. The cast maintains alignment, provides stability, and facilitates healing (Kay, 2023). ",
             "indications": "Femur fractures, tibia fractures (especially unstable fractures), fibula fractures with associated ankle injury, knee dislocations, certain ankle fractures, severe ankle sprains, post-operative immobilization after knee or leg surgery (e.g., ACL reconstruction, fracture fixation), congenital deformities (e.g., clubfoot in some cases), management of Charcot foot.",
@@ -573,7 +594,8 @@
         {
             "id": 22,
             "image": "22_Arthrocentesis.png",
-            "imageCitation": "https://healthjade.com/arthrocentesis/",
+            "imageCitation": "Arthrocentesis definition, procedure, indications, complications & risks. (2019, April 19). Health Jade. https://healthjade.com/arthrocentesis/",
+            "imageUrl": "https://healthjade.com/arthrocentesis/",
             "name": "Arthrocentesis",
             "description": "Arthrocentesis is a procedure performed to collect synovial fluid from joint spaces for the identification of a disease process or the relief of painful or bothersome symptoms. There are numerous indications for joint fluid aspiration, the most important of which includes the evaluation of synovial fluid for evidence of infection or inflammation. While the procedure specifics vary depending on the joint being aspirated, the general technique and steps remain consistent. The procedure tends to be very safe overall with few complications if performed correctly, and only a small number of contraindications exist (Tantillo et al., 2023).",
             "indications": "Suspected septic arthritis, Inflammatory arthritis (rheumatoid arthritis, gout, pseudogout), Crystal-induced arthritis (gout, pseudogout), Hemarthrosis, Joint effusion and swelling, Osteoarthritis, Intra-articular medication administration",
@@ -592,7 +614,8 @@
         {
             "id": 23,
             "image": "23_AvFistulaCreation.png",
-            "imageCitation": "https://www.mdpi.com/2834750",
+            "imageCitation": "Alm\u00e1si-Sperling, V., Gall, C., Haney, B., Latzel, N., Knieling, F., Hilger, A. C., Regensburger, A. P., Meyer, A., Lang, W., & Rother, U. (2024). Long-Term experience of Arterio-Venous fistula surgery in children on hemodialysis. Journal of Clinical Medicine, 13(12), 3577. https://doi.org/10.3390/jcm13123577",
+            "imageUrl": "https://www.mdpi.com/2834750",
             "name": "AV Fistula Creation",
             "description": "To create an arteriovenous (AV) fistula, a vascular specialist will first administer local anesthesia to numb the selected access site. A small incision is then made to expose the chosen artery and vein, allowing the surgeon to surgically connect them. This connection redirects blood flow from the artery into the vein, increasing blood volume within the vein. Over time, this increased flow causes the vein to enlarge and its walls to thicken, preparing it for hemodialysis. The fistula typically takes several weeks, or in some cases a month or longer, to mature before it can be used for dialysis treatment (AV Fistula Creation for Dialysis | AV Fistula Placement, 2019). ",
             "indications": "End-stage renal disease (ESRD) requiring hemodialysis, Chronic kidney disease (CKD) stage IV or V, Failed previous vascular access (thrombosed grafts or catheters), Preference for a long-lasting, lower infection-risk access",
@@ -618,7 +641,8 @@
         {
             "id": 24,
             "image": "24_AvFistulaGraft.png",
-            "imageCitation": "https://www.sciencedirect.com/science/article/pii/S1078588406000074",
+            "imageCitation": "Berardinelli, L. (2006). Grafts and graft materials as vascular substitutes for haemodialysis access construction. European Journal of Vascular and Endovascular Surgery, 32(2), 203\u2013211. https://doi.org/10.1016/j.ejvs.2006.01.001",
+            "imageUrl": "https://www.sciencedirect.com/science/article/pii/S1078588406000074",
             "name": "AV Fistula w/ Graft",
             "description": "An arteriovenous (AV) graft is a type of vascular access used for hemodialysis. It is typically placed in the arm but can be positioned in the leg if needed. An AV graft connects an artery and a vein using a synthetic, hollow tube. One end of the graft is attached to an artery, while the other is connected to a vein. This connection allows blood to flow from the high-pressure artery through the graft into the low-pressure vein. The increased blood flow through the graft ensures a sufficient flow rate to support effective hemodialysis treatment (AV Graft Creation for Dialysis | AV Graft Placement, 2023).",
             "indications": "Small or inadequate veins for fistula maturation, Failed previous fistulas (thrombosis, poor maturation, stenosis), Urgent need for hemodialysis access, Vascular disease or diabetes affecting blood vessel quality",
@@ -644,7 +668,8 @@
         {
             "id": 25,
             "image": "25_ExcisionofMass.png",
-            "imageCitation": "https://www.researchgate.net/figure/Appearance-of-the-mass-excision_fig6_312163260",
+            "imageCitation": "Ince, B., Dadaci, M., Altuntas, Z., & Oltulu, P. (2015). Appearance of the mass excision [Figure]. In Intramuscular arteriovenous malformation of the deltoid muscle. ResearchGate. https://www.researchgate.net/figure/Appearance-of-the-mass-excision_fig6_312163260",
+            "imageUrl": "https://www.researchgate.net/figure/Appearance-of-the-mass-excision_fig6_312163260",
             "name": "Excision of Mass (less than 5cm subq and more than 5cm subq)",
             "description": "The excision of a subcutaneous mass involves the surgical removal of a lump located beneath the skin. These masses can vary in size and etiology, including benign conditions like lipomas or cysts, and occasionally malignant tumors. The procedure aims to completely remove the mass along with a margin of healthy tissue to ensure clear boundaries and reduce the risk of recurrence. Depending on the size and location of the mass, the procedure can be performed under local or general anesthesia. Postoperative care includes wound management and monitoring for signs of infection or recurrence (Yetman, 2022).",
             "indications": "Lipomas: Benign fatty tumors presenting as soft, movable lumps under the skin, often removed for cosmetic reasons or if symptomatic,Epidermoid or Sebaceous Cysts: Non-cancerous cysts arising from blocked sebaceous glands, which may become infected or cause discomfort, Dermatofibromas: Benign fibrous nodules that may cause itching or discomfort, Suspicious Lesions: Masses with characteristics suggestive of malignancy, such as rapid growth, irregular borders, or color changes, Patient Concern: Any subcutaneous mass causing anxiety or discomfort to the patient, warranting removal for peace of mind.",
@@ -672,7 +697,8 @@
         {
             "id": 26,
             "image": "26_Cataract Extraction.png",
-            "imageCitation": "https://library.willseye.org/library-item/extracapsular-cataract-extraction/",
+            "imageCitation": "Wills Eye Library. (2019). Extracapsular cataract extraction. https://library.willseye.org/library-item/extracapsular-cataract-extraction/",
+            "imageUrl": "https://library.willseye.org/library-item/extracapsular-cataract-extraction/",
             "name": "Cataract Extraction (with or w/o IOL, Glaucoma)",
             "description": "Cataract extraction is a surgical procedure aimed at removing the eye\u2019s natural lens when it becomes opacified, leading to impaired vision. The most common technique employed is phacoemulsification, where an ultrasonic handpiece is used to fragment and emulsify the cloudy lens through a small corneal incision. The emulsified lens material is then aspirated, and an artificial intraocular lens (IOL) is implanted into the remaining lens capsule to restore clear vision. This outpatient procedure is typically sutureless and completed within 10 to 20 minutes. Postoperative care involves the use of prescribed eye drops, avoiding strenuous activities for a week, and attending follow-up appointments to monitor healing and visual acuity (Cataract Extraction Surgery With or W/O Intraocular Lens Insertion, n.d.). ",
             "indications": "Significant visual impairment due to cataract formation affecting daily activities such as reading, driving, or recognizing faces,Presence of cataracts causing complications like lens-induced glaucoma or uveitis,Difficulty in visualizing the retina for monitoring or treating other ocular conditions due to lens opacity, Patient\u2019s desire for improved visual acuity when cataract progression impacts quality of life.",
@@ -714,7 +740,8 @@
         {
             "id": 27,
             "image": "27_circumcision.png",
-            "imageCitation": "https://www.researchgate.net/figure/Circumcision-with-thermocautery-technique-a-b-The-foreskin-was-pulled-up-with-the_fig2_321272406",
+            "imageCitation": "Circumcision. (n.d.). [Circumcision with thermocautery technique]. Retrieved from https://www.researchgate.net/figure/Circumcision-with-thermocautery-technique-a-b-The-foreskin-was-pulled-up-with-the_fig2_321272406",
+            "imageUrl": "https://www.researchgate.net/figure/Circumcision-with-thermocautery-technique-a-b-The-foreskin-was-pulled-up-with-the_fig2_321272406",
             "name": "Circumcision",
             "description": "Circumcision is the surgical removal of the foreskin (prepuce) covering the glans of the penis. This procedure is performed for various cultural, religious, and medical reasons. In the Philippines, circumcision, locally known as \u201ctuli,\u201d is a common practice and is often considered a rite of passage for young boys. The surgery can be performed using different techniques, including the dorsal slit method, shield and clamp devices (such as the Gomco clamp, Plastibell device, or Mogen clamp), and excision methods. The choice of technique depends on the patient\u2019s age, specific indications, and the surgeon\u2019s expertise. Postoperative care involves keeping the area clean, monitoring for signs of infection, and ensuring proper wound healing (Krans, 2018).",
             "indications": "Cultural or religious traditions, particularly prevalent in Filipino communities, where circumcision is viewed as a rite of passage into manhood ,Medical conditions such as phimosis (inability to retract the foreskin), paraphimosis (inability to return a retracted foreskin to its original position), recurrent balanitis (inflammation of the glans), or balanoposthitis (inflammation of the glans and foreskin), Preventive health measures, as circumcision has been associated with a reduced risk of certain infections and diseases.",
@@ -750,7 +777,8 @@
         {
             "id": 28,
             "image": "28_ClosedReduction.png",
-            "imageCitation": "https://www.researchgate.net/publication/327475397_Incidence_and_Radiological_Predictors_of_Concomitant_Meniscal_and_Cruciate_Ligament_Injuries_in_Operative_Tibial_Plateau_Fractures_A_Prospective_Diagnostic_Study",
+            "imageCitation": "Closed Reduction. (n.d.). [Closed reduction procedure]. Retrieved from https://www.researchgate.net/publication/327475397_Incidence_and_Radiological_Predictors_of_Concomitant_Meniscal_and_Cruciate_Ligament_Injuries_in_Operative_Tibial_Plateau_Fractures_A_Prospective_Diagnostic_Study",
+            "imageUrl": "https://www.researchgate.net/publication/327475397_Incidence_and_Radiological_Predictors_of_Concomitant_Meniscal_and_Cruciate_Ligament_Injuries_in_Operative_Tibial_Plateau_Fractures_A_Prospective_Diagnostic_Study",
             "name": "Close Reduction",
             "description": "A closed reduction, often termed manipulation, is a non-surgical procedure used to set (reduce) a broken bone or dislocated joint without making an incision. It allows the bone to grow back together with better alignment. Traction to pull the fragments apart is provided either manually involving two people or with a mechanical device such as 'finger\u2010traps' attached to two or more fingers and a counterweight suspended over the upper arm. The reduced fracture is then stabilised, typically by plaster cast immobilisation, to help it to heal. This procedure can be performed by an orthopedic surgeon (bone doctor), an emergency room physician, or a primary care provider who has the necessary training and experience (Handoll & Madhok, 2003).",
             "indications": "A closed reduction is indicated for displaced fractures without open wounds, joint dislocations (e.g., shoulder, hip, or fingers), minimally comminuted fractures that can be realigned non-surgically, pediatric fractures to avoid growth plate damage, and initial fracture management in emergencies to relieve pain, restore circulation, or prevent nerve damage before definitive fixation.",
@@ -764,7 +792,8 @@
         {
             "id": 29,
             "image": "29_Colostomy.png",
-            "imageCitation": "https://www.researchgate.net/figure/Creation-of-the-colostomy-a-The-nylon-thread-is-pulled-out-of-the-body-and-a-circular_fig4_353953682",
+            "imageCitation": "Colostomy. (n.d.). [Creation of the colostomy]. Retrieved from https://www.researchgate.net/figure/Creation-of-the-colostomy-a-The-nylon-thread-is-pulled-out-of-the-body-and-a-circular_fig4_353953682",
+            "imageUrl": "https://www.researchgate.net/figure/Creation-of-the-colostomy-a-The-nylon-thread-is-pulled-out-of-the-body-and-a-circular_fig4_353953682",
             "name": "Colostomy",
             "description": "A colostomy is a surgical procedure in which a portion of the large intestine (colon) is brought through the anterior abdominal wall to create an artificial opening (stoma) for the elimination of stool. It is one of the most common life-saving emergency procedures performed worldwide. Colostomies may be done for emergency or elective surgical conditions to manage a wide range of congenital and acquired benign or malignant gastrointestinal conditions. The procedure serves two main purposes: diversion and decompression. Diversion is performed to prevent contamination of the distal large bowel segment by stool and its associated complications, commonly indicated in cases of trauma or distal rectal elective surgeries. Decompression, on the other hand, is done to relieve an obstructed large bowel, such as in cases of sigmoid volvulus or malignant left-sided tumors. During the procedure, the patient is placed under general anesthesia, and a segment of the colon is exteriorized through the abdominal wall, where it is secured to the skin to create a stoma. (Engida et al., 2016)",
             "indications": "A colostomy is indicated for bowel obstruction or perforation, colorectal cancer, diverticulitis with complications (e.g., abscess or perforation), inflammatory bowel disease (e.g., severe Crohn\u2019s disease or ulcerative colitis), traumatic bowel injury, congenital anomalies (e.g., imperforate anus), and fecal incontinence or severe perineal wounds requiring stool diversion for healing.",
@@ -790,7 +819,8 @@
         {
             "id": 30,
             "image": "30_Cutdown.png",
-            "imageCitation": "https://www.vin.com/apputil/project/DefaultAdv1.aspx?pId=24437&SAId=-1&id=9382712",
+            "imageCitation": "Cutdown. (n.d.). [Cutdown procedure]. Retrieved from https://www.vin.com/apputil/project/DefaultAdv1.aspx?pId=24437&SAId=-1&id=9382712",
+            "imageUrl": "https://www.vin.com/apputil/project/DefaultAdv1.aspx?pId=24437&SAId=-1&id=9382712",
             "name": "Cutdown",
             "description": "A cutdown surgery is a minor surgical procedure where a small incision is made in the skin and underlying tissues to gain direct access to a blood vessel, usually a vein. This is typically done when peripheral veins are difficult to locate or access, such as in emergencies or critically ill patients. The procedure allows healthcare providers to place a catheter or cannula directly into the vessel for administering fluids, medications, or blood products. It can also be used for invasive monitoring or during surgeries when rapid, reliable access is needed. The saphenous vein in the ankle is a common site for venous cutdowns, but other vessels can be used depending on the situation. After locating the vein, it\u2019s carefully isolated, incised, and cannulated. Once the catheter is secured, the incision is closed, and the access is maintained for as long as necessary (Mousa et al., 2023).",
             "indications": "A cutdown surgery is indicated for emergency vascular access when peripheral veins are collapsed or inaccessible (e.g., severe dehydration, shock, trauma), the need for rapid, reliable IV access for fluid resuscitation, blood transfusion, or medication delivery, long-term venous access when central line placement is challenging or unavailable, and intraoperative access for complex surgeries requiring continuous monitoring or medication infusion.",
@@ -811,7 +841,8 @@
         {
             "id": 31,
             "image": "31_Dilatation and Curettage.png",
-            "imageCitation": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wkhs.com%2Fhealth-resources%2Fwk-health-library%2Fmedical-procedures-tests-care-and-management%2Fa-z%2Fdilation-and-curettage-%2528d-and-c%2529&psig=AOvVaw21QgSkFuG3Vh8wQHl9J4Sr&ust=1741583590494000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCLiWwNCe_IsDFQAAAAAdAAAAABAE",
+            "imageCitation": "WKHS. (n.d.). Dilation and curettage (D and C). https://www.wkhs.com/health-resources/wk-health-library/medical-procedures-tests-care-and-management/a-z/dilation-and-curettage-%28d-and-c%29",
+            "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wkhs.com%2Fhealth-resources%2Fwk-health-library%2Fmedical-procedures-tests-care-and-management%2Fa-z%2Fdilation-and-curettage-%2528d-and-c%2529&psig=AOvVaw21QgSkFuG3Vh8wQHl9J4Sr&ust=1741583590494000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCLiWwNCe_IsDFQAAAAAdAAAAABAE",
             "name": "Dilatation and Curettage",
             "description": "Dilation and curettage (D&C) is a procedure in which material from the inside of the uterus is removed. The \"dilation\" refers to dilation (opening) of the cervix, the lower part of the uterus that opens into the vagina. \"Curettage\" refers to the scraping or removal of tissue lining the uterine cavity (endometrium) with a surgical instrument called a sharp or suction curette. A D&C procedure may be done for different reasons, including to look for the cause of a problem, such as abnormal uterine bleeding; for treatment of a pregnancy loss (also called \"miscarriage\") or abortion (pregnancy termination); or for removal of retained pregnancy tissue (UpToDate, n.d.).",
             "indications": "Incomplete/Missed Miscarriage, Abnormal Uterine Bleeding, Postmenopausal Bleeding, Endometrial Hyperplasia, Suspected Endometrial Cancer, Molar Pregnancy, Therapeutic Abortion, Uterine Polyps or Fibroids",
@@ -836,8 +867,9 @@
         },
         {
             "id": 32,
-            "image": "32_Fistulectomy_Fistulotomy.png",
-            "imageCitation": "https://www.intechopen.com/chapters/80541",
+            "image": "32_Fistulectomy/Fistulotomy.png",
+            "imageCitation": "IntechOpen. (2021). Anal Fistula: Contemporary View of Complex Problem. https://www.intechopen.com/chapters/80541",
+            "imageUrl": "https://www.intechopen.com/chapters/80541",
             "name": "Fistulectomy/Fistulotomy (depends on complexity)",
             "description": "A fistulectomy is a surgical procedure used to treat anal fistulas. An anal fistula is an abnormal tunnel-like connection that forms between the anal canal and the skin near the anus. It often results from an anal abscess that has not fully healed. These fistulas can cause pain, discomfort, and recurrent infections, making them a cause for concern. A fistulectomy involves the removal of the fistula tract and the surrounding infected tissue (\u201cFistulectomy: A Surgical Solution to Heal Anal Fistulas,\u201d n.d.).",
             "indications": "Anal Fistula, Recurrent Perianal Abscess, Complex/High Transsphincteric Fistula, Non-Healing Fistula after Seton Placement, Urethral/Vesicovaginal Fistula, Recurrent Pilonidal Sinus with Fistula Formation, Post-Traumatic Fistula",
@@ -866,7 +898,8 @@
         {
             "id": 33,
             "image": "33_Internal Jugular (IJ) Catheter Insertion.png",
-            "imageCitation": "https://www.researchgate.net/figure/a-shows-the-catheters-inserted-in-the-internal-jugular-vein-right-from-cranial-to_fig3_382002203",
+            "imageCitation": "ResearchGate. (2024). A shows the catheters inserted in the internal jugular vein (right), from cranial to caudal position. https://www.researchgate.net/figure/a-shows-the-catheters-inserted-in-the-internal-jugular-vein-right-from-cranial-to_fig3_382002203",
+            "imageUrl": "https://www.researchgate.net/figure/a-shows-the-catheters-inserted-in-the-internal-jugular-vein-right-from-cranial-to_fig3_382002203",
             "name": "Internal Jugular (IJ) Catheter Insertion",
             "description": "IJ catheter insertion is a medical procedure in which a central venous catheter (CVC) is placed into the internal jugular (IJ) vein for intravenous access, medication administration, fluid resuscitation, central venous pressure (CVP) monitoring, or hemodialysis. Using the Seldinger technique, a needle is inserted into the IJ vein while aspirating to confirm venous blood return. A guidewire is then introduced through the needle, which is removed before a dilator is used to widen the tract. The central venous catheter is advanced over the guidewire into the IJ vein, after which the guidewire is removed, and the catheter is secured with sutures or a securement device (Mendenhall et al., 2023).",
             "indications": "Central Venous Access for Medication Administration, Hemodynamic Monitoring, Emergency Venous Access, Hemodialysis/Plasmapheresis, Total Parenteral Nutrition, Frequent Blood Sampling",
@@ -885,7 +918,8 @@
         {
             "id": 34,
             "image": "34_incision and drainange.png",
-            "imageCitation": "https://www.drazouz.com/hidradenitis-suppurativa-treatment/",
+            "imageCitation": "Incision and Drainage. (n.d.). [Incision and drainage procedure]. Retrieved from https://www.drazouz.com/hidradenitis-suppurativa-treatment/",
+            "imageUrl": "https://www.drazouz.com/hidradenitis-suppurativa-treatment/",
             "name": "Incision and Drainage",
             "description": "Incision and drainage (I&D) is a common procedure used to treat skin and soft tissue abscesses, often performed in emergency departments and outpatient clinics, sometimes with antibiotic therapy. Cutaneous abscesses are pus-filled pockets that form in the dermis or subcutaneous tissue, commonly occurring in the groin, buttocks, axillae, and extremities. They are typically identified by erythema, induration, tenderness, and fluctuance. It is important to distinguish abscesses from cellulitis, which is treated with antibiotics alone and lacks fluctuance. When clinical findings are unclear, ultrasonography can help confirm the presence, size, and location of an abscess (Pastorino & Tavarez, 2023).",
             "indications": "Abscess, Boil (Furuncle), Carbuncle, Infected cyst, Paronychia",
@@ -908,7 +942,8 @@
         {
             "id": 35,
             "image": "35_wound debridement.png",
-            "imageCitation": "https://www.footankleinstitute.com/treatments/wound-care",
+            "imageCitation": "Wound care treatments. (n.d.). FootAnkleInstitute.com. https://www.footankleinstitute.com/treatments/wound-care",
+            "imageUrl": "https://www.footankleinstitute.com/treatments/wound-care",
             "name": "Wound Debridement/Debridement and Curettage",
             "description": "Wound debridement is a vital procedure in wound management that involves removing devitalized tissue to promote healing. By eliminating necrotic tissue, biofilm, bioburden, and senescent cells, debridement prepares the wound bed for re-epithelialization and enhances the effectiveness of topical treatments. Necrotic tissue can provide nutrients for bacteria, act as a barrier to new tissue growth, and prevent angiogenesis, granulation, and extracellular matrix formation. Additionally, it can obscure the wound's true depth and severity, potentially hiding underlying infections. Regular debridement at each patient visit supports optimal wound healing (Manna et al., 2023).",
             "indications": "Necrotic tissue, Infected wound, Non-healing chronic ulcers (e.g., diabetic foot ulcer), Pressure sores, Traumatic wounds with debris",
@@ -917,7 +952,8 @@
         {
             "id": 36,
             "image": "36_transurethral resection of the prostate.png",
-            "imageCitation": "https://dramermousa.com/",
+            "imageCitation": "Dr Amer Mousa. (2024, November 26). Best Urologist in Dubai | Expert in laparoscopic & robotic surgery. https://dramermousa.com/",
+            "imageUrl": "https://dramermousa.com/",
             "name": "Transurethral Resection of the Prostate (TURP)",
             "description": "Transurethral Resection of the Prostate (TURP) involves the transcystoscopic removal of enlarged benign prostatic tissue in small pieces while preserving the prostatic capsule. The objective of this procedure for benign prostatic hypertrophy (BPH) is to relieve the urinary obstruction, minimize harm to surrounding tissues, and ensure minimal discomfort for the patient. Using a resectoscope allows the obstruction to be removed transcystoscopically through the urethra, which reduces the risk of injury to nearby organs. This method also avoids the potential spread of cancerous cells associated with open surgery, as tissue is extracted through the urinary tract rather than through an abdominal incision (Goldman, 2008).",
             "indications": "Benign Prostatic Hyperplasia (BPH) with urinary obstruction, Recurrent urinary tract infections due to BPH, Bladder stones secondary to urinary retention, Hematuria due to prostatic enlargement, Acute urinary retention",
