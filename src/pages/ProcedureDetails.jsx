@@ -72,8 +72,10 @@ const ProcedureDetails = () => {
                         {/* Image*/}
                         <div
                             className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-scroll" : "overflow-hidden"}`}
-                            style={{ touchAction: isZoomed ? "pan-x pan-y" : "auto",
+                            style={{
+                                touchAction: isZoomed ? "pan-x pan-y" : "auto",
                                 WebkitOverflowScrolling: "touch",
+                                position: "relative",
                             }}
                         >
                             <img
@@ -105,36 +107,10 @@ const ProcedureDetails = () => {
                             </p>
                         )}
 
-                        {/* Zoom Button */}
-                        <div className="absolute top-[-15px] right-[-12px] w-14 h-14 bg-[#F4F5F9] rounded-full flex items-center justify-center z-10">
-                            <button
-                                onClick={() => setIsZoomed(!isZoomed)}
-                                className="bg-[#2E6AD9] w-10 h-10 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-700 transition"
-                                aria-label={isZoomed ? "Zoom Out" : "Zoom In"}
-                            >
-                                <img src={isZoomed ? zoomOutIcon : zoomInIcon} alt="Zoom Icon" className="w-5 h-5" />
-                            </button>
-                        </div>
-                    </div>
-
-
-                    <div className="w-full h-full flex-1 text-justify md:text-left overflow-hidden">
-                        <h2 className="text-3xl font-bold">{procedure.name}</h2>
-                        <div
-                            className={clsx(
-                                "w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0",
-                                procedureType === "major" ? "bg-[#A6E5B4]" : "bg-[#E5DCA6]"
-                            )}
-                        >
-                            <p className="text-sm text-white font-semibold">
-                                {procedureType === "major" ? "Major Procedure" : "Minor Procedure"}
-                            </p>
-                        </div>
-                        <p className="text-justify text-lg mt-4 text-gray-600">{procedure.description}</p>
-
-                        <div className="mt-8 mb-15">
-                            <div className=" w-full max-w-3xl overflow-x-auto mx-auto">
-                                <h3 className="text-xl font-bold mb-4">Tools</h3>
+                         {/* Instruments */}
+                        <div className="mt-4 mb-15">
+                            <div className=" w-full max-w-lg overflow-x-auto mx-auto">
+                                <h3 className="text-xl font-bold mb-4 mt-5">Instruments</h3>
                                 {procedureTools.length > 0 ? (
                                     <div className="overflow-hidden rounded-lg">
                                         <div className="overflow-x-auto">
@@ -157,10 +133,41 @@ const ProcedureDetails = () => {
                                         </div>
                                     </div>
                                 ) : (
-                                    <p>No tools available for this procedure.</p>
+                                    <p>No instruments available for this procedure.</p>
                                 )}
                             </div>
                         </div>
+
+                        {/* Zoom Button */}
+                        <div className="absolute -top-5 -right-2 w-14 h-14 bg-[#F4F5F9] rounded-full flex items-center justify-center z-10">
+                            <button
+                                onClick={() => setIsZoomed(!isZoomed)}
+                                className="bg-[#2E6AD9] w-10 h-10 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-700 transition"
+                                aria-label={isZoomed ? "Zoom Out" : "Zoom In"}
+                            >
+                                <img src={isZoomed ? zoomOutIcon : zoomInIcon} alt="Zoom Icon" className="w-5 h-5" />
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="w-full h-full flex-1 overflow-hidden">
+                        <h2 className="text-3xl font-bold text-center md:text-left ">{procedure.name}</h2>
+                        <div
+                            className={clsx(
+                                "w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0",
+                                procedureType === "major" ? "bg-[#A6E5B4]" : "bg-[#E5DCA6]"
+                            )}
+                        >
+                            <p className="text-sm text-white font-semibold">
+                                {procedureType === "major" ? "Major Procedure" : "Minor Procedure"}
+                            </p>
+                        </div>
+                        <p className="text-justify text-lg mt-4 text-gray-600">{procedure.description}</p>
+                        
+                        <h3 className="text-xl font-bold mb-4 mt-5">Indications</h3>
+                        <p className="text-justify text-lg mt-4 text-gray-600">{procedure.indications}</p>
+
+
                     </div>
                 </div>
             </div>
