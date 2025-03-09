@@ -72,7 +72,9 @@ const ProcedureDetails = () => {
                         {/* Image*/}
                         <div
                             className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-scroll" : "overflow-hidden"}`}
-                            style={{ touchAction: isZoomed ? "pan-x pan-y" : "auto" }}
+                            style={{ touchAction: isZoomed ? "pan-x pan-y" : "auto",
+                                WebkitOverflowScrolling: "touch",
+                            }}
                         >
                             <img
                                 src={getProcedureImagePath(procedure.image)}
