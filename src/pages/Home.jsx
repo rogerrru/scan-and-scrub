@@ -25,11 +25,11 @@ const Home = () => {
             {/* Hero Section */}
             <div className="container mx-auto px-5 py-20 flex flex-col md:flex-row items-center gap-1" style={{ backgroundColor: "#F4F5F9" }}>
                 <div className="md:w-1/2 text-center md:text-left">
-                    <p className="text-4xl font-bold my-5">Scan&Scrub</p>
+                        <p className="text-4xl font-bold">Scan&Scrub</p>
                         <h1 className="text-6xl font-bold text-[#2E6AD9] leading-tight">
                             The QR Code Solution <br/> for OR Efficiency
                         </h1>
-                        <p className="text-xl text-gray-700 mt-6 mb-2 mr-3">
+                        <p className="text-xl text-gray-700 mt-6 mb-8 mr-5">
                             By scanning a QR code, nurses could instantly access detailed information about the specific
                             instruments required for each operation, including their functions, handling procedures, and
                             sterilization protocols.
@@ -47,16 +47,20 @@ const Home = () => {
             {/* Why This Matters Section */}
             <div className="bg-gray-100 py-20" style={{ backgroundColor: "#FFFAF1" }}>
                 <div className="container mx-auto flex flex-col md:flex-row items-center px-5">
-                    <div className="md:w-1/2 flex justify-center">
+                    <div className="md:w-1/2 flex justify-center mr-10">
                         <img src={tool_icon} alt="Surgical Tools" className="max-w-full h-auto" />
                     </div>
-                    <div className="md:w-1/2 text-center md:text-left">
-                        <h2 className="text-4xl font-bold text-[#2E6AD9]">Why this matters?</h2>
-                        <p className="text-gray-700 my-5">
-                            New OR staff and student nurses often experience high anxiety due to unfamiliarity with surgical instruments,
-                            procedures, and protocols. This anxiety can reduce efficiency, prolong surgeries, and increase the risk of errors.
+                    <div className="md:w-1/2 text-center md:text-left md:pt-8">
+                        <p className="text-4xl text-gray-700 font-bold">Project Significance</p>
+                        <h1 className="text-6xl font-bold text-[#2E6AD9] leading-tight my-3">Why this matters?</h1>
+                        <p className="text-xl text-gray-700 mb-8">
+                            New OR staff and student nurses often experience high anxiety due to unfamiliarity with
+                            surgical instruments,
+                            procedures, and protocols. This anxiety can reduce efficiency, prolong surgeries, and
+                            increase the risk of errors.
                         </p>
-                        <Link to="/about" className="bg-[#2E6AD9] text-white px-6 py-3 rounded-md font-semibold inline-block">
+                        <Link to="/about"
+                              className="bg-[#2E6AD9] text-xl text-white px-6 py-3 rounded-md font-semibold inline-block">
                             Learn More
                         </Link>
                     </div>
