@@ -62,7 +62,7 @@ const Tools = () => {
                                         <img
                                             src={getToolImagePath(tool.image)}
                                             alt={tool.name}
-                                            className="w-110 h-60 object-cover rounded-md mb-4"
+                                            className="w-110 h-60 object-contain rounded-md mb-4"
                                         />
                                         <p className="text-xl md:text-lg lg:text-xl text-center">{tool.name}</p>
                                     </div>
