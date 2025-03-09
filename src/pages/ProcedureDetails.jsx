@@ -50,9 +50,12 @@ const ProcedureDetails = () => {
         );
     }
 
+
+    console.log('Image Citation:', procedure.imageCitation);
+    console.log('Image URL:', procedure.imageUrl);
     return (
         <div className="w-screen h-screen flex flex-col">
-            <Header/>
+            <Header />
             <div className="container mx-auto px-5 py-10 flex-1">
                 <div className="max-w-6xl mx-auto">
                     <button
@@ -64,30 +67,54 @@ const ProcedureDetails = () => {
                 </div>
 
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-20">
-                    <div className="relative flex-1 flex-col items-center justify-center">
-                        <img
-                            src={getProcedureImagePath(procedure.image)}
-                            alt={procedure.name}
-                            className={`rounded-lg shadow transition-transform duration-300 ${isZoomed ? "scale-150" : "scale-100"} min-w-[300px] max-w-[500px] w-full`}
-                        />
-                        {procedure.imageCitation && (
-                            <p className="mt-2 text-sm text-gray-500 text-center italic">
-                                Source: {procedure.imageCitation}
+                    <div className="relative flex-1 flex justify-center">
+                        {/* Image*/}
+                        <div
+                            className={`relative max-h-[500px] max-w-[500px] rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-auto" : "overflow-hidden"
+                                }`}
+                        >
+                            <img
+                                src={getProcedureImagePath(procedure.image)}
+                                alt={procedure.name}
+                                className={`rounded-lg transition-transform duration-300 ${isZoomed ? "scale-150 w-auto h-auto" : "scale-100 w-full h-full"
+                                    } object-contain`}
+                                style={{
+                                    minWidth: isZoomed ? "100%" : "100%",
+                                    minHeight: isZoomed ? "100%" : "100%",
+                                    transformOrigin: isZoomed ? "top left" : "center",
+                                }}
+                                draggable="false"
+                            />
+                        </div>
+
+                        {/* Source Link */}
+                        {procedure.imageCitation && procedure.imageUrl && (
+                            <p className="mt-2 text-sm text-gray-500 text-center italic w-full absolute bottom-[-90px]">
+                                Source:{" "}
+                                <a
+                                    href={procedure.imageUrl.startsWith("http") ? procedure.imageUrl : `https://${procedure.imageUrl}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-[#2E6AD9] hover:text-blue-600 cursor-pointer"
+                                >
+                                    {procedure.imageCitation}
+                                </a>
                             </p>
                         )}
-                            <div
-                            className="absolute top-[-15px] right-[-12px] w-14 h-14 bg-[#F4F5F9] rounded-full flex items-center justify-center">
+
+                        {/* Zoom Button */}
+                        <div className="absolute top-[-15px] right-[-12px] w-14 h-14 bg-[#F4F5F9] rounded-full flex items-center justify-center z-10">
                             <button
                                 onClick={() => setIsZoomed(!isZoomed)}
                                 className="bg-[#2E6AD9] w-10 h-10 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-700 transition"
                                 aria-label={isZoomed ? "Zoom Out" : "Zoom In"}
                             >
-                                <img src={isZoomed ? zoomOutIcon : zoomInIcon} alt="Zoom Icon" className="w-5 h-5"/>
+                                <img src={isZoomed ? zoomOutIcon : zoomInIcon} alt="Zoom Icon" className="w-5 h-5" />
                             </button>
                         </div>
-                        
                     </div>
-                    
+
+
                     <div className="w-full h-full flex-1 text-justify md:text-left overflow-hidden">
                         <h2 className="text-3xl font-bold">{procedure.name}</h2>
                         <div
@@ -128,7 +155,7 @@ const ProcedureDetails = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 };
