@@ -69,11 +69,11 @@ const ToolDetails = () => {
 
                     {/* Tool Details */}
                     <div className="flex-1 text-center md:text-left">
-                        <h2 className="text-3xl font-bold ">{tool.name}</h2>
-                        <p className="text-lg mt-0.5 text-[#716C68] italic uppercase"><strong>{tool.other_names}</strong></p>
-                        <p className="text-lg mt-5 text-[#716C68]"><strong>Uses:</strong> {tool.uses}</p>
-                        <p className="text-lg mt-2 text-[#716C68]"><strong>Description:</strong> {tool.description}</p>
-                        <p className="text-lg mt-2 text-[#716C68]"><strong>Handling & Sterilization:</strong> {tool.handling}</p>
+                        <h2 className="text-3xl font-bold text-justify">{tool.name}</h2>
+                        <p className="text-lg mt-0.5 text-[#716C68] italic uppercase text-justify"><strong>{tool.other_names}</strong></p>
+                        <p className="text-lg mt-5 text-[#716C68] text-justify"><strong>Uses:</strong> {tool.uses}</p>
+                        <p className="text-lg mt-2 text-[#716C68] text-justify"><strong>Description:</strong> {tool.description}</p>
+                        <p className="text-lg mt-2 text-[#716C68] text-justify"><strong>Handling & Sterilization:</strong> {tool.handling}</p>
                     </div>
                 </div>
             </div>

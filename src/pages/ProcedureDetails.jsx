@@ -83,13 +83,13 @@ const ProcedureDetails = () => {
                         </div>
                     </div>
 
-                    <div className="w-full h-full flex-1 text-center md:text-left overflow-hidden">
+                    <div className="w-full h-full flex-1 text-center text-justify md:text-left overflow-hidden">
                         <h2 className="text-3xl font-bold">{procedure.name}</h2>
                         <div
                             className="bg-[#A6E5B4] w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0">
                             <p className="text-sm text-white font-semibold">{procedureType === "major" ? "Major Procedure" : "Minor Procedure"}</p>
                         </div>
-                        <p className="text-lg mt-4 text-gray-600">{procedure.description}</p>
+                        <p className="text-justify text-lg mt-4 text-gray-600">{procedure.description}</p>
 
                         <div className="mt-8 mb-15">
                             <div className=" w-full max-w-3xl overflow-x-auto mx-auto">
