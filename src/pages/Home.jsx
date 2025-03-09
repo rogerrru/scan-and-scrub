@@ -29,7 +29,7 @@ const Home = () => {
                         <h1 className="text-6xl font-bold text-[#2E6AD9] leading-tight">
                             The QR Code Solution <br/> for OR Efficiency
                         </h1>
-                        <p className="text-xl text-gray-700 mt-6 mb-8 mr-5">
+                        <p className="text-2xl text-justify text-gray-700 mt-6 mb-8 mr-5">
                             By scanning a QR code, nurses could instantly access detailed information about the specific
                             instruments required for each operation, including their functions, handling procedures, and
                             sterilization protocols.
@@ -53,7 +53,7 @@ const Home = () => {
                     <div className="md:w-1/2 text-center md:text-left md:pt-8">
                         <p className="text-4xl text-gray-700 font-bold">Project Significance</p>
                         <h1 className="text-6xl font-bold text-[#2E6AD9] leading-tight my-3">Why this matters?</h1>
-                        <p className="text-xl text-gray-700 mb-8">
+                        <p className="text-2xl text-justify text-gray-700 mb-8">
                             New OR staff and student nurses often experience high anxiety due to unfamiliarity with
                             surgical instruments,
                             procedures, and protocols. This anxiety can reduce efficiency, prolong surgeries, and
@@ -68,9 +68,9 @@ const Home = () => {
             </div>
 
             {/* Our Team Section */}
-            <div className="container mx-auto py-20" style={{ backgroundColor: "#F4F5F9" }}>
-                <h2 className="text-4xl font-bold text-[#2E6AD9] text-left px-5 mb-10">Our Team</h2>
-                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 px-5">
+            <div className="container mh-100 mx-auto py-20" style={{ backgroundColor: "#F4F5F9" }}>
+                <h1 className="text-6xl font-bold text-[#2E6AD9] leading-tight my-3">Our Team</h1>
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-10 px-5">
                     {teamData.map((member) => (
                         <div key={member.id} className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                             <img
