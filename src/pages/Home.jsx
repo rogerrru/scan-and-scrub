@@ -29,8 +29,7 @@ const Home = () => {
                         </h1>
                         <p className="text-lg md:text-2xl text-justify text-gray-700 mt-6 mb-8 md:mr-5">
                             By scanning a QR code, nurses could instantly access detailed information about the specific
-                            instruments required for each operation, including their functions, handling procedures, and
-                            sterilization protocols.
+                            instruments required for each operation, including their functions, handling procedures.
                         </p>
                     <Link
                         to="/procedures"
@@ -57,7 +56,7 @@ const Home = () => {
                         <h1 className="text-4xl md:text-6xl font-extrabold text-[#2E6AD9] leading-tight">
                             Why this matters?</h1>
                         <p className="text-lg md:text-2xl text-justify text-gray-700 mb-8">
-                            New OR staff and student nurses often experience high anxiety due to unfamiliarity with
+                            Student nurses often experience high anxiety due to unfamiliarity with
                             surgical instruments,
                             procedures, and protocols. This anxiety can reduce efficiency, prolong surgeries, and
                             increase the risk of errors.
