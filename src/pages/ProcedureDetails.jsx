@@ -71,7 +71,7 @@ const ProcedureDetails = () => {
                     <div className="w-full h-full relative flex-1 flex-col justify-center">
                         {/* Image*/}
                         <div
-                            className={`relative w-full h-full rounded-lg shadow transition-all duration-300 overflow-hidden rounded-lg shadow transition-all duration-300 ${isZoomed ? "overflow-scroll" : "overflow-hidden"}`}
+                            className={`relative w-full h-full rounded-lg shadow transition-all duration-300 overflow-hidden ${isZoomed ? "overflow-scroll" : "overflow-hidden"}`}
                             style={{
                                 touchAction: isZoomed ? "pan-x pan-y" : "auto",
                                 WebkitOverflowScrolling: "touch",
