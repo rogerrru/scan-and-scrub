@@ -29,7 +29,7 @@ const Home = () => {
                         </h1>
                         <p className="text-lg md:text-2xl text-justify text-gray-700 mt-6 mb-8 md:mr-5">
                             By scanning a QR code, nurses could instantly access detailed information about the specific
-                            instruments required for each operation, including their functions, handling procedures.
+                            instruments required for each operation, including their functions.
                         </p>
                     <Link
                         to="/procedures"
