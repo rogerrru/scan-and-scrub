@@ -6,7 +6,7 @@
         "name": "Curved Clamp",
         "description": "A surgical clamp with curved jaws, available in various sizes and serrations (e.g., transverse, longitudinal, or a combination). The curvature facilitates access and visualization in specific surgical fields",
         "uses": "Primarily used for clamping blood vessels to control bleeding (hemostasis). Can also be used to hold tissues or secure sutures. Specific sizes and types are chosen based on the vessel or tissue being clamped",
-        "other_names": "Curved Hemostat, Kelly Clamp (often refers to a larger size), Mosquito Clamp (often refers to a smaller, more delicate size), Crile Clamp (similar to Kelly, but often with finer serrations)",
+        "other_names": "",
         "imageUrl": "https://www.wexlersurgical.com/images//webp/FL0845_12F_TN.webpm"
     },
     {
@@ -16,7 +16,7 @@
         "name": "Straight Clamp",
         "description": "A surgical clamp with straight jaws, also available in various sizes and serrations",
         "uses": "Similar to curved clamps, they are used for clamping blood vessels and tissues, but the straight jaws may be more suitable for certain approaches or when dealing with less deep structures",
-        "other_names": "Straight Hemostat, Kelly Clamp (if larger), Crile Clamp (if medium-sized)",
+        "other_names": "Straight Forceps, Straight Hemostat, Kelly Clamp (if larger), Crile Clamp (if medium-sized)",
         "imageUrl": "https://www.wexlersurgical.com/images//webp/FL0840_12_TN_01.webp"
     },
     {
@@ -25,7 +25,7 @@
         "imageCitation": "TJM Enterprises. (n.d.). Allis Tissue Forceps. Retrieved March 9, 2025, from https://tjmenterprises.online/wp-content/uploads/2018/02/Allis-Tissue-Forcep.jpg",
         "name": "Allis Tissue Forceps",
         "description": "A forceps with multiple small, interlocking teeth at the tips. These teeth are designed to grasp tissue gently but firmly",
-        "uses": "Used for grasping and holding tissues, particularly slippery or delicate tissues like fascia, bowel, or lung tissue, during dissection or suturing.\r\nThey are designed to minimize tissue trauma",
+        "uses": "Used for grasping and holding tissues, particularly slippery or delicate tissues like fascia, bowel, or lung tissue, during dissection or suturing.\nThey are designed to minimize tissue trauma",
         "other_names": "Allis Clamp, Allis Forceps",
         "imageUrl": "https://tjmenterprises.online/wp-content/uploads/2018/02/Allis-Tissue-Forcep.jpg"
     },
@@ -56,7 +56,7 @@
         "name": "Tissue Forceps",
         "description": "Forceps with teeth at the tips. The teeth interlock to provide a secure grip on tissue",
         "uses": "Used for holding and manipulating tissue during dissection and suturing. The teeth provide a more secure grip than thumb forceps, but they can also cause more tissue trauma if not used carefully",
-        "other_names": "Toothed Forceps, Rat-Tooth Forceps",
+        "other_names": "Toothed Forceps, Rat-Tooth Forceps, Bonney",
         "imageUrl": "https://cdn.swell.store/sklar-staging/6709b001403a7e0012ab2a66/68d34b177b63af531fc518a97879ff87"
     },
     {
@@ -94,7 +94,7 @@
         "image": "10_blade holder.png",
         "imageCitation": "[Blade Holder]. (n.d.). https://down-ph.img.susercontent.com/file/ph-11134207-7r98p-lz6vyqeepfui59",
         "name": "Blade Holder",
-        "description": "A handle designed to hold a surgical blade.\r\nScalpel handles come in different sizes to accommodate different blade sizes",
+        "description": "A handle designed to hold a surgical blade.\nScalpel handles come in different sizes to accommodate different blade sizes",
         "uses": "Used for making incisions and dissecting tissues",
         "other_names": "Scalpel Handle, Knife Handle",
         "imageUrl": "https://down-ph.img.susercontent.com/file/ph-11134207-7r98p-lz6vyqeepfui59"
@@ -116,7 +116,7 @@
         "name": "Ochsner Clamp",
         "description": "A strong clamp with interlocking teeth at the tips",
         "uses": "Used for grasping tough tissues or clamping large blood vessels",
-        "other_names": "Kocher Clamp, Crusher",
+        "other_names": "Kocher, Kocher Clamp, Crusher",
         "imageUrl": "https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_182620.jpg"
     },
     {
@@ -136,14 +136,14 @@
         "name": "Laparoscope",
         "description": "A thin, rigid or flexible tube with a camera and light source",
         "uses": "Used to visualize the inside of the abdomen or other body cavities",
-        "other_names": "Endoscope (general term), Laparoscopic Telescope",
+        "other_names": "Endoscope (general term), Laparoscopic Telescope, Laparoscopic Camera",
         "imageUrl": "https://www.minitube.com/userdata/dcshop/images/normal/4902_23700-xxxx_laparoscope.jpg"
     },
     {
         "id": 15,
         "image": "15_trochar.png",
         "imageCitation": "Indo Surgicals. (n.d.). Trocar cannula. https://www.indosurgicals.com/images/products/93410-trocar-cannula.jpg",
-        "name": "Trochar",
+        "name": "Laparoscopic Trochar",
         "description": "A sharp-pointed instrument used to create an entry point into the body cavity for laparoscopic instruments. It is typically used with a cannula (sleeve) that remains in place after the trocar is removed.",
         "uses": "Creates access ports for laparoscopic instruments",
         "other_names": "Port, Cannula, Access Device",
@@ -194,8 +194,8 @@
         "image": "20_babcock grasper.png",
         "imageCitation": "Amazon. (n.d.). Surgical product. https://m.media-amazon.com/images/I/41ZRcBr0zwL.jpg",
         "name": "Babcock Grasper",
-        "description": "A laparoscopic grasping instrument with a rounded, circular, fenestrated (with an opening) tip.\r\nThis design creates a less traumatic grip on tissue. The fenestration helps to distribute pressure and minimize tissue damage.",
-        "uses": "Specifically designed for grasping and holding delicate tissues during laparoscopic procedures.\r\nIdeal for tissues that are easily damaged, such as bowel, blood vessels, or other internal organs. The atraumatic nature of the Babcock grasper makes it preferable when minimizing tissue trauma is crucial.",
+        "description": "A laparoscopic grasping instrument with a rounded, circular, fenestrated (with an opening) tip.\nThis design creates a less traumatic grip on tissue. The fenestration helps to distribute pressure and minimize tissue damage.",
+        "uses": "Specifically designed for grasping and holding delicate tissues during laparoscopic procedures.\nIdeal for tissues that are easily damaged, such as bowel, blood vessels, or other internal organs. The atraumatic nature of the Babcock grasper makes it preferable when minimizing tissue trauma is crucial.",
         "other_names": "Babcock Forceps (Laparoscopic), Atraumatic Grasper",
         "imageUrl": "https://m.media-amazon.com/images/I/41ZRcBr0zwL.jpg"
     },
@@ -204,8 +204,8 @@
         "image": "21_allis grasper.png",
         "imageCitation": "Amazon. (n.d.). Surgical product. https://m.media-amazon.com/images/I/310zjHXAavL._BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
         "name": "Allis Grasper",
-        "description": "Similar in design to the open (traditional) Allis tissue forceps, but adapted for laparoscopic use. It features multiple small, interlocking teeth at the tips.\r\nThe laparoscopic version is usually longer and thinner than the open version to allow for manipulation through trocars.",
-        "uses": "Used for grasping and holding tissues during laparoscopic surgery.\r\nThe teeth provide a more secure grip than a Babcock, but they can also cause more tissue trauma if not used carefully. Often used for grasping fascia, organs, or other tissues that require a firmer hold.",
+        "description": "Similar in design to the open (traditional) Allis tissue forceps, but adapted for laparoscopic use. It features multiple small, interlocking teeth at the tips.\nThe laparoscopic version is usually longer and thinner than the open version to allow for manipulation through trocars.",
+        "uses": "Used for grasping and holding tissues during laparoscopic surgery.\nThe teeth provide a more secure grip than a Babcock, but they can also cause more tissue trauma if not used carefully. Often used for grasping fascia, organs, or other tissues that require a firmer hold.",
         "other_names": "Allis Forceps (Laparoscopic), Tissue Grasper (Laparoscopic - with teeth).",
         "imageUrl": "https://m.media-amazon.com/images/I/310zjHXAavL._BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg"
     },
@@ -296,7 +296,7 @@
         "name": "Needle Holder",
         "description": "A ratcheted, scissor-like surgical instrument designed to securely grasp and control suture needles during suturing. It has short, serrated jaws with a central groove for a firm grip on the needle, preventing slippage.",
         "uses": "For holding and guiding needles while suturing tissues. They provide stability and control, ensuring precise and secure placement of sutures.",
-        "other_names": "Needle Driver, Surgical Needle Forceps",
+        "other_names": "Needle Driver, Surgical Needle Forceps , Mayo-Hegar Needle Holder",
         "imageUrl": "https://www.ebay.ph/itm/182482661383"
     },
     {
@@ -343,10 +343,10 @@
         "id": 35,
         "image": "35_pean.png",
         "imageCitation": "[Pean Forceps]. (n.d.). https://www.sklarcorp.com/p/Sklar-Pean-Forceps/17-1757?view=super_skus",
-        "name": " Pean Hemostatic Forceps",
+        "name": "Pean Forceps",
         "description": "Long, ring-handled, hemostatic surgical instruments with a ratcheted locking mechanism and fully serrated jaws. They are designed for strong, non-slip gripping of tissues and blood vessels.",
         "uses": "Ideal for clamping large blood vessels, controlling bleeding, and holding onto thick tissues during dissection.",
-        "other_names": "Pean, Rochester-Pean Forceps",
+        "other_names": "Pean Hemostatic Forceps, Rochester-Pean Forceps",
         "imageUrl": "https://www.sklarcorp.com/p/Sklar-Pean-Forceps/17-1757?view=super_skus"
     },
     {
@@ -356,7 +356,7 @@
         "name": "Balfour Retractor",
         "description": "A self-retaining surgical instrument designed with two lateral blades and a central blade, which can be adjusted to provide optimal exposure of the abdominal cavity. Made of stainless steel, it has a ratcheting mechanism that locks the blades in place, allowing hands-free retraction during surgery.",
         "uses": "Used to hold back the abdominal wall and soft tissues, providing a clear view of the surgical site. Its self-retaining design minimizes the need for additional assistants and ensures stable, wide exposure for procedures involving the intestines, peritoneum, and other deep structures.",
-        "other_names": "Balfour Abdominal Retractor, Self-Retaining Abdominal Retractor",
+        "other_names": "Balfour Abdominal Retractor, Self-Retaining Abdominal Retractor, Bladder Retractor",
         "imageUrl": "https://www.medicalexpo.com/prod/medicta-instruments/product-129353-965822.html"
     },
     {
@@ -583,7 +583,7 @@
         "id": 59,
         "image": "59_dilator.png",
         "imageCitation": "Wexler Surgical. (n.d.-a). Garrett Vascular Dilators | Stainless steel | Surgical Inst. https://www.wexlersurgical.com/garrett-vascular-dilators-125mm-tip-round-handle-stainless-steel-825quot-21cm-p-430.html?type=search-instrument-type",
-        "name": "Dilator",
+        "name": "Vascular Dilator",
         "description": "A stiff, tapered, cylindrical instrument made of plastic or metal, designed to gradually expand the vessel entry site after guidewire placement. It features a smooth, tapered tip to minimize trauma and facilitate the passage of a large-bore catheter.",
         "uses": "Enlarging the percutaneous entry site after the guidewire has been placed. Facilitating the insertion of central venous catheters (CVCs), hemodialysis catheters, or introducer sheaths. Reducing vessel trauma by ensuring a controlled and gradual dilation.",
         "other_names": "Vessel Dilator, Percutaneous Dilator, Introducer Dilator",
@@ -624,7 +624,7 @@
         "image": "63_ring curette.png",
         "imageCitation": "Ring Curette | 10 1/4\" (260mm) #6 - OrthoMed Surgical Tools. (n.d.). https://orthomedinc.com/surgical-instruments/bone-curettes/bone-curettes/ring-curette-10-1-4-260mm-6",
         "name": "Ring Curette",
-        "description": "A surgical instrument with a circular or oval-shaped blade with a sharp edge.\r\nRing curettes come in various sizes and angles.",
+        "description": "A surgical instrument with a circular or oval-shaped blade with a sharp edge.\nRing curettes come in various sizes and angles.",
         "uses": "Used for scraping or removing tissue, particularly within bony cavities or lesions.",
         "other_names": "Curette, Ring Curette, Bone Curette",
         "imageUrl": "https://orthomedinc.com/surgical-instruments/bone-curettes/bone-curettes/ring-curette-10-1-4-260mm-6"
@@ -680,6 +680,16 @@
         "imageUrl": "https://www.merillife.com/medical-devices/endosurgery/endo-mechancial-staplers/open-surgery/mirus-skin-stapler"
     },
     {
+        "id": 69,
+        "image": "69_bulldog clamp.png",
+        "imageCitation": "GermedUSA. (n.d.). DeBakey bulldog clamps, straight. [Website link].",
+        "name": "Bulldog Clamp",
+        "description": "Mechanical device used to temporarily occlude blood flow in vessels during surgical procedures. Available in various sizes and strengths.",
+        "uses": "Used in vascular and other surgeries to provide a bloodless field, allowing for precise dissection and repair.",
+        "other_names": "DeBakey Bulldog Clamp, Serrefine, Vascular Clamp, Bulldog Forceps",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.germedusa.com%2Fp-13871-debakey-bulldog-clamps-straight.aspx&psig=AOvVaw2RqjGMFl7nfEJldeJLSB2u&ust=1741712935538000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLj2kLiAgIwDFQAAAAAdAAAAABAE"
+    },
+    {
         "id": 70,
         "image": "70_yankauer suction tip.png",
         "imageCitation": "[Yankauer Suction Tip]. (n.d.). http://centramedphils.com/product/yankauer-suction-tip/",
@@ -698,6 +708,26 @@
         "uses": "Used in open abdominal surgeries, such as exploratory laparotomies, to efficiently remove irrigation fluid and blood.",
         "other_names": "Abdominal Suction Tip",
         "imageUrl": "https://surtex-instruments.com/product/poole-suction-tube/"
+    },
+    {
+        "id": 72,
+        "image": "72_gillies skin hook.png",
+        "imageCitation": "DTR Medical. (n.d.). Gillies skin hook. DTR Mhttps://www.google.com/url?sa=i&url=https%3A%2F%2Fdtrmedical.com%2Fproduct%2Fgillies-skin-hook%2F&psig=AOvVaw1KoF_ILxDe6GWeV2x_MHU-&ust=1741713489208000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCiqcCCgIwDFQAAAAAdAAAAABAEedical. (n.d.). Gillies skin hook",
+        "name": "Gillies Skin Hook",
+        "description": "Handheld instrument with a sharp, single hook at the working end, used for retracting and manipulating skin edges",
+        "uses": "Used in skin closure and other procedures to elevate and hold skin margins, facilitating suturing or stapling.",
+        "other_names": "Skin Hook",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdtrmedical.com%2Fproduct%2Fgillies-skin-hook%2F&psig=AOvVaw1KoF_ILxDe6GWeV2x_MHU-&ust=1741713489208000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCiqcCCgIwDFQAAAAAdAAAAABAE"
+    },
+    {
+        "id": 73,
+        "image": "73_vessel loops.png",
+        "imageCitation": "REDA. (n.d.). Vessel loops. https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reda.com.sg%2Fproduct%2Fvessel-loops%2F&psig=AOvVaw3ntwZmpCofZld_u1hakKoM&ust=1741713494769000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCWocuCgIwDFQAAAAAdAAAAABAE",
+        "name": "Vessel Loops",
+        "description": "Flexible, colored silicone or latex bands used to encircle and gently retract or occlude blood vessels or other tubular structures.",
+        "uses": "Used in vascular, cardiac, and general surgery to isolate and control blood flow, identify structures, or provide gentle retraction.",
+        "other_names": "Vascular Loops",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reda.com.sg%2Fproduct%2Fvessel-loops%2F&psig=AOvVaw3ntwZmpCofZld_u1hakKoM&ust=1741713494769000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCWocuCgIwDFQAAAAAdAAAAABAE"
     },
     {
         "id": 74,
@@ -776,7 +806,7 @@
         "name": "Cannulated Drill Bits",
         "description": "Hollow, cylindrical surgical drills designed to be used over a guidewire for precise bone drilling.",
         "uses": "Drilling femoral and tibial tunnels for ACL graft placement. Ensuring accurate tunnel positioning by following the guidewire trajectory. Minimizing bone damage and misalignment compared to solid drill bits.",
-        "other_names": "Guidewire Drill Bits, Hollow Core Drill Bits, Cannulated Bone Drills",
+        "other_names": "Guidewire Drill Bits, Hollow Core Drill Bits, Cannulated Bone Drills, Orthopaedic Bone Drill",
         "imageUrl": "https://iwet.vet/en/produkt/cannulated-drill-bits/"
     },
     {
@@ -860,12 +890,22 @@
         "imageUrl": "https://www.medtronic.com/en-us/healthcare-professionals/products/surgical-stapling/surgical-staplers/laparoscopic-staplers/endo-gia-ultra-universal-stapler.html"
     },
     {
+        "id": 90,
+        "image": "90_foerster sponge forceps",
+        "imageCitation": "Ubuy. (n.d.). Foerster sponge forceps, 8\" straight serrated. https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ubuy.com.ph%2Fproduct%2FRWJ2ECS-10-foerster-sponge-forceps-8-straight-serrated-surgical-holding-veterinary-instruments&psig=AOvVaw1f747fcQyaF8-zrNwmzDyU&ust=1741715122011000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOje3M2IgIwDFQAAAAAdAAAAABAE",
+        "name": "Foerster Sponge Forceps",
+        "description": "Mechanical handheld grasping instrument with oval, serrated tips. Available in straight or curved variations.",
+        "uses": "Used for grasping sponges, cotton swabs, or tissue during surgical procedures.",
+        "other_names": "Sponge Forceps, Sponge Holding Forceps",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ubuy.com.ph%2Fproduct%2FRWJ2ECS-10-foerster-sponge-forceps-8-straight-serrated-surgical-holding-veterinary-instruments&psig=AOvVaw1f747fcQyaF8-zrNwmzDyU&ust=1741715122011000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOje3M2IgIwDFQAAAAAdAAAAABAE"
+    },
+    {
         "id": 91,
         "image": "91_specimen grasper.png",
         "imageCitation": "Forceps, specimen paddle. (2025, January 17). Mortech Manufacturing. https://www.mortechmfg.com/product/forceps-specimen-paddle/",
         "name": "Specimen Grasper",
-        "description": "A forceps designed with broad, secure jaws to firmly grasp and transport excised tissue specimens without causing damage.",
-        "uses": "Used for handling and transferring specimens from the surgical field to a specimen container, ensuring minimal tissue trauma.",
+        "description": "Used for handling and transferring specimens from the surgical field to a specimen container, ensuring minimal tissue trauma.",
+        "uses": "Also used for manipulating and removing foreign objects",
         "other_names": "Specimen forceps, Specimen retrieval forceps.",
         "imageUrl": "https://www.mortechmfg.com/product/forceps-specimen-paddle/"
     },
@@ -997,7 +1037,7 @@
         "description": "Spoon or scoop-shaped instruments with sharp edges used to scrape or remove bone and soft tissues.",
         "uses": "Used in neurosurgical, spinal, and orthopedic procedures to remove bone fragments and clean out lesion sites.",
         "other_names": "Bone Scrapers",
-        "imageUrl": "https://www.ebay.ph/itm/162349722048"
+        "imageUrl": "orcep"
     },
     {
         "id": 105,
@@ -1088,5 +1128,645 @@
         "uses": "Used for lifting periosteum from bone.",
         "other_names": "Bone elevator",
         "imageUrl": "https://www.germedusa.com/p-11767-periosteal-elevators.aspx"
+    },
+    {
+        "id": 114,
+        "image": "114_umbilical cord clamp.png",
+        "imageCitation": "GSTC. (n.d.). Umbilical cord clamp. GSTC. https://www.gstc.com/product/umbilical-cord-clamp/",
+        "name": "Umbilical Cord Clamp",
+        "description": "A clamp used to occlude the umbilical cord after birth to prevent bleeding before it is cut.",
+        "uses": "Used during childbirth to clamp the umbilical cord shortly after delivery, preventing blood loss from the cord until it is severed.",
+        "other_names": "Cord clamp, obstetrical cord clamp",
+        "imageUrl": "https://www.gstc.com/product/umbilical-cord-clamp/"
+    },
+    {
+        "id": 115,
+        "image": "115_russian forcep.png",
+        "imageCitation": "GermedUSA. (n.d.). Gynecological tissue forceps. GermedUSA. https://www.germedusa.com/p-12765-gynecological-tissue-forceps.aspx",
+        "name": "Russian Forceps",
+        "description": "A type of forceps with a rounded, cupped design, used in obstetrics for assisting with delivery.",
+        "uses": "Typically used for assisting in the delivery of the baby during a vaginal birth, especially in cases of fetal distress or prolonged labor.",
+        "other_names": "Obstetrical forceps, cupped forceps",
+        "imageUrl": "https://www.germedusa.com/p-12765-gynecological-tissue-forceps.aspx"
+    },
+    {
+        "id": 116,
+        "image": "116_orthopaedic implants.png",
+        "imageCitation": "MJ Surgical. (n.d.). About us. MJ Surgical. https://www.mjsurgical.com/about-us/",
+        "name": "Orthopaedic Implants",
+        "description": "Orthopaedic implants are medical devices designed to support, replace, or stabilize damaged bones, joints, or cartilage.",
+        "uses": "They are used in fracture fixation, joint replacement, spinal stabilization, and deformity correction surgeries.",
+        "other_names": "Bone implants, Surgical implants, Orthopaedic prosthetics, Internal fixation devices, Joint replacement implants, Fracture fixation devices",
+        "imageUrl": "https://www.mjsurgical.com/about-us/"
+    },
+    {
+        "id": 117,
+        "image": "117_tenotomy scissors.png",
+        "imageCitation": "Accuspire. (n.d.). Stevens tenotomy scissors \u2013 11-131S. Accuspire. https://www.accuspire.com/stevens-tenotomy-scissors-11-131s/",
+        "name": "Tenotomy Scissors",
+        "description": "A tenotomy scissor is a surgical instrument with fine, sharp, or blunt-tipped blades used for precise cutting of soft tissues, especially in delicate procedures.",
+        "uses": "It is commonly used in ophthalmic, plastic, and orthopedic surgeries to cut tendons, tissues, or sutures with precision.",
+        "other_names": "Stevens scissors, Delicate dissecting scissors",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.accuspire.com%2Fstevens-tenotomy-scissors-11-131s%2F&psig=AOvVaw22yHhbqFLerWQWgVG8v0q7&ust=1741704650325000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDV8srh_4sDFQAAAAAdAAAAABAI"
+    },
+    {
+        "id": 118,
+        "image": "118_double hook retractor.png",
+        "imageCitation": "Siora Surgicals Private Limited. (n.d.). Double hook retractor. Siora Surgicals Private Limited. https://www.siiora.com/product/double-hook-retractor/",
+        "name": "Double Hook Retractor",
+        "description": "A double hook retractor is a surgical instrument with two curved, pointed hooks used to hold back soft tissues or skin for better exposure during procedures.",
+        "uses": "It is commonly used in plastic surgery, dermatologic procedures, and orthopedic surgeries to retract delicate tissues with minimal trauma.",
+        "other_names": "Skin hook retractor, Tenotomy hook, Surgical hook retractor",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.siiora.com%2Fproduct%2Fdouble-hook-retractor%2F&psig=AOvVaw1ycE7oMj3viIOdeedEtNVd&ust=1741705435726000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjVyMLk_4sDFQAAAAAdAAAAABAO"
+    },
+    {
+        "id": 119,
+        "image": "119_stockinette.png",
+        "imageCitation": "NineLife. (n.d.). McKesson stockinette bandage wrap. NineLife. https://ninelife.ph/products/mckesson-stockinette-bandage-wrap-cotton-single-ply-nonsterile-bias-cut-size-1-4-in-x-50-yd-1-count-1-pack",
+        "name": "Stockinette",
+        "description": "A soft, stretchable fabric tube used as a protective layer under casts or splints.",
+        "uses": "It prevents skin irritation and provides a barrier between the skin and casting materials",
+        "other_names": "Cast liner, Tubular bandage",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fninelife.ph%2Fproducts%2Fmckesson-stockinette-bandage-wrap-cotton-single-ply-nonsterile-bias-cut-size-1-4-in-x-50-yd-1-count-1-pack&psig=AOvVaw3soHNflTPBkFVqkKuqBAoO&ust=1741705776710000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjuj-Tl_4sDFQAAAAAdAAAAABAJ"
+    },
+    {
+        "id": 120,
+        "image": "120_padding.png",
+        "imageCitation": "OPC Health. (n.d.). Webril undercast padding. OPC Health. https://www.opchealth.com.au/images/thumbs/0000984_webril-undercast-padding_510.jpeg",
+        "name": "Padding (Webril)",
+        "description": "A soft, cotton or synthetic material placed under casts for cushioning and protection.",
+        "uses": "It prevents pressure sores and ensures comfort while wearing a cast",
+        "other_names": "Cast padding, Under-cast padding",
+        "imageUrl": "https://www.opchealth.com.au/images/thumbs/0000984_webril-undercast-padding_510.jpeg"
+    },
+    {
+        "id": 121,
+        "image": "121_plaster.png",
+        "imageCitation": "Amazon. (n.d.). Fiberglass casting tape. Amazon. https://m.media-amazon.com/images/I/81GiIGF8TfL.AC_UF894,1000_QL80.jpg",
+        "name": "Plaster or fiberglass rolls",
+        "description": "Malleable strips used to create orthopedic casts for immobilizing fractures or injuries.",
+        "uses": "They harden upon exposure to water, forming a rigid support structure.",
+        "other_names": "Plaster of paris, Casting tape, Orthopedic casting rolls",
+        "imageUrl": "https://m.media-amazon.com/images/I/81GiIGF8TfL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 122,
+        "image": "122_bandage shears.png",
+        "imageCitation": "Wilcare. (n.d.). Bandage scissors. Wilcare. https://wilcare.com.ph/cdn/shop/products/Bandage-Scissors_600x600.jpg?v=1564960552",
+        "name": "Bandage Shears",
+        "description": "Heavy-duty scissors with an angled, blunt tip designed for cutting bandages and dressings.",
+        "uses": "They safely remove bandages, dressings, or medical tapes without injuring the skin.",
+        "other_names": "Trauma shears, Medical scissors",
+        "imageUrl": "https://wilcare.com.ph/cdn/shop/products/Bandage-Scissors_600x600.jpg?v=1564960552"
+    },
+    {
+        "id": 123,
+        "image": "123_plaster spreader.png",
+        "imageCitation": "",
+        "name": "Plaster Spreader",
+        "description": "A hand tool with wide, curved jaws used to pry open hardened plaster casts.",
+        "uses": "It facilitates the safe removal of a cast by loosening its structure before cutting.",
+        "other_names": "Cast spreader, Orthopedic cast breaker",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5_q2d3WsztC2HqKyZEdTs2FClOqpKK_E-Ww&s"
+    },
+    {
+        "id": 124,
+        "image": "124_cast saw.png",
+        "imageCitation": "Wikimedia Commons. (n.d.). Elektrische Gipss\u00e4ge [Electric cast saw]. Wikimedia Commons. https://upload.wikimedia.org/wikipedia/commons/3/3f/Elektrische_Gipss%C3%A4ge.JPG",
+        "name": "Cast saw (for removal)",
+        "description": "A specialized oscillating saw designed to cut through plaster or fiberglass casts without harming the skin.",
+        "uses": "It is used in medical settings to safely remove orthopedic casts.",
+        "other_names": "Orthopedic saw, Cast cutter",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Elektrische_Gipss%C3%A4ge.JPG"
+    },
+    {
+        "id": 125,
+        "image": "125_tonsil clamp.png",
+        "imageCitation": "GermedUSA. (n.d.). Schnidt tonsil hemostatic forceps. https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.germedusa.com%2Fp-13202-schnidt-tonsil-hemostatic-forceps.aspx&psig=AOvVaw3UBwY7WHqOzfbEG4sz-1rk&ust=1741715818029000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDt1J6LgIwDFQAAAAAdAAAAABAK",
+        "name": "Tonsil Clamp",
+        "description": "Mechanical handheld clamping instrument with curved, serrated jaws. Available in various lengths and designs.",
+        "uses": "Used in tonsillectomies and other throat surgeries to clamp and secure blood vessels or tissue.",
+        "other_names": "Tonsillar Clamp",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.germedusa.com%2Fp-13202-schnidt-tonsil-hemostatic-forceps.aspx&psig=AOvVaw3UBwY7WHqOzfbEG4sz-1rk&ust=1741715818029000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDt1J6LgIwDFQAAAAAdAAAAABAK"
+    },
+    {
+        "id": 126,
+        "image": "126_Lung grasping forcep.png",
+        "imageCitation": "Lovelace Lung Grasping Forceps | GerMedUSA Inc. (n.d.). https://www.germedusa.com/p-12660-lovelace-lung-grasping-forceps.aspx",
+        "name": "Lung Grasping Forcep",
+        "description": "These are specialized, long-handled forceps with serrated or smooth jaws designed for atraumatic handling of lung tissue during thoracic surgeries. They are typically made of stainless steel.",
+        "uses": "Used to grasp and hold lung tissue without causing damage during procedures such as lobectomies or biopsies.",
+        "other_names": "Lung Holding Forceps, Duval Lung Forceps (if triangular in shape), Atraumatic Lung Forceps",
+        "imageUrl": "https://www.germedusa.com/p-12660-lovelace-lung-grasping-forceps.aspx"
+    },
+    {
+        "id": 127,
+        "image": "127_Guidewire Dilating forcep.png",
+        "imageCitation": "BSIPL Tracheal Dilating Forceps Double Sping Action 6.5 inch Stainless steel\u202f: Amazon.in: Industrial & Scientific. (n.d.). https://www.amazon.in/BSIPL-Tracheal-Dilating-Forceps-Stainless/dp/B09QH6FJB2",
+        "name": "Guidewire Dilating Forcep",
+        "description": "A long, slender, and curved or straight forceps designed to facilitate the dilation of tissues around a guidewire during procedures such as tracheostomy or central venous catheter placement.",
+        "uses": "Used to dilate soft tissues and create a tract over a guidewire for catheter or tube insertion.",
+        "other_names": "Trousseau Dilating Forceps, Tracheostomy Dilator, Wire Introducer Forceps",
+        "imageUrl": "https://www.amazon.in/BSIPL-Tracheal-Dilating-Forceps-Stainless/dp/B09QH6FJB2"
+    },
+    {
+        "id": 128,
+        "image": "128_ Finochietto Rib Retractor.png",
+        "imageCitation": "Finochietto Rib Spreader Infant alum blades 3/4\" [15mm] x 1/2\" [12mm] x 4\" [100mm] opening - gSource. (2025, January 20). gSource. https://www.gsource.com/instruments/spine/spine-retractors-self-retaining/finochietto-rib-spine-retractors-self-retaining/finochietto-rib-spreader-infant-alum-blades-3-4-15mm-x-1-2-12mm-x-4-100mm-opening/",
+        "name": "Finochietto Rib Retractor",
+        "description": "a self-retaining, mechanical retractor with adjustable, curved blades designed to separate the ribs during thoracic surgery. It has a ratchet mechanism for gradual and controlled spreading.",
+        "uses": "Used to retract and hold open the rib cage for access to thoracic organs, such as during open-heart surgery or thoracotomy.",
+        "other_names": "Thoracic Retractor, Chest Wall Retractor",
+        "imageUrl": "https://www.gsource.com/instruments/spine/spine-retractors-self-retaining/finochietto-rib-spine-retractors-self-retaining/finochietto-rib-spreader-infant-alum-blades-3-4-15mm-x-1-2-12mm-x-4-100mm-opening/"
+    },
+    {
+        "id": 129,
+        "image": "129_Rib Spreader.png",
+        "imageCitation": "IndiaMART. (n.d.). Rib spreader retractor. IndiaMART. https://www.indiamart.com/proddetail/rib-spreader-retractor-22518899455.html",
+        "name": "Rib Spreader",
+        "description": "A general term for instruments used to separate ribs. It can be manual or self-retaining and consists of two arms with blades that are spread apart to create an opening in the rib cage.",
+        "uses": "Used to spread the ribs apart during thoracic surgeries to allow access to the lungs, heart, or other thoracic structures.",
+        "other_names": "Chest Spreader, Thoracic Spreader",
+        "imageUrl": "https://www.indiamart.com/proddetail/rib-spreader-retractor-22518899455.html"
+    },
+    {
+        "id": 130,
+        "image": "130_green retractor.png",
+        "imageCitation": "Marina Medical. (n.d.). Green thyroid retractor. Marina Medical. https://marinamedical.com/product/green-thyroid-retractor/",
+        "name": "Green Thyroid Retractor",
+        "description": "A handheld, curved retractor with a fenestrated blade.",
+        "uses": "It is used to gently retract the thyroid gland and surrounding tissues for better exposure during thyroidectomy and neck surgeries.",
+        "other_names": "Green Retractor, Loop Retractor",
+        "imageUrl": "https://marinamedical.com/product/green-thyroid-retractor/"
+    },
+    {
+        "id": 131,
+        "image": "131_lahey thyroid retractor.png",
+        "imageCitation": "GermedUSA. (n.d.). Lahey thyroid retractor 7 1/2\". GermedUSA. https://www.germedusa.com/p-3046-lahey-thyroid-retractor-7-12.aspx",
+        "name": "Lahey Thyroid Retractor",
+        "description": "A right-angled, handheld retractor designed for deep tissue retraction",
+        "uses": "It is used to elevate and retract soft tissues, particularly the thyroid gland, to improve visibility and access in thyroid and other cervical surgeries.",
+        "other_names": "Lahey Retractor, Lahey Goiter Retractor",
+        "imageUrl": "https://www.germedusa.com/p-3046-lahey-thyroid-retractor-7-12.aspx"
+    },
+    {
+        "id": 132,
+        "image": "132_nerve stimulator.png",
+        "imageCitation": "Clinilab. (n.d.). Checkpoint [Nerve Stimulator]. Clinilab. https://www.clinilab.gr/en/product/checkpoint-en/",
+        "name": "Nerve Stimulator",
+        "description": "A medical device that delivers electrical impulses to nerves to assess their function and integrity during surgery",
+        "uses": "It is used to identify and protect nerves, particularly in procedures like thyroidectomy and parotidectomy, to prevent accidental nerve injury.",
+        "other_names": "Nerve Stimulator, Peripheral Nerve Stimulator, Intraoperative Nerve Monitor",
+        "imageUrl": "https://www.clinilab.gr/en/product/checkpoint-en/"
+    },
+    {
+        "id": 133,
+        "image": "133_gomco clamp.png",
+        "imageCitation": "IndoSurgicals. (n.d.). Gomco circumcision clamp. IndoSurgicals. https://www.indosurgicals.com/surgical-instruments-manufacturer/other-instruments/93600-gomco-circumcision-clamp.php",
+        "name": "Gomco Clamp",
+        "description": "A specialized surgical instrument consisting of a metal bell and a clamping mechanism designed for neonatal and infant circumcision.",
+        "uses": "t is used to safely remove the foreskin by crushing and cutting it, minimizing bleeding and promoting proper healing.",
+        "other_names": "Gomco Clamp, Gomco Circumcision Clamp, Gomco Devic",
+        "imageUrl": "https://www.indosurgicals.com/surgical-instruments-manufacturer/other-instruments/93600-gomco-circumcision-clamp.php"
+    },
+    {
+        "id": 134,
+        "image": "134_mogen clamp.png",
+        "imageCitation": "Medline. (n.d.). K\u00f6nig Mogen circumcision clamps. Medline. https://punchout.medline.com/product/Knig-Mogen-Circumcision-Clamps/Z05-PF09262",
+        "name": "Mogen Clamp",
+        "description": "A specialized, flat, hinged clamp with a narrow slit designed for quick and efficient circumcision.",
+        "uses": "It is used to grasp and shield the foreskin, allowing for a swift and precise excision while minimizing tissue trauma and bleeding.",
+        "other_names": "Mogen Circumcision Clamp, Mogen Device",
+        "imageUrl": "https://www.medline.com/product/Knig-Mogen-Circumcision-Clamps/Z05-PF09262"
+    },
+    {
+        "id": 135,
+        "image": "135_coban wrap.png",
+        "imageCitation": "Shop Wound Care. (n.d.). 3M Coban self-adherent wrap with hand tear 1.5\" x 5 yds. Retrieved March 13, 2025, from https://www.shopwoundcare.com/p-a3m-coban-self-adherent-wrap-with-hand-tear-15-5-yds.html",
+        "name": "Coban Wrap",
+        "description": "The Coban wrap is a self-adherent, elastic bandage used for compression and support.",
+        "uses": "It is commonly used in medical and sports settings to secure dressings, reduce swelling, and provide support to sprains and strains. The wrap sticks to itself without the need for clips or adhesives, making it easy to apply and remove.",
+        "other_names": "self-adherent wrap, cohesive bandage, self-adhesive wrap",
+        "imageUrl": "https://www.shopwoundcare.com/p-a3m-coban-self-adherent-wrap-with-hand-tear-15-5-yds.html"
+    },
+    {
+        "id": 136,
+        "image": "136_tonsil scissors.png",
+        "imageCitation": "Trusted manufacturer and supplier of tonsil scissor | IndoSurgicals. (n.d.). https://www.indosurgicals.com/surgical-instruments-manufacturer/scissors/94075-tonsil-scissor.php",
+        "name": "Tonsil scissors",
+        "description": "Tonsil scissors are specialized surgical scissors with long, slender, and slightly curved blades designed for precise cutting of tissues in the deep areas of the throat during a tonsillectomy. They have a fine tip to allow controlled dissection of the tonsillar tissue while minimizing trauma to surrounding structures",
+        "uses": "Tonsil scissors are primarily used for cutting and dissecting the tonsillar tissue from its surrounding attachments. They assist in the careful removal of the tonsils while preserving nearby structures. They can also be used for trimming excess tissue and ensuring a clean surgical field.",
+        "other_names": "Boettcher scissors, Fisher tonsil scissors, Strully scissors",
+        "imageUrl": "https://www.indosurgicals.com/images/products/94075-tonsil-scissors.jpg"
+    },
+    {
+        "id": 137,
+        "image": "137_Denis Brown Tonsil Holding Forceps.png",
+        "imageCitation": "DENIS BROWNE TONSIL HOLDING FORCEPS 200MM. (n.d.). Olu\u015fum Cerrahi Aletler. https://www.olusumcerrahi.com/en/urun/DENIS-BROWNE-TONSIL-HOLDING-FORCEPS-200-MM",
+        "name": "Denis Brown Tonsil Holding Forceps",
+        "description": "The Denis-Browne tonsil holding forceps are specialized surgical instruments designed with a long, curved structure and a ratcheted locking mechanism. The jaws have serrations or fenestrations to securely grasp the tonsil tissue during a tonsillectomy, preventing slippage and ensuring precise removal.",
+        "uses": "These forceps are used to firmly grasp and stabilize the tonsil during dissection, allowing the surgeon to excise the tissue with better control. They help in reducing trauma to surrounding structures and facilitate efficient removal of the tonsils.",
+        "other_names": "Tonsil grasping forceps, Tonsil holding clamp.",
+        "imageUrl": "https://www.olusumcerrahi.com/en/urun/DENIS-BROWNE-TONSIL-HOLDING-FORCEPS-200-MM"
+    },
+    {
+        "id": 138,
+        "image": "138_tonsil snare.png",
+        "imageCitation": "Surtex Instruments.com. (n.d.). Tonsil Snares Archives. https://surtex-instruments.com/product-category/ancillary-products-and-accessories/ancillary-products-and-accessories-tonsil-snares/",
+        "name": "Tonsil Snare",
+        "description": "A tonsil snare is a surgical instrument consisting of a long handle with a looped wire at the tip, which can be tightened to encircle and sever the tonsil from its attachments. It is designed to provide controlled removal of the tonsils while minimizing bleeding.",
+        "uses": "The tonsil snare is used in tonsillectomy to excise the tonsil by tightening the wire loop around its base, effectively cutting through the tissue while simultaneously constricting blood vessels to reduce hemorrhage. It is particularly useful in cold dissection techniques.",
+        "other_names": "Tonsil wire snare, Eve\u2019s tonsil snare.",
+        "imageUrl": "https://surtex-instruments.com/product-category/ancillary-products-and-accessories/ancillary-products-and-accessories-tonsil-snares/"
+    },
+    {
+        "id": 139,
+        "image": "139_beckmann adenoid curette.png",
+        "imageCitation": "DTR Medical. (2021, August 18). Beckmann Adenoid Curette - DTR Medical. https://dtrmedical.com/product/beckmann-adenoid-curette/",
+        "name": "Beckmann Adenoid Curette",
+        "description": "The Beckmann adenoid curette, also known as a tonsil curette, is a long-handled surgical instrument with a sharp, looped or fenestrated blade designed for scraping and removing hypertrophic adenoid or tonsillar tissue. Some variations include a safety guard to prevent excessive tissue removal.",
+        "uses": "This instrument is primarily used in adenoidectomy to excise adenoid tissue from the nasopharynx and in tonsillectomy to remove residual tonsillar tissue. It provides precise tissue removal with minimal trauma to surrounding structures.",
+        "other_names": "Adenoid curette, Adenoid removal curette, Beckmann adenotome, tonsil curette",
+        "imageUrl": "https://dtrmedical.com/product/beckmann-adenoid-curette/"
+    },
+    {
+        "id": 140,
+        "image": "140_hurd dissector and pillar retractor.png",
+        "imageCitation": "Hurd Tonsil Dissector and Pillar Retractor | GERMedUSA Inc. (n.d.). https://www.germedusa.com/p-13245-hurd-tonsil-dissector-and-pillar-retractor.aspx",
+        "name": "Hurd Dissector and Pillar Retractor",
+        "description": "The Hurd dissector and pillar retractor is a dual-purpose surgical instrument with a flat, slightly curved blade on one end (dissector) and a hooked or angled retractor on the other. It is designed for use in tonsillectomy and adenoidectomy procedures.",
+        "uses": "The dissector end is used to separate and mobilize the tonsil from surrounding tissues, aiding in dissection. The pillar retractor end is used to retract the anterior and posterior pillars of the tonsillar fossa, improving visibility and access to the surgical site.",
+        "other_names": "Hurd elevator, Tonsil pillar retractor, Hurd dissector",
+        "imageUrl": "https://www.germedusa.com/p-13245-hurd-tonsil-dissector-and-pillar-retractor.aspx"
+    },
+    {
+        "id": 141,
+        "image": "141_davis-boyle mouth gag with plate",
+        "imageCitation": "Boyle Davis Mouth Gag with Tonsil plates Adult 5 Attachments Surgical Instrument | eBay. (n.d.). eBay. https://www.ebay.ph/itm/354757573456",
+        "name": "Davis-Boyle Mouth Gag with Plates",
+        "description": "The Davis-Boyle mouth gag is a self-retaining surgical instrument consisting of a metal frame with an adjustable ratchet mechanism, tongue depressor, and lateral plates. It is designed to keep the mouth open and the tongue depressed, providing a clear surgical field during oral and throat procedures.",
+        "uses": "This mouth gag is primarily used in tonsillectomy, adenoidectomy, and other oropharyngeal surgeries to maintain mouth opening, improve visibility, and facilitate safe access to the surgical site. The plates help protect the lips and prevent pressure injuries.",
+        "other_names": "Boyle-Davis mouth gag, Tonsillectomy mouth gag, Boyle\u2019s mouth gag.",
+        "imageUrl": "https://www.ebay.ph/itm/354757573456"
+    },
+    {
+        "id": 142,
+        "image": "142_mosquito hemostat.png",
+        "imageCitation": "Ortho Technology. (n.d.). Mosquito Hemostat \u2013 Curved. Ortho Technology. Retrieved March 13, 2025, from https://www.orthotechnology.com/shop/instruments/mosquito-hemostat-curved/",
+        "name": "Mosquito Hemostat",
+        "description": "The Mosquito Hemostat is a small, straight or curved hemostatic forceps with fine, serrated jaws.",
+        "uses": "It is primarily used for clamping small blood vessels or delicate tissues to control bleeding during surgical procedures.",
+        "other_names": "Halsted Mosquito Forceps, Mosquito Clamps",
+        "imageUrl": "https://www.orthotechnology.com/shop/instruments/mosquito-hemostat-curved/"
+    },
+    {
+        "id": 143,
+        "image": "143_cobb curette.png",
+        "imageCitation": "Buxton Bio. (n.d.). Cobb curette angled 6\". Retrieved March 13, 2025, from https://buxtonbio.com/cobb_curette_angled_6_10442",
+        "name": "Cobb Curette",
+        "description": "The Cobb Curette is a long, slender instrument featuring a curved or straight, scoop-shaped tip.",
+        "uses": "It is designed for scraping and removing soft tissue or bone, particularly in spinal surgeries such as laminectomy.",
+        "other_names": "Spinal Curette, Cobb Spinal Curette",
+        "imageUrl": "https://buxtonbio.com/cobb_curette_angled_6_10442"
+    },
+    {
+        "id": 144,
+        "image": "144_freer elevator.png",
+        "imageCitation": "Dispomed. (n.d.). Freer periosteal elevator double ended long handle.Dispomed. https://www.dispomed.com/products/freer-periosteal-elevator-double-ended-long-handle/",
+        "name": "Freer Elevator",
+        "description": "The Freer elevator is a double-ended surgical instrument with a slightly curved, blunt tip.",
+        "uses": "It is used to lift and separate soft tissues, such as periosteum from bone, in procedures involving nasal, sinus, or orthopedic surgeries. It is also used in septoplasty and rhinoplasty to dissect nasal cartilage.",
+        "other_names": "periosteal elevator, nasal elevator",
+        "imageUrl": "https://www.dispomed.com/products/freer-periosteal-elevator-double-ended-long-handle/"
+    },
+    {
+        "id": 145,
+        "image": "145_laminectomy rongeurs.png",
+        "imageCitation": "Surtex Instruments. (n.d.). Cushing laminectomy rongeur.Surtex Instruments. https://surtex-instruments.com/product/cushing-laminectomy-rongeur/",
+        "name": "Laminectomy Rongeurs",
+        "description": "The Laminectomy Rongeurs is a heavy-duty, double-action forceps with sharp, scoop-like tips.",
+        "uses": "Utilized for excising small pieces of bone, particularly in procedures involving decompression of the spinal cord or nerve roots.",
+        "other_names": "Kerrison Rongeur, Leksell Rongeur",
+        "imageUrl": "https://surtex-instruments.com/product/cushing-laminectomy-rongeur/"
+    },
+    {
+        "id": 146,
+        "image": "146_penrose drain.png",
+        "imageCitation": "Pioneer Veterinary Products. (n.d.). Penrose drains. Retrieved March 13, 2025, from https://pioneervet.co.uk/product/6302/penrose-drains",
+        "name": "Penrose Drain",
+        "description": "The Penrose drain is a soft, flexible rubber tube used for passive drainage of fluids from a surgical site or wound.",
+        "uses": "It helps prevent fluid buildup and promotes healing by allowing fluids to escape through capillary action. It is commonly used in abdominal, thoracic, and orthopedic surgeries.",
+        "other_names": "rubber drain, passive surgical drain",
+        "imageUrl": "https://pioneervet.co.uk/product/6302/penrose-drains"
+    },
+    {
+        "id": 147,
+        "image": "147_Resectoscope.png",
+        "imageCitation": "Richard Wolf GmbH. (n.d.). Princess resectoscope. Richard Wolf Website. https://www.richard-wolf.com/en/disciplines/gynecology/princess-resectoscope",
+        "name": "Resectoscope",
+        "description": "A thin, tube-like instrument used to remove tissue from inside the body. A resectoscope has a light and a lens for viewing. It also has a tool that uses an electric current to cut, remove, or destroy tissue and control bleeding. In men, a resectoscope is inserted through the urethra into the bladder or prostate.",
+        "uses": "A resectoscope is a medical instrument used to remove tissue, examine organs, and control bleeding. It's a thin, tube-like device with a light, lens, and an electric tool.",
+        "other_names": "Cystoscope, Hysteroscope",
+        "imageUrl": "https://www.richard-wolf.com/en/disciplines/gynecology/princess-resectoscope"
+    },
+    {
+        "id": 148,
+        "image": "148_MonopolarLoopElectrode.png",
+        "imageCitation": "Surgical monopolar and bipolar loop electrodes for urology TURP resectoscope. (n.d.). [Video]. Made-in-China.com. https://teamstandmed.en.made-in-china.com/product/dAmpHnYEFRhl/China-Surgical-Monopolar-and-Bipolar-Loop-Electrodes-for-Urology-Turp-Resectoscope.html",
+        "name": "Monopolar Loop Electrode",
+        "description": "The Monopolar Loop Electrode is a surgical instrument used in electrosurgical procedures to cut or coagulate tissue.",
+        "uses": "It is commonly used in transurethral resection of the prostate (TURP) and bladder tumors. The electrode delivers high-frequency electrical energy through a loop-shaped wire to remove tissue efficiently.",
+        "other_names": "loop electrode, TURP loop, electrosurgical loop",
+        "imageUrl": "https://teamstandmed.en.made-in-china.com/product/dAmpHnYEFRhl/China-Surgical-Monopolar-and-Bipolar-Loop-Electrodes-for-Urology-Turp-Resectoscope.html"
+    },
+    {
+        "id": 149,
+        "image": "149_RollerElectrode.png",
+        "imageCitation": "HF ELECTRODE - ROLLER ELECTRODE 3mm and 5 mm | Ace Medical Devices. (n.d.). https://acemedicaldevices.com/medical-products/ace_roller_electrode_3mm_-_m_-sr-24f_monopolar_-_for_storz_-_1_stem_-_30_de",
+        "name": "Roller Electrode",
+        "description": "A cylindrical electrosurgical instrument designed for coagulation and hemostasis.",
+        "uses": "It is commonly used in transurethral surgeries, such as TURP, to control bleeding by rolling over tissue while applying electrical current.",
+        "other_names": "coagulation roller, roller ball electrode",
+        "imageUrl": "https://acemedicaldevices.com/medical-products/ace_roller_electrode_3mm_-_m_-sr-24f_monopolar_-_for_storz_-_1_stem_-_30_de"
+    },
+    {
+        "id": 150,
+        "image": "150_CollinsKnifeElectrode.png",
+        "imageCitation": "Blueneem. (2024, July 29). Collins Knife |Blueneem. https://blueneem.com/products-list/collins-knife/",
+        "name": "Collins Knife Electrode",
+        "description": "A specialized electrosurgical instrument with a sharp, blade-like tip used for precise cutting of soft tissue.",
+        "uses": "It is commonly used in urologic and gynecologic procedures for controlled incisions.",
+        "other_names": "Collins electrode, electrosurgical knife, Collins blade",
+        "imageUrl": "https://blueneem.com/products-list/collins-knife/"
+    },
+    {
+        "id": 151,
+        "image": "151_BallElectrode.png",
+        "imageCitation": "single-use ball electrode, \u00d8 6,0 mm | ST-99-525. (n.d.). Seemann. https://seemann-technologies.com/en/single-use-ball-electrode-OE-6-0-mm/ST-99-525",
+        "name": "Ball Electrode",
+        "description": "A rounded, metallic surgical tool used for coagulation and hemostasis in electrosurgical procedure",
+        "uses": "It provides uniform energy distribution, making it effective in stopping bleeding and sealing tissues.",
+        "other_names": "coagulation ball, electrosurgical ball, fulguration electrode",
+        "imageUrl": "https://seemann-technologies.com/en/single-use-ball-electrode-OE-6-0-mm/ST-99-525"
+    },
+    {
+        "id": 152,
+        "image": "152_RigidCystoscope.png",
+        "imageCitation": "OES Pro rigid cystoscopes. (n.d.). Olympus America | Medical. https://medical.olympusamerica.com/products/rigid-cystoscope",
+        "name": "Rigid Cystoscope",
+        "description": "A solid, tube-like instrument with an optical system used to visualize the inside of the bladder and urethra.",
+        "uses": "It is commonly used in diagnostic and therapeutic urological procedures, such as biopsies, stone removal, and tumor resections.",
+        "other_names": "cystoscope, rigid endoscope, urological endoscope",
+        "imageUrl": "https://medical.olympusamerica.com/products/rigid-cystoscope"
+    },
+    {
+        "id": 153,
+        "image": "153_BiopsyForceps.png",
+        "imageCitation": "Biopsy forceps. (2022, April 25). Sheffmed. https://www.sheffmed.com/product/biopsy-forceps/",
+        "name": "Biopsy Forceps",
+        "description": "A surgical instrument with a scissor-like mechanism designed to grasp and remove small tissue samples for pathological examination.",
+        "uses": "Commonly used in endoscopic, urological, and gynecological procedures.",
+        "other_names": "tissue biopsy forceps, endoscopic biopsy forceps, punch biopsy forceps",
+        "imageUrl": "https://www.sheffmed.com/product/biopsy-forceps/"
+    },
+    {
+        "id": 154,
+        "image": "154_Langenbeck Retractor.png",
+        "imageCitation": "BlueKit Medical. (n.d.). Langenbeck Retractor.\u00a0https://bluekitmedical.com/products/langenbeck-retractor",
+        "name": "Langenbeck Retractor",
+        "description": "The Langenbeck retractor is a handheld surgical instrument used to retract tissues and organs during surgery. It has a flat, curved blade with a sharp or smooth edge that allows the surgeon to hold back tissues to improve visibility and access to the surgical area. The retractor is typically used for deep tissue retraction and is available in various sizes to suit different surgical needs.",
+        "uses": "The Langenbeck retractor is commonly indicated for use in procedures that require access to deep structures, such as abdominal and pelvic surgeries. It is particularly useful in bladder surgeries, abdominal surgeries, and gastrointestinal procedures, where it helps to hold back the abdominal wall, peritoneum, or other tissues to provide clear visibility and access to underlying structures during dissection or removal.",
+        "other_names": "Langenbeck's Hook, Langenbeck's Tissue Retractor, Langenbeck Abdominal Retractor",
+        "imageUrl": "https://bluekitmedical.com/products/langenbeck-retractor"
+    },
+    {
+        "id": 155,
+        "image": "155_Harrington Retractor.png",
+        "imageCitation": "Teleflex Incorporated - Surgical Catalog. (n.d).\u00a0Hand-Held Retractors: Harrington Retractor. https://www.teleflexsurgicalcatalog.com/pilling/product/482370-harrington-retractor",
+        "name": "Harrington Retractor",
+        "description": "Harrington Retractors are essential instruments in abdominal surgeries. Also referred to as \"sweetheart\" retractors due to their unique heart-shaped blades, they are designed to provide optimal exposure of deep tissues and organs. Named after Dr. Paul Harrington, these retractors offer precision and minimal tissue disruption.",
+        "uses": "Harrington retractors are used in several types of procedures: in abdominal surgeries, they help hold back tissues and organs to provide clear access to the surgical site, making them indispensable in liver surgery, intestinal surgery, and other deep abdominal operations; for liver retraction, the heart-shaped blade is particularly effective in lifting and holding the liver, reducing the risk of trauma and allowing surgeons to work efficiently on underlying structures; and in general surgery, they are versatile enough to be used in various procedures that require deep tissue retraction and exposure.",
+        "other_names": "Sweetheart retractors",
+        "imageUrl": "https://www.teleflexsurgicalcatalog.com/pilling/product/482370-harrington-retractor"
+    },
+    {
+        "id": 156,
+        "image": "156_BoneDrillSet.png",
+        "imageCitation": "CZMEDITECH. (n.d.). Multi-functional bone drill. CZMEDITECH. Retrieved March 13, 2025, from https://www.czmeditech.com/fil/Multi-functional-Bone-Drill-pd44502450.html",
+        "name": "Bone Drill Set",
+        "description": "Bone Drills are tools used to bore holes into bone, allowing for the placement of screws or other fixation devices during surgical procedures. They come in various designs, including manual hand drills and powered drills, and are often made of stainless steel.",
+        "uses": "A tool employed to bore holes into bone, allowing for the placement of screws or other fixation devices during surgical procedures.",
+        "other_names": "Orthopedic Drill, Surgical Drill",
+        "imageUrl": "https://www.czmeditech.com/fil/Multi-functional-Bone-Drill-pd44502450.html"
+    },
+    {
+        "id": 157,
+        "image": "158_PlateBender.png",
+        "imageCitation": "Orthopromed Inc. (n.d.). Bone taps. Orthopromed Inc. Retrieved March 13, 2025, from https://www.orthopromed.com/product/bone-taps/",
+        "name": "Bone Taps",
+        "description": "Bone Taps are surgical instruments resembling screws with spiral flutes and a handle or shank. They are designed to create threads in pre-drilled bone holes, facilitating the insertion of bone screws during orthopedic procedures.",
+        "uses": "Utilized to create threads within pre-drilled bone holes, facilitating the insertion of bone screws during orthopedic surgeries.",
+        "other_names": "Orthopedic Taps, Bone Screw Taps",
+        "imageUrl": "https://www.orthopromed.com/product/bone-taps/"
+    },
+    {
+        "id": 158,
+        "image": "158_PlateBender.png",
+        "imageCitation": "IndoSurgicals. (n.d.). Plate bender small (pair). IndoSurgicals. Retrieved March 13, 2025, from https://www.indosurgicals.com/orthopedic-instruments/orthopedic-plate-bender/35467-orthopedic-plate-bender-small-pair.php",
+        "name": "Plate Bender",
+        "description": "Plate Benders are specialized instruments designed to shape and contour orthopedic plates, ensuring they conform to the anatomical structure of a patient's bone for effective stabilization and fixation during surgery. They typically consist of a handle and curved, adjustable jaws that can be opened and closed to grip and bend the plates.",
+        "uses": "A specialized instrument designed to shape and contour orthopedic plates, ensuring they conform to the anatomical structure of a patient's bone for effective stabilization and fixation during surgery.",
+        "other_names": "Bone Plate Bender, Plate Bending Pliers, Plate Bending Irons",
+        "imageUrl": "https://www.indosurgicals.com/orthopedic-instruments/orthopedic-plate-bender/35467-orthopedic-plate-bender-small-pair.php"
+    },
+    {
+        "id": 159,
+        "image": "159_Doyen Abdominal Retractor.png",
+        "imageCitation": "MPM Medical Supply. (n.d.). Doyen abdominal retractor. https://www.mpmmedicalsupply.com/products/doyen-abdominal-retractor?srsltid=AfmBOooNhRWFd5cjYMLwXEfC0m-3FtI0Dm5S6RQxNsijd_Q1Zdnwblxb",
+        "name": "Doyen Abdominal Retractor",
+        "description": "Is a handheld surgical instrument designed for retracting the abdominal wall during abdominal surgeries. It has a curved, flat blade with a gentle, smooth surface that helps to hold back tissues without causing damage. The retractor is typically used for deep retraction and is often employed when the surgeon needs to provide optimal exposure of internal structures during the operation.",
+        "uses": "Primarily indicated for use in abdominal surgeries, particularly when a broad, controlled retraction of the abdominal wall is needed. It is commonly used in gastrointestinal surgeries, bladder surgeries, and pelvic surgeries to provide access to deeper abdominal structures, facilitate clear visualization, and improve the surgeon's ability to operate efficiently in the deeper or more confined areas of the abdominal cavity.",
+        "other_names": "",
+        "imageUrl": "https://www.mpmmedicalsupply.com/products/doyen-abdominal-retractor?srsltid=AfmBOooNhRWFd5cjYMLwXEfC0m-3FtI0Dm5S6RQxNsijd_Q1Zdnwblxb"
+    },
+    {
+        "id": 160,
+        "image": "160_sternotomy saw.png",
+        "imageCitation": "Medical Expo (n.d.). Medical equipment image. https://img.medicalexpo.com/images_me/photo-m2/68192-8736373.jpg",
+        "name": "Sternotomy Saw",
+        "description": "A Sternotomy Saw is a powered surgical instrument used to cut through the sternum (breastbone) during open-heart surgery, primarily for procedures like coronary artery bypass grafting (CABG).",
+        "uses": "Specifically used to perform a median sternotomy, which is the surgical splitting of the sternum (breastbone) lengthwise. Creates a wide opening in the chest cavity, providing surgeons with direct access to the heart and other mediastinal structures. Essential for open-heart procedures such as coronary artery bypass grafting (CABG), valve replacements, and heart transplants.",
+        "other_names": "Sternal Saw, Bone Saw",
+        "imageUrl": "https://img.medicalexpo.com/images_me/photo-m2/68192-8736373.jpg"
+    },
+    {
+        "id": 161,
+        "image": "161_CPB machine.png",
+        "imageCitation": "ResearchGate (n.d.). Photograph of a mast-mounted heart-lung machine. https://www.researchgate.net/profile/Dale_Lawson/publication/303725965/figure/fig4/AS:690725616369669@1541693228997/Photograph-of-a-mast-mounted-heart-lung-machine-Courtesy-of-Sorin-Group-Mirandola.jpg",
+        "name": "Cardiopulmonary Bypass (CPB) Machine",
+        "description": "The Cardiopulmonary Bypass (CPB) Machine is a medical device that temporarily takes over the function of the heart and lungs during cardiac surgery. It diverts blood away from the heart and lungs, oxygenates it, and returns it to the patient's circulatory system, allowing surgeons to operate on a still, bloodless heart.",
+        "uses": "Temporarily diverts blood away from the heart and lungs, allowing surgeons to operate on a still, bloodless heart. Oxygenates the blood and removes carbon dioxide, mimicking the function of the lungs. Maintains blood circulation and perfusion to vital organs during complex cardiac surgeries. Allows surgeons to operate on a dry and still surgical field.",
+        "other_names": "Heart-Lung Machine, Bypass Pump",
+        "imageUrl": "https://www.researchgate.net/profile/Dale_Lawson/publication/303725965/figure/fig4/AS:690725616369669@1541693228997/Photograph-of-a-mast-mounted-heart-lung-machine-Courtesy-of-Sorin-Group-Mirandola.jpg"
+    },
+    {
+        "id": 162,
+        "image": "162_Aortic and Venous Cannula.png",
+        "imageCitation": "Getinge (n.d.). HLS cannulae. https://www.getinge.com/siteassets/start/product-catalog/hls-cannulae/hls-cannulae-1280x1280-1.jpg/constrain-0x640--2032000492.jpg",
+        "name": "Aortic and Venous Cannulas",
+        "description": "Aortic and Venous Cannulas are tubes inserted into the aorta and vena cava, respectively, during cardiopulmonary bypass (CPB). They serve as conduits for diverting blood from the patient's circulatory system to the CPB machine and returning oxygenated blood back to the patient.",
+        "uses": "Aortic cannula: Inserted into the ascending aorta to deliver oxygenated blood from the CPB machine back into the systemic circulation. Venous cannula: Inserted into the vena cava (superior and/or inferior) to drain deoxygenated blood from the body into the CPB machine. These cannulas establish the connection between the patient's circulatory system and the CPB circuit.",
+        "other_names": "Cannulas, Cannulae, Bypass Cannulas/Cannulae",
+        "imageUrl": "https://www.getinge.com/siteassets/start/product-catalog/hls-cannulae/hls-cannulae-1280x1280-1.jpg/constrain-0x640--2032000492.jpg"
+    },
+    {
+        "id": 163,
+        "image": "163_endoscopic harvesting system.png",
+        "imageCitation": "Getinge (n.d.). Vasoview Hemopro 2 Endoscopic Vessel Harvesting System. https://www.getinge.com/siteassets/start/product-catalog/vasoview-hemopro-2-endoscopic-vessel-harvesting-system/vasoview-hemopro-2-endoscopic-vessel-harvesting-system-1280x1280-1.jpg/constrain-0x640-737103746.jpg",
+        "name": "Endoscopic Vessel Harvesting System",
+        "description": "An Endoscopic Vessel Harvesting System is a minimally invasive surgical tool used to remove blood vessels (typically veins from the leg or arteries from the arm) for use as grafts in coronary artery bypass grafting (CABG). It employs a small incision and a camera-equipped scope to visualize and dissect the vessel, minimizing tissue trauma.",
+        "uses": "Minimally invasive removal of saphenous veins from the leg or radial arteries from the arm. Reduces incision size, scarring, and postoperative pain compared to traditional open vessel harvesting. Improves patient recovery and reduces the risk of wound complications. Used to aquire vessels for coronary artery bypass grafting.",
+        "other_names": "EVH System, Minimally Invasive Vessel Harvesting System",
+        "imageUrl": "https://www.getinge.com/siteassets/start/product-catalog/vasoview-hemopro-2-endoscopic-vessel-harvesting-system/vasoview-hemopro-2-endoscopic-vessel-harvesting-system-1280x1280-1.jpg/constrain-0x640-737103746.jpg"
+    },
+    {
+        "id": 164,
+        "image": "164_coro artery scissors.png",
+        "imageCitation": "SIS Supplies (n.d.). Cardiovascular and thoracic equipment. https://sissupplies.com/images/medical/store-images/cardiovascular%20and%20thoracic/401921887312.jpeg",
+        "name": "Coronary Artery Scissors",
+        "description": "Coronary Artery Scissors are specialized, very fine scissors designed for precise cutting of coronary arteries during cardiac surgery, particularly during anastomosis in CABG procedures. They are crucial for creating accurate and clean vessel openings.",
+        "uses": "Precise cutting of coronary arteries during anastomosis in CABG procedures. Creating accurate and clean vessel openings for graft placement. Trimming and shaping coronary arteries to ensure proper blood flow.",
+        "other_names": "Coronary Scissors, Vessel Scissors",
+        "imageUrl": "https://sissupplies.com/images/medical/store-images/cardiovascular%20and%20thoracic/401921887312.jpeg"
+    },
+    {
+        "id": 165,
+        "image": "165_coro artery dilators.png",
+        "imageCitation": "Teleflex Surgical Catalog (n.d.). SR 355290. https://www.teleflexsurgicalcatalog.com/images/products/pilling/hi-res/SR_355290.jpg",
+        "name": "Coronary Artery Dilators",
+        "description": "Coronary Artery Dilators are slender, tapered instruments used to gently widen narrowed coronary arteries during cardiac surgery. They help improve blood flow and facilitate the placement of grafts or other devices.",
+        "uses": "Gently widening narrowed coronary arteries to improve blood flow. Facilitating the placement of grafts or other devices during cardiac surgery. Used to verify patency of coronary vessels.",
+        "other_names": "Vessel Dilators, Coronary Dilators",
+        "imageUrl": "https://www.teleflexsurgicalcatalog.com/images/products/pilling/hi-res/SR_355290.jpg"
+    },
+    {
+        "id": 166,
+        "image": "166_coro shunt.png",
+        "imageCitation": "Getinge (n.d.). Axius Coronary Shunt. https://www.getinge.com/siteassets/start/product-catalog/axius-coronary-shunt/axius-coronary-shunt-1280x1280-1.jpg/constrain-0x640--2100650662.jpg",
+        "name": "Coronary Shunt",
+        "description": "A Coronary Shunt is a small tube temporarily inserted into a coronary artery during cardiac surgery to maintain blood flow to the heart muscle while the artery is being worked on. They prevent ischemia and protect the myocardium.",
+        "uses": "Temporarily maintains blood flow to the heart muscle during coronary artery procedures. Prevents ischemia (lack of blood flow) and protects the myocardium (heart muscle). Provides a bloodless field for the surgeon to work.",
+        "other_names": "Shunt, Intracoronary Shunt",
+        "imageUrl": "https://www.getinge.com/siteassets/start/product-catalog/axius-coronary-shunt/axius-coronary-shunt-1280x1280-1.jpg/constrain-0x640--2100650662.jpg"
+    },
+    {
+        "id": 167,
+        "image": "167_vessel clip.png",
+        "imageCitation": "Wexler Surgical (n.d.). AL2030 1 TN. https://www.wexlersurgical.com/images//webp/AL2030_1_TN.webp",
+        "name": "Vessel Clips",
+        "description": "Vessel Clips are small, metal or polymer clips used to occlude blood vessels during surgery, preventing blood loss. They are applied with a clip applier and provide a secure closure.",
+        "uses": "Occluding blood vessels to prevent blood loss during surgery. Ligating (tying off) small blood vessels. Marking or identifying specific vessels.",
+        "other_names": "Surgical Clips, Hemoclips",
+        "imageUrl": "https://www.wexlersurgical.com/images//webp/AL2030_1_TN.webp"
+    },
+    {
+        "id": 168,
+        "image": "168_suture passer.png",
+        "imageCitation": "Anika (n.d.). 5-20164 PTS Passer w/ Needle Loaded. https://anika.com/wp-content/uploads/2022/01/5-20164-PTS-Passer-w-needle-loaded_croped.jpg",
+        "name": "Suture Passer",
+        "description": "Suture Passer is an instrument designed to facilitate the placement of sutures in hard-to-reach or deep tissues. It helps guide the suture needle through tissue, simplifying complex suturing tasks.",
+        "uses": "Facilitating the placement of sutures in deep or difficult-to-reach tissues. Simplifying complex suturing tasks. Used in minimaly invasive procedures.",
+        "other_names": "Suture Guide, Needle Passer",
+        "imageUrl": "https://anika.com/wp-content/uploads/2022/01/5-20164-PTS-Passer-w-needle-loaded_croped.jpg"
+    },
+    {
+        "id": 169,
+        "image": "169_frazier.png",
+        "imageCitation": "Teleflex Surgical Catalog (n.d.). SR KM42830. https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_KM42830.jpg",
+        "name": "Frazier Suction Tip",
+        "description": "The Frazier Suction Tip is a thin, angled suction tip used for precise suctioning in delicate surgical areas. It's often used in neurosurgery, ENT surgery, and other procedures requiring fine suction control.",
+        "uses": "Precise suctioning in delicate surgical areas, such as neurological or ENT procedures. Removing small amounts of fluid or debris from confined spaces. Used when working around delicate nerves.",
+        "other_names": "Frazier Tip, Fine Suction Tip",
+        "imageUrl": "https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_KM42830.jpg"
+    },
+    {
+        "id": 170,
+        "image": "170_gerald forceps.png",
+        "imageCitation": "SurgiTech (n.d.). FR-084-17. https://surgitech.net/wp-content/uploads/2021/11/FR-084-17.jpg",
+        "name": "Gerald Forceps",
+        "description": "Gerald Forceps are delicate tissue forceps used for grasping and manipulating fine tissues during surgical procedures. They are often used in vascular and plastic surgery due to their precise handling capabilities.",
+        "uses": "Grasping and manipulating fine tissues during surgical procedures. Used in vascular and plastic surgery for precise tissue handling. Used when atraumatic tissue manipulation is required.",
+        "other_names": "Gerald Tissue Forceps, Fine Forceps",
+        "imageUrl": "https://surgitech.net/wp-content/uploads/2021/11/FR-084-17.jpg"
+    },
+    {
+        "id": 171,
+        "image": "171_potts scissors.png",
+        "imageCitation": "Wexler Surgical (n.d.). SL0741 1F TN. https://www.wexlersurgical.com/images//webp/SL0741_1F_TN.webp",
+        "name": "Potts Scissors",
+        "description": "Potts Scissors are specialized scissors used for extending arteriotomies or venotomies during vascular surgery. They have angled blades that allow for precise cutting of blood vessels.",
+        "uses": "Extending arteriotomies or venotomies during vascular surgery. Creating precise incisions in blood vessels. Used for delicate vascular work.",
+        "other_names": "Potts-Smith Scissors, Vascular Scissors",
+        "imageUrl": "https://www.wexlersurgical.com/images//webp/SL0741_1F_TN.webp"
+    },
+    {
+        "id": 172,
+        "image": "172_sternal retractor.png",
+        "imageCitation": "Teleflex Surgical Catalog (n.d.). SR 341389. https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_341389.jpg",
+        "name": "Sternal Retractors",
+        "description": "A Sternal Retractor is a surgical instrument designed to separate the sternum (breastbone) after it has been divided during a median sternotomy, a common procedure in open-heart surgery. It provides surgeons with a clear and stable view of the thoracic cavity, facilitating access to the heart and other mediastinal structures",
+        "uses": "To separate the sternum after a median sternotomy, providing access to the heart and mediastinal structures during open-heart surgery. It holds the sternum in a fixed, open position, allowing surgeons to perform procedures such as coronary artery bypass grafting (CABG), valve replacements, and heart transplants. It ensures a stable surgical field and minimizes trauma to surrounding tissues.",
+        "other_names": "Sternal Spreader, Chest Retractor, Sternum Retractor",
+        "imageUrl": "https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_341389.jpg"
+    },
+    {
+        "id": 173,
+        "image": "173_thoracoscopic retractor.png",
+        "imageCitation": "Wexler Surgical (n.d.). DL8404 1 a. https://www.wexlersurgical.com/images//webp/DL8404_1_a.webp",
+        "name": "Thoracoscopic Retractor",
+        "description": "A Thoracoscopic Retractor is a specialized instrument used in video-assisted thoracoscopic surgery (VATS) to hold tissues and organs out of the way, providing a clear view of the surgical field through small incisions.",
+        "uses": "Holding tissues and organs out of the way during VATS procedures. Providing a clear view of the surgical field through small incisions. Increasing the working space inside the thoracic cavity.",
+        "other_names": "VATS Retractor, Endoscopic Retractor",
+        "imageUrl": "https://www.wexlersurgical.com/images//webp/DL8404_1_a.webp"
+    },
+    {
+        "id": 174,
+        "image": "174_IMA retractor.png",
+        "imageCitation": "Vitalcor (n.d.). 74252 right. https://www.vitalcor.com/filebin/images/full/74252_right.1363036846.jpg",
+        "name": "Internal Mammary Artery Retractor",
+        "description": "An Internal Mammary Artery Retractor is a specialized retractor used during CABG to hold the internal mammary artery (IMA) in place while it is being harvested for use as a bypass graft. It ensures precise and atraumatic dissection.",
+        "uses": "Holding the IMA in place during harvesting for CABG. Ensuring precise and atraumatic dissection of the IMA. Provides a stable surgical field while harvesting the IMA.",
+        "other_names": "IMA Retractor",
+        "imageUrl": "https://www.vitalcor.com/filebin/images/full/74252_right.1363036846.jpg"
+    },
+    {
+        "id": 175,
+        "image": "175_sauerbruch rib shears.png",
+        "imageCitation": "SmushCDN (n.d.). 60-1225-1. https://b3896616.smushcdn.com/3896616/wp-content/uploads/60-1225-1-1024x1024.jpg?lossy=2&strip=1&webp=1",
+        "name": "Sauerbruch Rib Shears",
+        "description": "Sauerbruch Rib Shears are heavy-duty surgical scissors used to cut ribs during thoracotomy procedures. They provide a clean and efficient cut through the rib bone.",
+        "uses": "Cutting ribs during thoracotomy procedures. Providing a clean and efficient cut through the rib bone. Used to gain access to the thoracic cavity.",
+        "other_names": "Rib Shears, Rib Cutters",
+        "imageUrl": "https://b3896616.smushcdn.com/3896616/wp-content/uploads/60-1225-1-1024x1024.jpg?lossy=2&strip=1&webp=1"
+    },
+    {
+        "id": 176,
+        "image": "176_doyen rib raspatory.png",
+        "imageCitation": "Avante (n.d.). HvuNvgjMDGYVONHOUttETExDeQAH9Fh7oWpqyhW7. https://storage.googleapis.com/avante/images/HvuNvgjMDGYVONHOUttETExDeQAH9Fh7oWpqyhW7.jpeg",
+        "name": "Doyen Rib Raspatory",
+        "description": "A Doyen Rib Raspatory is a surgical instrument used to remove periosteum (the membrane covering bone) from the rib during thoracotomy. It prepares the rib for cutting or removal.",
+        "uses": "Removing periosteum from the rib during thoracotomy. Preparing the rib for cutting or removal. Used to minimize trauma to surrounding tissues.",
+        "other_names": "Rib Raspatory, Periosteal Elevator",
+        "imageUrl": "https://storage.googleapis.com/avante/images/HvuNvgjMDGYVONHOUttETExDeQAH9Fh7oWpqyhW7.jpeg"
+    },
+    {
+        "id": 177,
+        "image": "177_bailey rib approx.png",
+        "imageCitation": "Teleflex Surgical Catalog (n.d.). SR 341450. https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_341450.jpg",
+        "name": "Bailey Rib Approximator",
+        "description": "A Bailey Rib Approximator is a surgical instrument used to bring the ribs back together after a thoracotomy, facilitating closure of the chest wall. It ensures proper alignment and stability.",
+        "uses": "Bringing the ribs back together after a thoracotomy. Facilitating closure of the chest wall. Ensuring proper alignment and stability of the rib cage.",
+        "other_names": "Rib Approximator, Rib Closer",
+        "imageUrl": "https://www.teleflexsurgicalcatalog.com/images/products/pilling/details/SR_341450.jpg"
     }
 ]
