@@ -67,7 +67,7 @@ const ProcedureDetails = () => {
                     </button>
                 </div>
 
-                <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-20">
+                <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-auto md:gap-20">
                     <div className="w-full h-full relative flex-1 flex-col justify-center">
                         {/* Image*/}
                         <div
