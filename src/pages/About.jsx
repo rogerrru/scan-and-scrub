@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import BackToTop from "../components/BackToTop";
 import teamData from "../data/team.json";
 
 const teamImages = import.meta.glob("../assets/homepage/team/*.png", { eager: true });
@@ -43,12 +44,11 @@ const About = () => {
                             Recognizing the critical role of preparedness in the operating room, we are committed to
                             developing innovative solutions that support both new and experienced OR staff. We believe
                             that
-                            by bridging the knowledge gap through accessible, real-time resources, we can empower nurses
-                            to
-                            perform with confidence, reduce surgical delays, and ultimately improve patient outcomes.
+                            by bridging the knowledge gap through accessible, real-time resources, we can empower student
+                            nurses to perform with confidence, reduce surgical delays, and ultimately improve patient outcomes.
                         </p>
                         <p className="text-sm md:text-xl leading-relaxed md:leading-10 !text-[#716C68] text-justify">
-                            Our team envisions a future where every nurse, regardless of experience level, has immediate
+                            Our team envisions a future where every student nurse, regardless of experience level, has immediate
                             access to essential surgical knowledge at their fingertips. By integrating technology with
                             comprehensive training tools, we aim to create a seamless learning experience that enhances
                             both
@@ -66,29 +66,35 @@ const About = () => {
                     {/* Our Mission */}
                     <div>
                         <h3 className="text-4xl md:text-6xl font-black  text-[#2E6AD9] mb-2">Our mission</h3>
-                        <p className="text-gray-700 text-sm md:text-xl">Revolutionizing OR efficiency with QR codes for instant
-                            surgical instrument access.</p>
+                        <p className="text-gray-700 text-sm md:text-xl">To enhance operating room efficiency by
+                            providing student nurses with instant access to essential surgical knowledge, improving
+                            patient safety, reducing errors, and optimizing clinical outcomes.</p>
                     </div>
 
                     {/* Our Vision */}
                     <div>
                         <h3 className="text-4xl md:text-6xl font-black  text-[#2E6AD9] mb-2">Our vision</h3>
-                        <p className="text-gray-700 text-sm md:text-xl">Empowering healthcare professionals to reduce surgical
-                            errors and enhance efficiency.</p>
+                        <p className="text-gray-700 text-sm md:text-xl">To cultivate a future where student nurses are
+                            empowered with comprehensive tools, resources, and expertise, ensuring their capacity to
+                            enhance operating room efficiency, elevate patient care, and drive sustainable improvements
+                            in surgical practice.</p>
                     </div>
 
                     {/* Our Promise */}
                     <div>
                         <h3 className="text-4xl md:text-6xl font-black  text-[#2E6AD9] mb-2">Our promise</h3>
-                        <p className="text-gray-700 text-sm md:text-xl">Providing innovative and reliable solutions to support
-                            surgical teams.</p>
+                        <p className="text-gray-700 text-sm md:text-xl">We are dedicated to delivering innovative,
+                            reliable, and user-friendly solutions that support student nurses in enhancing their
+                            clinical competence, fostering seamless teamwork, and ensuring the highest standards
+                            of patient safety.</p>
                     </div>
 
                     {/* Our Task */}
                     <div>
                         <h3 className="text-4xl md:text-6xl font-black  text-[#2E6AD9] mb-2">Our task</h3>
-                        <p className="text-gray-700 text-sm md:text-xl">Continuously improving our platform for seamless OR
-                            integration and patient safety.</p>
+                        <p className="text-gray-700 text-sm md:text-xl">We are committed to the continuous improvement
+                            of our platform, ensuring its efficient integration into operating room workflows and its
+                            alignment with the highest standards of clinical practice and patient safety.</p>
                     </div>
                 </div>
             </div>
@@ -144,6 +150,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <BackToTop />
             <Footer/>
         </div>
     );

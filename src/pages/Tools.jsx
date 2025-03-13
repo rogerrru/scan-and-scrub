@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import BackToTop from "../components/BackToTop";
 import toolsData from "../data/tools.json";
 import "../styles/index.css";
 
@@ -71,7 +72,7 @@ const Tools = () => {
                     )}
                 </div>
             </div>
-
+            <BackToTop />
             <Footer />
         </div>
     );

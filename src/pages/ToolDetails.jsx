@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import BackToTop from "../components/BackToTop";
 import toolsData from "../data/tools.json";
 
 import zoomInIcon from "../assets/procedures/ZoomInButton.svg";
 import zoomOutIcon from "../assets/procedures/ZoomOutButton.svg";
+
 
 const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
 
@@ -31,7 +33,7 @@ const ToolDetails = () => {
     }
 
     return (
-        <div className="w-screen h-screen flex flex-col">
+        <div className="w-screen min-h-screen flex flex-col">
             <Header />
             <div className="container mx-auto px-5 py-10 flex-1">
                 {/* Back Button */}
@@ -103,6 +105,7 @@ const ToolDetails = () => {
                     </div>
                 </div>
             </div>
+            <BackToTop />
             <Footer />
         </div>
     );

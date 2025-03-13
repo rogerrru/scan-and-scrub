@@ -3,6 +3,7 @@ import "../styles/index.css";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import BackToTop from "../components/BackToTop";
 import nurse_icon from "../assets/homepage/nurse-placeholder.png";
 import tool_icon from "../assets/homepage/tools-placeholder.png";
 import teamData from "../data/team.json";
@@ -90,7 +91,7 @@ const Home = () => {
                         ))}
                 </div>
             </div>
-
+            <BackToTop />
             <Footer/>
         </div>
     );

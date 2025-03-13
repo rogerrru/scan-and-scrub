@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import BackToTop from "../components/BackToTop";
 import proceduresData from "../data/procedures.json";
 import toolsData from "../data/tools.json";
 
@@ -55,7 +55,7 @@ const ProcedureDetails = () => {
     console.log('Image Citation:', procedure.imageCitation);
     console.log('Image URL:', procedure.imageUrl);
     return (
-        <div className="w-screen h-screen flex flex-col">
+        <div className="w-screen min-h-screen flex flex-col">
             <Header />
             <div className="container mx-auto px-5 py-10 flex-1">
                 <div className="max-w-6xl mx-auto">
@@ -171,6 +171,7 @@ const ProcedureDetails = () => {
                     </div>
                 </div>
             </div>
+            <BackToTop />
             <Footer />
         </div>
     );
