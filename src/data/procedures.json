@@ -362,85 +362,56 @@
             ]
         },
         {
-            "id": 17,
-            "image": "17_lymphadenectomy.png",
-            "imageCitation": "MedPage Today. (n.d.) ",
-            "imageUrl": "https://clf1.medpagetoday.com/assets/images/resource-center/Surg.jpg",
-            "name": "Lymphadenectomy",
-            "description": "Lymphadenectomy, or lymph node dissection, is a surgical procedure that involves removing lymph nodes and examining a tissue sample under a microscope to detect cancer. It is commonly performed to manage malignant tumors and can be categorized into regional lymphadenectomy, which removes nearby lymph nodes, and radical lymphadenectomy, which involves a more extensive removal of lymph nodes (Mulita et al., 2023).",
-            "indications": "Malignant lymphadenopathy (e.g., metastasis from melanoma or other cancers), Diagnostic biopsy for lymphatic disease, Persistent lymphadenitis unresponsive to medical treatment, Removal of lymph nodes involved in chronic infections (e.g., tuberculosis), Part of cancer staging and treatment (e.g., breast cancer, melanoma)",
+            "id": 38,
+            "image": "38_Thoracotomy.png",
+            "imageCitation": "Wikipedia contributors. (2024, August 28). Thoracotomy. Wikipedia. https://en.m.wikipedia.org/wiki/Thoracotomy#/media/File%3AEmergency_Thoracotomy.png",
+            "imageUrl": "https://en.m.wikipedia.org/wiki/Thoracotomy",
+            "name": "Thoracotomy",
+            "description": "A thoracotomy is a procedure that lets a surgeon see into the thoracic cavity to diagnose an illness or to treat one. The surgeon can see the lungs, heart, aorta, esophagus and possibly the spine. It\u2019s often used to treat lung cancer. (Professional, 2024)",
+            "indications": "Penetrating chest injuries, Blunt chest trauma, Cardiac tamponade, Massive hemothorax, Open pneumothorax, Tracheobronchial injury, Unexplained pleural effusion, Lung biopsy, Mediastinal mass biopsy, Lung resection (lobectomy, segmentectomy, pneumonectomy), Removal of pulmonary sequestration or cysts, Management of bronchiectasis, Coronary artery bypass grafting (CABG), Repair of aortic aneurysm or dissection, Pericardiectomy, Closure of patent ductus arteriosus (PDA), Repair of esophageal perforation, Esophageal stricture correction, Decortication for chronic empyema, Pleurectomy, Pleural tumor resection",
             "instruments": [
-                "Metzenbaum Scissors",
-                "Mayo Scissors",
-                "Tenotomy Scissors",
-                "Blade holder",
-                "Curved Clamp",
-                "Straight Clamp",
-                "Allis Tissue Forceps",
-                "Mixter",
-                "Pennington Clamp",
-                "Debakey Forceps",
-                "Russian Forceps",
-                "Adson Forceps",
-                "Babcock Grasper",
-                "Monopolar Cautery Pencil",
-                "Needle Holder",
-                "Surgical Staplers",
-                "Weitlaner Retractor",
-                "Double Hook Retractor",
-                "Senn-Miller Retractor",
-                "Malleable Retractor",
                 "Narrow Deaver Retractor",
                 "Wide Deaver Retractor",
-                "Suction Irrigation Cannula"
-            ]
-        },
-        {
-            "id": 20,
-            "image": "20_Appendectomy.png",
-            "imageCitation": "Appendectomy. (n.d.). [Photograph of an appendix removal surgery]. Retrieved from https://www.sciencephoto.com/media/764641/view/appendix-removal-surgery",
-            "imageUrl": "https://www.sciencephoto.com/media/764641/view/appendix-removal-surgery",
-            "name": "Open Appendectomy (Suppurative or Congestive)",
-            "description": "Appendectomy for suppurative, or congestive appendicitis is a surgical procedure to remove an appendix that has become severely inflamed, infected, and potentially perforated. \"Suppurative\" means the appendix is producing pus due to infection. \"Congestive\" refers to an appendix that is severely inflamed and swollen, potentially leading to tissue death (necrosis). The surgery aims to remove the diseased appendix, control infection, and prevent complications like peritonitis (inflammation of the abdominal lining) (Crnogorac et' al, 2013).",
-            "indications": "Suppurative appendicitis, congestive appendicitis, suspicion of perforation, signs of peritonitis, failure of non-operative management (if attempted), presence of appendicolith with acute appendicitis, sepsis secondary to appendicitis.",
-            "instruments": [
-                "Blade holder",
-                "Metzenbaum scissors",
-                "Mayo scissors",
-                "hemostats",
-                "Straight Clamp",
-                "Babcock Grasper",
-                "Allis Tissue Forceps",
-                "needle holder",
-                "Laparoscopic Trochar",
-                "Monopolar Cautery Pencil",
-                "Suction Irrigation Cannula"
-            ]
-        },
-        {
-            "id": 41,
-            "image": "41_Tonsillectomy.png",
-            "imageCitation": "Tonsillectomy surgery cost in India. (n.d.). hmsdesk.com. https://hmsdesk.com/list/procedures/tonsillectomy-surgery-hospitals-and-cost-in-philippines/5/10?spd=70",
-            "imageUrl": "https://hmsdesk.com/list/procedures/tonsillectomy-surgery-hospitals-and-cost-in-philippines/5/10?spd=70",
-            "name": "Tonsillectomy ",
-            "description": "A tonsillectomy is a surgical procedure involving the complete removal of the palatine tonsils from the back of the throat. This operation is primarily performed to address recurrent tonsillitis, throat infections, and obstructive sleep apnea (OSA). While generally safe, potential complications include bleeding, vomiting, dehydration, difficulty eating, and speaking challenges. Postoperative throat pain typically persists for about one to two weeks. Notably, tonsillectomy does not appear to adversely affect long-term immune function.",
-            "indications": "Recurrent or Chronic Tonsillitis, Obstructive Sleep Apnea (OSA), Peritonsillar Abscess, Tonsil Hypertrophy, Suspicion of Malignancy: Unusual tonsil appearance or asymmetry raising",
-            "instruments": [
-                "Blade holder",
-                "Mayo scissors",
-                "Metzenbaum scissors",
-                "Tonsil scissors",
+                "Army-Navy retractor",
+                "Senn-Miller Retractor",
+                "Gelpi retractor",
+                "Weitlaner retractor",
+                "Balfour retractor",
+                "Malleable Retractor",
+                "Yankauer suction tip",
+                "Poole suction tip",
                 "Adson Forceps",
+                "Tissue Forceps",
                 "Allis Tissue Forceps",
-                "Denis Brown Tonsil Holding Forceps",
-                "Needle holder",
-                "Yankauer Suction Tip",
-                "Tonsil snare",
-                "Beckmann adenoid curette",
-                "Hurd dissector and pillar retractor",
-                "Monopolar Cautery Pencil",
-                "Hemostats",
-                "Davis-Boyle Mouth gag with plates"
+                "Babcock Grasper",
+                "Ochsner Clamp",
+                "Straight Clamp",
+                "Mosquito Hemostat",
+                "Crile Clamps",
+                "Pean Forceps",
+                "needle holder",
+                "Mayo scissors",
+                "Metzenbaum scissors",
+                "Bandage Shears",
+                "Blade Holder",
+                "Pratt Rectal Speculum",
+                "Tenaculum Forceps",
+                "Sims Uterine Sound",
+                "Hegar Dilators",
+                "Foerster Sponge Forceps",
+                "Towel Clips",
+                "Director with Probe Tip",
+                "Malleable Retractor",
+                "Freer Elevator",
+                "Sinus Forceps",
+                "Russian Forceps",
+                "Kerrison Rongeur",
+                "Stryker Bone Clippers",
+                "Osteotome",
+                "Curette",
+                "Bone Holding Forceps",
+                "Gigli Saw with Handles",
+                "Rib Spreader"
             ]
         },
         {
@@ -497,7 +468,7 @@
                 "Mosquito Hemostat",
                 "Straight Clamp",
                 "Crile Clamps",
-                "Carmalt hemostatic forceps",
+                "Pean",
                 "Yankauer Suction Tip",
                 "Frazier Suction Tip",
                 "Richardson Retractor",
@@ -508,7 +479,6 @@
                 "Mixter",
                 "Babcock Grasper",
                 "Needle holder",
-                "Ligation clips",
                 "Monopolar Cautery Pencil"
             ]
         },
@@ -568,7 +538,7 @@
                 "Yankauer Suction Tip",
                 "Poole Suction Tip",
                 "irrigation syringes",
-                "needle holder",
+                "Needle Holder",
                 "Mayo Scissors",
                 "Towel Clips"
             ]
@@ -894,9 +864,9 @@
         },
         {
             "id": 11,
-            "image": "11_ExcisionofBreastMass.png",
-            "imageCitation": "ResearchGate. (2020). Preoperative marking of the breast mass and surgical specimen after wide local excision. https://www.researchgate.net/figure/a-Preoperative-marking-of-the-breast-mass-b-Surgical-specimen-after-wide-local_fig2_338666635",
-            "imageUrl": "https://www.researchgate.net/figure/a-Preoperative-marking-of-the-breast-mass-b-Surgical-specimen-after-wide-local_fig2_338666635",
+            "image": "11_NEW_ExcisionofBreastMass.png",
+            "imageCitation": "Penumadu, P., & Veeramani, M. (2020). A scar of excision biopsy for a right breast lump at a primary center with margin status. ResearchGate. https://www.researchgate.net/profile/Prasanth-Penumadu/publication/343394102/figure/fig1",
+            "imageUrl": "https://www.researchgate.net/profile/Prasanth-Penumadu/publication/",
             "name": "Excision of Breast Mass",
             "description": "An excision of a breast mass is a surgical procedure to remove an abnormal lump or growth from the breast, either for diagnostic biopsy or therapeutic treatment. It may be done for benign or malignant masses. The surgeon makes an incision over or near the mass, carefully dissects around it to remove the entire lesion, and sends it for pathology. The goal is to excise the mass with clean margins while preserving as much healthy tissue as possible. This procedure is often done under local or general anesthesia and can be combined with imaging techniques like wire localization for small, hard-to-palpate masses (Karakas & Yildirim, 2022).",
             "indications": "Excision of a breast mass is indicated for a palpable breast lump with suspicious features (irregular shape, rapid growth, immobility), abnormal imaging findings (e.g., mammogram or ultrasound shows a concerning lesion), biopsy-proven malignancy (as part of breast-conserving surgery), symptomatic benign masses causing pain, discomfort, or deformity, and patient preference or anxiety about a mass, even if benign.",
@@ -913,7 +883,7 @@
                 "ovum forceps",
                 "towel clips",
                 "malleable retractor",
-                "needle holder"
+                "needle holder\u200b"
             ]
         },
         {
@@ -932,10 +902,10 @@
                 "Tissue Forceps",
                 "Debakey Forceps",
                 "Allis Tissue Forceps",
-                "MIxter",
+                "Mixter",
                 "Lahey forceps",
                 "towel clips",
-                "needle holder"
+                "needle holder\u200b"
             ]
         },
         {
@@ -965,6 +935,40 @@
                 "PPH Stapler",
                 "Needle Holder",
                 "Towel Clips"
+            ]
+        },
+        {
+            "id": 17,
+            "image": "17_lymphadenectomy.png",
+            "imageCitation": "MedPage Today. (n.d.) ",
+            "imageUrl": "https://clf1.medpagetoday.com/assets/images/resource-center/Surg.jpg",
+            "name": "Lymphadenectomy",
+            "description": "Lymphadenectomy, or lymph node dissection, is a surgical procedure that involves removing lymph nodes and examining a tissue sample under a microscope to detect cancer. It is commonly performed to manage malignant tumors and can be categorized into regional lymphadenectomy, which removes nearby lymph nodes, and radical lymphadenectomy, which involves a more extensive removal of lymph nodes (Mulita et al., 2023).",
+            "indications": "Malignant lymphadenopathy (e.g., metastasis from melanoma or other cancers), Diagnostic biopsy for lymphatic disease, Persistent lymphadenitis unresponsive to medical treatment, Removal of lymph nodes involved in chronic infections (e.g., tuberculosis), Part of cancer staging and treatment (e.g., breast cancer, melanoma)",
+            "instruments": [
+                "Metzenbaum Scissors",
+                "Mayo Scissors",
+                "Tenotomy Scissors",
+                "Blade holder",
+                "Curved Clamp",
+                "Straight Clamp",
+                "Allis Tissue Forceps",
+                "Mixter",
+                "Pennington Clamp",
+                "Debakey Forceps",
+                "Russian Forceps",
+                "Adson Forceps",
+                "Babcock Grasper",
+                "Monopolar Cautery Pencil",
+                "Needle Holder",
+                "Surgical Staplers",
+                "Weitlaner Retractor",
+                "Double Hook Retractor",
+                "Senn-Miller Retractor",
+                "Malleable Retractor",
+                "Narrow Deaver Retractor",
+                "Wide Deaver Retractor",
+                "Suction Irrigation Cannula"
             ]
         },
         {
@@ -1017,6 +1021,29 @@
             ]
         },
         {
+            "id": 20,
+            "image": "20_NEW_Appendectomy.png",
+            "imageCitation": "Eskandarlou, M., Nemati, A., & Seif-Rabiei, M. A. (2018). A new right groin incision versus McBurney\u2019s incision for open appendectomy: a randomized controlled trial. Langenbeck\u2019s Archives of Surgery, 403(7), 805\u2013810. https://doi.org/10.1007/s00423-018-1719-5",
+            "imageUrl": "https://doi.org/10.1007/s00423-018-1719-5",
+            "name": "Appendectomy (Suppurative or Congestive)",
+            "description": "Appendectomy for suppurative, or congestive appendicitis is a surgical procedure to remove an appendix that has become severely inflamed, infected, and potentially perforated. \"Suppurative\" means the appendix is producing pus due to infection. \"Congestive\" refers to an appendix that is severely inflamed and swollen, potentially leading to tissue death (necrosis). The surgery aims to remove the diseased appendix, control infection, and prevent complications like peritonitis (inflammation of the abdominal lining) (Crnogorac et' al, 2013).",
+            "indications": "Suppurative appendicitis, congestive appendicitis, suspicion of perforation, signs of peritonitis, failure of non-operative management (if attempted), presence of appendicolith with acute appendicitis, sepsis secondary to appendicitis.",
+            "instruments": [
+                "Blade holder",
+                "Metzenbaum scissors",
+                "Mayo scissors",
+                "hemostats",
+                "Straight Clamp",
+                "Babcock Grasper",
+                "Allis Tissue Forceps",
+                "needle holder",
+                "Laparoscopic Trochar",
+                "Monopolar Cautery Pencil",
+                "Suction Irrigation Cannula",
+                "retractors"
+            ]
+        },
+        {
             "id": 21,
             "image": "21_ApplicationOfLongLegCast.png",
             "imageCitation": "Long leg cast then hinged knee brace for Partial articular fracture, lateral condyle, sagittal simple. (n.d.). https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/partial-articular-fracture-lateral-condyle-sagittal-simple/long-leg-cast-then-hinged-knee-brace",
@@ -1030,7 +1057,7 @@
                 "plaster or fiberglass rolls",
                 "bandage shears",
                 "plaster spreader",
-                "cast saw (for removal)"
+                "Cast saw (for removal)"
             ]
         },
         {
@@ -1099,16 +1126,15 @@
             "instruments": [
                 "Metzenbaum scissors",
                 "Mayo scissors",
-                "hemostatic forceps (e.g.",
-                "mosquito clamps)",
+                "Mosquito Hemostat",
                 "needle holder",
-                "Tissue Forcepss",
-                "Allis Tissue Forcepss",
+                "Tissue Forceps",
+                "Allis Tissue Forceps",
                 "retractors",
-                "electrocautery device",
-                "suction apparatus",
+                "Monopolar Cautery Pencil",
+                "Suction Irrigation Cannula",
                 "sterile gauze pads",
-                "specimen container."
+                "specimen container"
             ]
         },
         {
@@ -1145,7 +1171,7 @@
                 "Receptal",
                 "Elastic Bandage",
                 "Plaster of paris",
-                "Wadding sheet."
+                "Wadding sheet"
             ]
         },
         {
@@ -1234,7 +1260,7 @@
             "instruments": [
                 "Blade Holder",
                 "Dilator",
-                "Adson Forcepss",
+                "Adson Forceps",
                 "Towel Clips",
                 "Needle Holder",
                 "Introducer Needle",
@@ -1268,9 +1294,9 @@
         },
         {
             "id": 35,
-            "image": "35_wound debridement.png",
-            "imageCitation": "Wound care treatments. (n.d.). FootAnkleInstitute.com. https://www.footankleinstitute.com/treatments/wound-care",
-            "imageUrl": "https://www.footankleinstitute.com/treatments/wound-care",
+            "image": "35_NEW_wound debridement.png",
+            "imageCitation": "Hamm, R. (2019). Wound Bed Preparation: Debridement. Accessmedicinenetwork.com; McGraw Hill. https://www.accessmedicinenetwork.com/amp/posts/54627-wound-bed-preparation-debridement",
+            "imageUrl": "https://www.accessmedicinenetwork.com/amp/posts/54627-wound-bed-preparation-debridement",
             "name": "Wound Debridement/Debridement and Curettage",
             "description": "Wound debridement is a vital procedure in wound management that involves removing devitalized tissue to promote healing. By eliminating necrotic tissue, biofilm, bioburden, and senescent cells, debridement prepares the wound bed for re-epithelialization and enhances the effectiveness of topical treatments. Necrotic tissue can provide nutrients for bacteria, act as a barrier to new tissue growth, and prevent angiogenesis, granulation, and extracellular matrix formation. Additionally, it can obscure the wound's true depth and severity, potentially hiding underlying infections. Regular debridement at each patient visit supports optimal wound healing (Manna et al., 2023).",
             "indications": "Necrotic tissue, Infected wound, Non-healing chronic ulcers (e.g., diabetic foot ulcer), Pressure sores, Traumatic wounds with debris",
@@ -1305,7 +1331,7 @@
                 "Allis Tissue Forceps",
                 "Babcock Forceps",
                 "Blade Holder",
-                "Babcock forceps",
+                "Babcock Grasper",
                 "Needle Holder"
             ]
         },
@@ -1338,62 +1364,6 @@
                 "Vascular Dilator",
                 "Guidewire",
                 "Guidewire Dilating Forcep"
-            ]
-        },
-        {
-            "id": 38,
-            "image": "38_Thoracotomy.png",
-            "imageCitation": "Wikipedia contributors. (2024, August 28). Thoracotomy. Wikipedia. https://en.m.wikipedia.org/wiki/Thoracotomy#/media/File%3AEmergency_Thoracotomy.png",
-            "imageUrl": "https://en.m.wikipedia.org/wiki/Thoracotomy",
-            "name": "Thoracotomy",
-            "description": "A thoracotomy is a procedure that lets a surgeon see into the thoracic cavity to diagnose an illness or to treat one. The surgeon can see the lungs, heart, aorta, esophagus and possibly the spine. It\u2019s often used to treat lung cancer. (Professional, 2024)",
-            "indications": "Penetrating chest injuries, Blunt chest trauma, Cardiac tamponade, Massive hemothorax, Open pneumothorax, Tracheobronchial injury, Unexplained pleural effusion, Lung biopsy, Mediastinal mass biopsy, Lung resection (lobectomy, segmentectomy, pneumonectomy), Removal of pulmonary sequestration or cysts, Management of bronchiectasis, Coronary artery bypass grafting (CABG), Repair of aortic aneurysm or dissection, Pericardiectomy, Closure of patent ductus arteriosus (PDA), Repair of esophageal perforation, Esophageal stricture correction, Decortication for chronic empyema, Pleurectomy, Pleural tumor resection",
-            "instruments": [
-                "Narrow Deaver Retractor",
-                "Wide Deaver Retractor",
-                "Army-Navy retractor",
-                "Senn-Miller Retractor",
-                "Gelpi retractor",
-                "Weitlaner retractor",
-                "Balfour retractor",
-                "Malleable Retractor",
-                "Yankauer suction tip",
-                "Poole suction tip",
-                "Adson Forceps",
-                "Tissue Forceps",
-                "Allis Tissue Forceps",
-                "Babcock Grasper",
-                "Ochsner Clamp",
-                "Straight Clamp",
-                "Mosquito Hemostat",
-                "Crile Clamps",
-                "Pean Forceps",
-                "needle holder",
-                "Mayo scissors",
-                "Metzenbaum scissors",
-                "Bandage Shears",
-                "operating scissors",
-                "Lister bandage scissors",
-                "Blade Holder",
-                "Pratt Rectal Speculum",
-                "Tenaculum Forceps",
-                "Sims Uterine Sound",
-                "Hegar Dilators",
-                "Foerster Sponge Forceps",
-                "Towel Clips",
-                "Director with Probe Tip",
-                "Malleable Retractor",
-                "Freer Elevator",
-                "Sinus Forceps",
-                "Russian Forceps",
-                "bayonet forceps",
-                "Kerrison Rongeur",
-                "Stryker Bone Clippers",
-                "Osteotome",
-                "Curette",
-                "Bone Holding Forceps",
-                "Gigli Saw with Handles",
-                "Rib Spreader"
             ]
         },
         {
@@ -1431,6 +1401,32 @@
             "description": "Herniorrhaphy is a surgical procedure used to repair a hernia by suturing the weakened or torn muscle or tissue. It involves repositioning the herniated organ or tissue and reinforcing the defect with sutures, sometimes without the use of mesh.",
             "indications": "Inguinal, umbilical, femoral, and incisional hernias that cause pain, discomfort, or risk of complications such as strangulation or bowel obstruction. It is recommended for symptomatic hernias, enlarging hernias, or those at risk of incarceration.",
             "instruments": []
+        },
+        {
+            "id": 41,
+            "image": "41_Tonsillectomy.png",
+            "imageCitation": "Tonsillectomy surgery cost in India. (n.d.). hmsdesk.com. https://hmsdesk.com/list/procedures/tonsillectomy-surgery-hospitals-and-cost-in-philippines/5/10?spd=70",
+            "imageUrl": "https://hmsdesk.com/list/procedures/tonsillectomy-surgery-hospitals-and-cost-in-philippines/5/10?spd=70",
+            "name": "Tonsillectomy ",
+            "description": "A tonsillectomy is a surgical procedure involving the complete removal of the palatine tonsils from the back of the throat. This operation is primarily performed to address recurrent tonsillitis, throat infections, and obstructive sleep apnea (OSA). While generally safe, potential complications include bleeding, vomiting, dehydration, difficulty eating, and speaking challenges. Postoperative throat pain typically persists for about one to two weeks. Notably, tonsillectomy does not appear to adversely affect long-term immune function.",
+            "indications": "Recurrent or Chronic Tonsillitis, Obstructive Sleep Apnea (OSA), Peritonsillar Abscess, Tonsil Hypertrophy, Suspicion of Malignancy: Unusual tonsil appearance or asymmetry raising",
+            "instruments": [
+                "Blade holder",
+                "Mayo scissors",
+                "Metzenbaum scissors",
+                "Tonsil scissors",
+                "Adson Forceps",
+                "Allis Tissue Forceps",
+                "Denis Brown Tonsil Holding Forceps",
+                "Needle holder",
+                "Yankauer Suction Tip",
+                "Tonsil snare",
+                "Beckmann adenoid curette",
+                "Hurd dissector and pillar retractor",
+                "Monopolar Cautery Pencil",
+                "Hemostats",
+                "Davis-Boyle Mouth gag with plates"
+            ]
         }
     ]
 }
