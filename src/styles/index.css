@@ -20,7 +20,7 @@
   overflow-x: hidden;
   width: 100vw;
   font-family: 'Inter', sans-serif;
-  background-color: #F4F5F9;
+  /*background-color: #2D466A;*/
 }
 
 /* Navbar */
@@ -48,12 +48,7 @@
 
 /* Text */
 h1, h2, h3, h4, h5, h6 {
-  color: #2E6AD9 !important;
   font-family: 'Roboto', sans-serif !important;
-}
-
-p {
-  color: #2F2E2E !important;
 }
 
 /* Image Styling */

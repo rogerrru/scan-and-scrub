@@ -1,12 +1,9 @@
 import React from "react";
-import logo from "/logo-icon-2.png"; 
+import logo from "/logo-icon-4.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2E6AD9] text-center py-4 border-t border-gray-200">
-      <div className="flex justify-center">
-        <div className="w-100 h-[5px] bg-white mb-4 "></div>
-      </div>
+    <footer className="bg-[#2D466A] text-center py-4 border-t border-gray-200">
       <div className="flex justify-center mb-2">
         <img src={logo} alt="Scan&Scrub Logo" height="40" className="h-15 w-auto" />
       </div>
