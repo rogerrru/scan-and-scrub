@@ -73,11 +73,11 @@ const Tools = () => {
                                     .map((tool) => (
                                         <Link to={`/tools/${tool.id}`} key={tool.id}>
                                             <div
-                                                className="h-full bg-white shadow-md rounded-lg p-6 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
+                                                className=" bg-white shadow-md rounded-lg p-6 flex flex-col items-center cursor-pointer hover:shadow-lg transition">
                                                 <img
                                                     src={getToolImagePath(tool.image)}
                                                     alt={tool.name}
-                                                    className="w-auto h-full object-contain rounded-md mb-4"
+                                                    className="w-110 h-60 object-contain rounded-md mb-4"
                                                 />
                                                 <p className="text-sm md:text-lg lg:text-xl font-bold text-center text-[#2D466A]">
                                                     {tool.name}
