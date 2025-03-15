@@ -4,21 +4,18 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
-import nurse_icon from "../assets/homepage/nurse-placeholder.png";
-import tool_icon from "../assets/homepage/tools-placeholder-2.png";
 import teamData from "../data/team.json";
 
-import nurse from "../assets/homepage/doctor.svg"
-import darkCircle from "../assets/homepage/dark-circle.svg"
-import lightCircle from "../assets/homepage/light-circle.svg"
+import tool_icon from "../assets/homepage/tools-placeholder-2.webp";
+import nurse from "../assets/homepage/nurse.svg"
 import lightGrayBlob from "../assets/homepage/light-gray-blob.svg"
 
-const teamImages = import.meta.glob("../assets/homepage/team/*.png", { eager: true });
+const teamImages = import.meta.glob("../assets/homepage/team/*.webp", { eager: true });
 
 const getTeamImagePath = (imagePath) => {
-    const fileName = imagePath.replace("/assets/homepage/team/", ""); // Extract filename
+    const fileName = imagePath.replace("/assets/homepage/team/", ""); 
     return teamImages[`../assets/homepage/team/${fileName}`]?.default ||
-        teamImages["../assets/homepage/team/team-placeholder.png"]?.default;
+        teamImages["../assets/homepage/team/team-placeholder.webp"]?.default;
 };
 
 const Home = () => {
