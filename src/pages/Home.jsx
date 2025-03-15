@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
 import teamData from "../data/team.json";
 
-import tool_icon from "../assets/homepage/tools-placeholder-2.webp";
+import tool_icon from "../assets/homepage/tools-placeholder-2.svg";
 import nurse from "../assets/homepage/nurse.svg"
 import lightGrayBlob from "../assets/homepage/light-gray-blob.svg"
 
@@ -26,7 +26,7 @@ const Home = () => {
             {/* Hero Section */}
             <div className="w-full bg-[#2D466A]">
                 <div
-                    className="container mx-auto px-5 mt-20 md:mt-47 flex flex-col md:flex-row items-center gap-1 ">
+                    className="container mx-auto px-5 mt-20 md:mt-30 flex flex-col md:flex-row items-center gap-1 ">
                     <div className="md:w-1/2 text-center md:text-left pb-10 md:pb-40">
                         <p className="text-3xl md:text-4xl font-bold text-[#FC8EAC]">Scan&Scrub</p>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#FFFFFF] leading-tight">
@@ -47,18 +47,18 @@ const Home = () => {
                     </div>
                     <div className="relative w-4/5 lg:w-full xl:w-2/3 order-1 xl:order-2" >
                         <img src={lightGrayBlob} alt="Blob Design" className="my-12 md:-20 lg:m-20 xl:m-24 w-full lg:w-5/6 xl:w-5/6 max-w-[800px]" />
-                        <img src={nurse} alt="Nurse" className="absolute bottom-[49px] left-16 md:bottom-[49px] md:left-[60px] lg:bottom-[80px] lg:left-[160px] xl:bottom-11/12 xl:top-0 w-4/5 lg:w-2/3 xl:w-2/3 max-w-[650px]" />
+                        <img src={nurse} alt="Nurse" className="absolute bottom-[49px] left-16 md:bottom-[49px] md:left-[60px] lg:bottom-[80px] lg:left-[175px] xl:bottom-11/12 xl:top-0 w-4/5 lg:w-2/3 xl:w-2/3 max-w-[650px]" />
                     </div>
                 </div>
             </div>
 
 
             {/* Why This Matters Section */}
-            <div className="pt-5 pb-15 md:py-30 bg-[#C0D2E5]">
+            <div className="pb-10 md:pb-11 md:py-5 bg-[#C0D2E5]">
                 <div className="container mx-auto flex flex-col md:flex-row items-center px-5">
-                    <div className="md:w-1/2 flex justify-center md:mr-10">
+                    <div className="flex justify-center md:mr-10">
                         <img src={tool_icon} alt="Surgical Tools"
-                             className="max-w-full h-auto rotate-270 md:rotate-none"/>
+                             className="w-[400px] md:w-[500px] lg:w-[800px] rotate-270 md:rotate-none"/>
                     </div>
                     <div className="md:w-1/2 text-center md:text-left md:pt-8">
                         <p className="text-3xl md:text-4xl font-bold text-[#FC8EAC]">Project Significance</p>

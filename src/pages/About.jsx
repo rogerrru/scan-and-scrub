@@ -4,12 +4,12 @@ import Footer from "../components/Footer";
 import BackToTop from "../components/BackToTop";
 import teamData from "../data/team.json";
 
-const teamImages = import.meta.glob("../assets/homepage/team/*.png", { eager: true });
+const teamImages = import.meta.glob("../assets/homepage/team/*.webp", { eager: true });
 
 const getTeamImagePath = (imagePath) => {
     const fileName = imagePath.replace("/assets/homepage/team/", ""); // Extract filename
     return teamImages[`../assets/homepage/team/${fileName}`]?.default ||
-        teamImages["../assets/homepage/team/team-placeholder.png"]?.default;
+        teamImages["../assets/homepage/team/team-placeholder.webp"]?.default;
 };
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
                     </h1>
 
                     {/* Who We Are */}
-                    <div className="max-w-4xl mx-auto text-center text-justify px-5  text-gray-700 mb-10">
+                    <div className="max-w-4xl mx-auto text-center px-5  text-gray-700 mb-10">
                         <h1 className="text-4xl md:text-6xl text-[#FC8EAC] font-black text-center mb-6">
                             Who We Are
                         </h1>
