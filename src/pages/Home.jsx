@@ -8,6 +8,11 @@ import nurse_icon from "../assets/homepage/nurse-placeholder.png";
 import tool_icon from "../assets/homepage/tools-placeholder-2.png";
 import teamData from "../data/team.json";
 
+import nurse from "../assets/homepage/doctor.svg"
+import darkCircle from "../assets/homepage/dark-circle.svg"
+import lightCircle from "../assets/homepage/light-circle.svg"
+import lightGrayBlob from "../assets/homepage/light-gray-blob.svg"
+
 const teamImages = import.meta.glob("../assets/homepage/team/*.png", { eager: true });
 
 const getTeamImagePath = (imagePath) => {
@@ -27,7 +32,7 @@ const Home = () => {
                     className="container mx-auto px-5 mt-20 md:mt-47 flex flex-col md:flex-row items-center gap-1 ">
                     <div className="md:w-1/2 text-center md:text-left pb-10 md:pb-40">
                         <p className="text-3xl md:text-4xl font-bold text-[#FC8EAC]">Scan&Scrub</p>
-                        <h1 className="text-4xl md:text-6xl font-extrabold text-[#FFFFFF] leading-tight">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#FFFFFF] leading-tight">
                             The QR Code Solution <br/> for OR Efficiency
                         </h1>
                         <p className="text-lg md:text-2xl text-justify text-[#FFFFFF] mt-6 mb-8 md:mr-5">
@@ -43,8 +48,9 @@ const Home = () => {
                         </Link>
 
                     </div>
-                    <div className="md:w-1/2 flex justify-center">
-                        <img src={nurse_icon} alt="Nurse with QR Code" className="max-w-full h-auto"/>
+                    <div className="relative w-4/5 lg:w-full xl:w-2/3 order-1 xl:order-2" >
+                        <img src={lightGrayBlob} alt="Blob Design" className="my-12 md:-20 lg:m-20 xl:m-24 w-full lg:w-5/6 xl:w-5/6 max-w-[800px]" />
+                        <img src={nurse} alt="Nurse" className="absolute bottom-[49px] left-16 md:bottom-[49px] md:left-[60px] lg:bottom-[80px] lg:left-[160px] xl:bottom-11/12 xl:top-0 w-4/5 lg:w-2/3 xl:w-2/3 max-w-[650px]" />
                     </div>
                 </div>
             </div>
