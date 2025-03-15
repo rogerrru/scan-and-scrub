@@ -1818,5 +1818,15 @@
         "uses": "The Shepard incision irrigating cannula is primarily utilized in ophthalmic surgeries for precise irrigation of corneal wounds.  Additionally, a specialized Y-shaped Shepard cannula has been employed in single-needle arthrocentesis procedures to treat temporomandibular joint disorders, offering an alternative to the traditional double-needle technique.",
         "other_names": "Single Needle Arthrocentesis",
         "imageUrl": "https://www.henryschein.com/us-en/medical/p/medical-surgical-supplies/surgical-instruments/instrument-arthrocnt-shephrd/1423719"
+    },
+    {
+        "id": 183,
+        "image": "183_bone plates.png",
+        "imageCitation": "Green Surgicals. (n.d.). Bone plates - locking. Green Surgicals. Retrieved March 15, 2025, from https://www.greensurgicals.com/products-catalogue/Bone-Plates-Locking-179.html",
+        "name": "Bone Plates",
+        "description": "A bone plate is a medical device used to stabilize and fix fractures in bones, typically during surgical procedures.",
+        "uses": "It is commonly used in orthopedics to provide support for bone healing.",
+        "other_names": "Orthopedic plate, Fracture plate, Surgical bone plate",
+        "imageUrl": "https://www.greensurgicals.com/products-catalogue/Bone-Plates-Locking-179.html"
     }
 ]
