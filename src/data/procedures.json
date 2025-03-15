@@ -523,9 +523,8 @@
                 "Mayo scissors",
                 "Monopolar Cautery Pencil",
                 "Allis Tissue Forceps",
-                "Kocher forceps",
-                "Adson Forcepss (with and without teeth)",
-                "Debakey Forcepss",
+                "Adson Forceps",
+                "Debakey Forceps",
                 "Ochsner Clamp",
                 "Crile clamps",
                 "Mosquito Hemostat",
@@ -537,7 +536,7 @@
                 "Gillies Skin Hook",
                 "Yankauer Suction Tip",
                 "Poole Suction Tip",
-                "irrigation syringes",
+                "suction irrigation cannula",
                 "Needle Holder",
                 "Mayo Scissors",
                 "Towel Clips"
@@ -779,23 +778,20 @@
             "indications": "Joint preservation and arthritis management, such as early to moderate osteoarthritis or unicompartmental arthritis, particularly in weight-bearing joints like the knee or hip, to delay or avoid total joint replacement in younger, active patients. It is also indicated for correcting deformities, including congenital or developmental bone deformities, malunited fractures, or conditions like genu varum (bowleg) or genu valgum (knock-knee). Additionally, they may be performed for spinal conditions like scoliosis or kyphosis, to correct jaw misalignment in orthognathic surgery, or as part of reconstructive procedures for tumors or trauma. ",
             "instruments": [
                 "Osteotome",
-                "gouges",
+                "Stille Gouge",
                 "Bone Rongeurs and Curettes",
-                "bone nibblers",
+                "bone nibbler",
                 "Periosteal Elevator",
                 "Bone Drill Set",
-                "K-wires",
-                "guide pins",
+                "Guidewire",
                 "bone plates",
-                "screws",
-                "intramedullary rods",
-                "Hohmann retractors",
+                "Hohmann Retractor",
                 "Gelpi Retractor",
                 "Suction Irrigation Cannula",
                 "irrigation systems",
-                "hemostatic instruments (like bone wax)",
-                "mallets",
-                "and surgical curettes"
+                "Bone Wax",
+                "Bone Mallet",
+                "Cobb Curette"
             ]
         },
         {
@@ -1015,7 +1011,8 @@
                 "Tissue Forceps",
                 "hemostats",
                 "needle holder",
-                "retractors",
+                "Senn-Miller Retractor",
+                "Double Hook Retractor",
                 "curette",
                 "Monopolar Cautery Pencil"
             ]
@@ -1037,10 +1034,12 @@
                 "Babcock Grasper",
                 "Allis Tissue Forceps",
                 "needle holder",
-                "Laparoscopic Trochar",
+                "Laparoscope",
                 "Monopolar Cautery Pencil",
                 "Suction Irrigation Cannula",
-                "retractors"
+                "Army-Navy retractor",
+                "Senn-Miller Retractor",
+                "Richardson Retractor"
             ]
         },
         {
@@ -1072,10 +1071,7 @@
                 "Curved Clamp",
                 "Straight Clamp",
                 "Allis Tissue Forceps",
-                "Shepard Cannula",
-                "Three-way Stopcock",
-                "Saline Jug",
-                "Specimen tubes"
+                "Shepard Cannula"
             ]
         },
         {
@@ -1086,7 +1082,24 @@
             "name": "AV Fistula Creation",
             "description": "To create an arteriovenous (AV) fistula, a vascular specialist will first administer local anesthesia to numb the selected access site. A small incision is then made to expose the chosen artery and vein, allowing the surgeon to surgically connect them. This connection redirects blood flow from the artery into the vein, increasing blood volume within the vein. Over time, this increased flow causes the vein to enlarge and its walls to thicken, preparing it for hemodialysis. The fistula typically takes several weeks, or in some cases a month or longer, to mature before it can be used for dialysis treatment (AV Fistula Creation for Dialysis | AV Fistula Placement, 2019). ",
             "indications": "End-stage renal disease (ESRD) requiring hemodialysis, Chronic kidney disease (CKD) stage IV or V, Failed previous vascular access (thrombosed grafts or catheters), Preference for a long-lasting, lower infection-risk access",
-            "instruments": []
+            "instruments": [
+                "Blade Holder",
+                "Metzenbaum Scissors",
+                "Mayo Scissors",
+                "Potts Scissors",
+                "Tissue Forceps",
+                "DeBakey Forceps",
+                "Thumb Forceps",
+                "Adson Forceps",
+                "Straight Clamp",
+                "Curved Clamp",
+                "Allis Tissue Forceps",
+                "Bulldog Clamp",
+                "Needle Holder",
+                "Army-Navy Retractor",
+                "Weitlaner Retractor",
+                "Vascular Dilator"
+            ]
         },
         {
             "id": 24,
@@ -1130,11 +1143,11 @@
                 "needle holder",
                 "Tissue Forceps",
                 "Allis Tissue Forceps",
-                "retractors",
+                "Army-Navy retractor", 
+                "Senn-Miller Retractor", 
+                "Richardson Retractor",
                 "Monopolar Cautery Pencil",
-                "Suction Irrigation Cannula",
-                "sterile gauze pads",
-                "specimen container"
+                "Suction Irrigation Cannula"
             ]
         },
         {
@@ -1168,10 +1181,15 @@
             "description": "A closed reduction, often termed manipulation, is a non-surgical procedure used to set (reduce) a broken bone or dislocated joint without making an incision. It allows the bone to grow back together with better alignment. Traction to pull the fragments apart is provided either manually involving two people or with a mechanical device such as 'finger\u2010traps' attached to two or more fingers and a counterweight suspended over the upper arm. The reduced fracture is then stabilised, typically by plaster cast immobilisation, to help it to heal. This procedure can be performed by an orthopedic surgeon (bone doctor), an emergency room physician, or a primary care provider who has the necessary training and experience (Handoll & Madhok, 2003).",
             "indications": "A closed reduction is indicated for displaced fractures without open wounds, joint dislocations (e.g., shoulder, hip, or fingers), minimally comminuted fractures that can be realigned non-surgically, pediatric fractures to avoid growth plate damage, and initial fracture management in emergencies to relieve pain, restore circulation, or prevent nerve damage before definitive fixation.",
             "instruments": [
-                "Receptal",
-                "Elastic Bandage",
-                "Plaster of paris",
-                "Wadding sheet"
+                "Bone Mallet",
+                "Bone Holding Forceps",
+                "Periosteal Elevator",
+                "Tenotomy Scissors",
+                "Orthopedic Implants",
+                "Stockinette",
+                "Padding (Webril)",
+                "Plaster or Fiberglass Rolls",
+                "Cast saw (for removal)"
             ]
         },
         {
@@ -1259,7 +1277,7 @@
             "indications": "Central Venous Access for Medication Administration, Hemodynamic Monitoring, Emergency Venous Access, Hemodialysis/Plasmapheresis, Total Parenteral Nutrition, Frequent Blood Sampling",
             "instruments": [
                 "Blade Holder",
-                "Dilator",
+                "Introducer Dilator",
                 "Adson Forceps",
                 "Towel Clips",
                 "Needle Holder",
@@ -1326,10 +1344,11 @@
                 "Collins Knife Electrode",
                 "Ball Electrode",
                 "Rigid Cystoscope",
-                "Urethral Dilators",
+                "pratt rectal speculum",
+                "hegar dilators",
                 "Biopsy Forceps",
                 "Allis Tissue Forceps",
-                "Babcock Forceps",
+                "Babcock",
                 "Blade Holder",
                 "Babcock Grasper",
                 "Needle Holder"
@@ -1400,7 +1419,21 @@
             "name": "Herniorraphy ",
             "description": "Herniorrhaphy is a surgical procedure used to repair a hernia by suturing the weakened or torn muscle or tissue. It involves repositioning the herniated organ or tissue and reinforcing the defect with sutures, sometimes without the use of mesh.",
             "indications": "Inguinal, umbilical, femoral, and incisional hernias that cause pain, discomfort, or risk of complications such as strangulation or bowel obstruction. It is recommended for symptomatic hernias, enlarging hernias, or those at risk of incarceration.",
-            "instruments": []
+            "instruments": [
+                "Blade Holder",
+                "Metzenbaum Scissors",
+                "Mayo Scissors",
+                "Iris Scissors",
+                "Tissue Forceps",
+                "Thumb Forceps",
+                "Adson Forceps",
+                "Allis Tissue Forceps",
+                "Babcock",
+                "Russian Forceps",
+                "Needle Holder",
+                "Langenbeck Retractor",
+                "Army-Navy Retractor"
+            ]
         },
         {
             "id": 41,

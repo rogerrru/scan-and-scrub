@@ -512,7 +512,7 @@
     {
         "id": 52,
         "image": "52_sims uterine curettes.png",
-        "imageCitation": "",
+        "imageCitation": "https://www.germedusa.com/p-14119-sims-uterine-curettes-sharp-malleable.aspx",
         "name": "Sims Uterine Curettes",
         "description": "Are long, spoon-shaped instruments with a sharp or blunt looped tip, designed for scraping and removing tissue from the uterine lining.",
         "uses": "Performing dilation and curettage (D&C) to remove retained tissue or for biopsy. Scraping and collecting endometrial tissue for histopathological examination. Removing abnormal tissue or remnants after miscarriage or abortion.",
@@ -532,7 +532,7 @@
     {
         "id": 54,
         "image": "54_sims uterine sound.png",
-        "imageCitation": "",
+        "imageCitation": "Sims Uterine Sounds. (n.d.). https://www.alimed.com/sims-uterine-sounds.html",
         "name": "Sims Uterine Sound",
         "description": "A long, slender, graduated metal instrument with a blunt tip, often featuring a slight curve to match the natural contour of the uterus. It is designed for gentle insertion through the cervical canal into the uterine cavity to measure its depth and assess its orientation.",
         "uses": "Determines the length of the uterine cavity, aiding in the selection of appropriate instruments and devices. Evaluates the position of the uterus (e.g., anteverted, retroverted), which is critical for planning procedures.",
@@ -1221,13 +1221,13 @@
     },
     {
         "id": 123,
-        "image": "123_plaster spreader.png",
-        "imageCitation": "",
+        "image": "123_NEW_plaster spreader.png",
+        "imageCitation": "Spreader, plaster, Hennig - Standard products catalogue IFRC ICRC. (n.d.). https://itemscatalogue.redcross.int/detail.aspx?itemcode=XSINMEDI407027&from=kit",
         "name": "Plaster Spreader",
         "description": "A hand tool with wide, curved jaws used to pry open hardened plaster casts.",
         "uses": "It facilitates the safe removal of a cast by loosening its structure before cutting.",
         "other_names": "Cast spreader, Orthopedic cast breaker",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5_q2d3WsztC2HqKyZEdTs2FClOqpKK_E-Ww&s"
+        "imageUrl": "https://itemscatalogue.redcross.int/detail.aspx?itemcode=XSINMEDI407027&from=kit"
     },
     {
         "id": 124,
@@ -1551,7 +1551,7 @@
     },
     {
         "id": 156,
-        "image": "156_BoneDrillSet.png",
+        "image": "157_BoneTaps.png",
         "imageCitation": "CZMEDITECH. (n.d.). Multi-functional bone drill. CZMEDITECH. Retrieved March 13, 2025, from https://www.czmeditech.com/fil/Multi-functional-Bone-Drill-pd44502450.html",
         "name": "Bone Drill Set",
         "description": "Bone Drills are tools used to bore holes into bone, allowing for the placement of screws or other fixation devices during surgical procedures. They come in various designs, including manual hand drills and powered drills, and are often made of stainless steel.",
@@ -1561,7 +1561,7 @@
     },
     {
         "id": 157,
-        "image": "157_BoneTaps.png",
+        "image": "",
         "imageCitation": "Orthopromed Inc. (n.d.). Bone taps. Orthopromed Inc. Retrieved March 13, 2025, from https://www.orthopromed.com/product/bone-taps/",
         "name": "Bone Taps",
         "description": "Bone Taps are surgical instruments resembling screws with spiral flutes and a handle or shank. They are designed to create threads in pre-drilled bone holes, facilitating the insertion of bone screws during orthopedic procedures.",
@@ -1778,5 +1778,45 @@
         "uses": "The Hohmann retractor is a surgical instrument primarily used in orthopedic procedures to retract soft tissues, such as muscles and fascia, thereby exposing underlying bone structures.  Its design facilitates effective retraction while minimizing tissue damage, making it particularly valuable in minimally invasive surgeries.  By providing a clear view of the surgical field, the Hohmann retractor enhances surgical precision and contributes to improved patient outcomes.",
         "other_names": "Bone Lever Retractor",
         "imageUrl": "https://www.germedusa.com/p-11202-hohmann-retractor.aspx"
+    },
+    {
+        "id": 179,
+        "image": "179_stille gouge.png",
+        "imageCitation": "Stille AB. (2019, December 19). ORIGINAL STILLE GOUGE - STILLE. Stille Global. https://www.stille.se/product/original-stille-gouge/",
+        "name": "Stille Gouge",
+        "description": "A Stille gouge is a surgical instrument, specifically a type of bone chisel, used in neurosurgical and orthopedic procedures for cutting and shaping bone, featuring a narrow handle and a slim neck that widens to a funnel-shaped blade",
+        "uses": "Stille gouges are designed to gouge, scrape, and scoop bone during surgical procedures.",
+        "other_names": "Stille gouge is also known as a Stille-type gouge or a chisel",
+        "imageUrl": "https://www.stille.se/product/original-stille-gouge/"
+    },
+    {
+        "id": 180,
+        "image": "180_Bone Nibbler.png",
+        "imageCitation": "691.012 | Bone Nibbler Curved Small (D.A) - Hardik International. (2024, October 22). Hardik International. https://hardikinternational.com/product/691-012-bone-nibbler-curved-small-d-a/",
+        "name": "Bone Nibbler",
+        "description": "Bone nibblers are surgical instruments used to precisely cut or remove bone tissue during procedures like fracture fixation, joint reconstruction, and osteotomies, with double-action nibblers offering enhanced cutting efficiently.",
+        "uses": "Bone nibblers are used to trim irregular bone edges, excise bone fragments, and prepare bone surfaces for grafts or implants.",
+        "other_names": "Bone cutter, Bone biter",
+        "imageUrl": "https://hardikinternational.com/wp-content/uploads/2024/10/691-012.jpeg"
+    },
+    {
+        "id": 181,
+        "image": "181_Introducer Dilator.png",
+        "imageCitation": "Merit Medical Devices. (2019, December 20). Coaxial Introducer/Dilator Pair - S-MAK5F-15 - Merit OEM. Merit OEM. https://meritoem.com/product/s-mak5f-15/",
+        "name": "Introducer Dilator",
+        "description": "It is a rigid, tapered, cylindrical instrument made of plastic or metal, designed to be inserted over a guidewire. It facilitates vessel dilation with minimal trauma and ensures proper placement of large-bore catheters, such as central venous catheters (CVCs) or hemodialysis catheters.",
+        "uses": "The introducer dilator is used in internal jugular (IJ) catheter insertion to gradually enlarge the vessel entry site, allowing smooth passage of the catheter or sheath introducer.",
+        "other_names": "Coaxial dilator",
+        "imageUrl": "https://meritoem.com/product/s-mak5f-15/"
+    },
+    {
+        "id": 182,
+        "image": "182_Shepard Cannula.png",
+        "imageCitation": "Henry Schein, Inc. (n.d.). 0702042 Arthrocentesis Instrument - Henry Schein Medical. https://www.henryschein.com/us-en/medical/p/medical-surgical-supplies/surgical-instruments/instrument-arthrocnt-shephrd/1423719",
+        "name": "Shepard Cannula",
+        "description": "The Shepard incision irrigating cannula is a specialized surgical instrument designed for precise irrigation during procedures. Typically 30 gauge in size, it features an angled, flattened tip with a blunt end opening located 5.0 mm from the bend to the tip, and has an overall length of 19.0 mm, excluding the hub.  This design facilitates controlled irrigation, making it suitable for delicate surgical applications.",
+        "uses": "The Shepard incision irrigating cannula is primarily utilized in ophthalmic surgeries for precise irrigation of corneal wounds.  Additionally, a specialized Y-shaped Shepard cannula has been employed in single-needle arthrocentesis procedures to treat temporomandibular joint disorders, offering an alternative to the traditional double-needle technique.",
+        "other_names": "Single Needle Arthrocentesis",
+        "imageUrl": "https://www.henryschein.com/us-en/medical/p/medical-surgical-supplies/surgical-instruments/instrument-arthrocnt-shephrd/1423719"
     }
 ]
