@@ -7,14 +7,14 @@ import toolsData from "../data/tools.json";
 import "../styles/index.css";
 import proceduresData from "../data/procedures.json";
 
-const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
+const toolImages = import.meta.glob("../assets/tools/*.webp", { eager: true });
 
 const Tools = () => {
     const [searchTool, setSearchTool] = useState("");
 
     const getToolImagePath = (imagePath) => {
         const fileName = imagePath.replace("/assets/tools/", "");
-        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.png"]?.default;
+        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.webp"]?.default;
     };
 
     return (

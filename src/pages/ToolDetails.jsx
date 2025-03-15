@@ -9,7 +9,7 @@ import zoomInIcon from "../assets/procedures/ZoomInButton.svg";
 import zoomOutIcon from "../assets/procedures/ZoomOutButton.svg";
 
 
-const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
+const toolImages = import.meta.glob("../assets/tools/*.webp", { eager: true });
 
 
 const ToolDetails = () => {
@@ -19,7 +19,7 @@ const ToolDetails = () => {
 
     const getToolImagePath = (imagePath) => {
         const fileName = imagePath.replace("/assets/tools/", "");
-        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.png"]?.default;
+        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.webp"]?.default;
     };
 
     const tool = toolsData.find((t) => t.id === parseInt(id));

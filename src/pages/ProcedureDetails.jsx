@@ -10,8 +10,8 @@ import zoomInIcon from "../assets/procedures/ZoomInButton.svg";
 import zoomOutIcon from "../assets/procedures/ZoomOutButton.svg";
 import clsx from "clsx";
 
-const procedureImages = import.meta.glob("../assets/procedures/*.png", { eager: true });
-const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
+const procedureImages = import.meta.glob("../assets/procedures/*.webp", { eager: true });
+const toolImages = import.meta.glob("../assets/tools/*.webp", { eager: true });
 
 const ProcedureDetails = () => {
     const { id } = useParams();
@@ -23,12 +23,12 @@ const ProcedureDetails = () => {
 
     const getProcedureImagePath = (imagePath) => {
         const fileName = imagePath.replace("/assets/procedures/", "");
-        return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.png"]?.default;
+        return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.webp"]?.default;
     };
 
     const getToolImagePath = (imagePath) => {
         const fileName = imagePath.replace("/assets/tools/", "");
-        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.png"]?.default;
+        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.webp"]?.default;
     };
 
     Object.entries(proceduresData).forEach(([type, procedures]) => {
