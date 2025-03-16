@@ -70,6 +70,7 @@ const Tools = () => {
                                     .filter((tool) =>
                                         tool.name.toLowerCase().includes(searchTool.toLowerCase())
                                     )
+                                    .sort((a, b) => a.name.localeCompare(b.name))
                                     .map((tool) => (
                                         <Link to={`/tools/${tool.id}`} key={tool.id}>
                                             <div

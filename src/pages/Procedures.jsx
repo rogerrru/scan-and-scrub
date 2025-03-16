@@ -94,6 +94,7 @@ const Procedures = () => {
                       .filter((procedure) =>
                           procedure.name.toLowerCase().includes(searchProcedure.toLowerCase())
                       )
+                      .sort((a, b) => a.name.localeCompare(b.name))
                       .map((procedure) => (
                           <Link to={`/procedure/${procedure.id}`} key={procedure.id}>
                             <div
