@@ -10,8 +10,8 @@ import zoomInIcon from "../assets/procedures/ZoomInButton.svg";
 import zoomOutIcon from "../assets/procedures/ZoomOutButton.svg";
 import clsx from "clsx";
 
-const procedureImages = import.meta.glob("../assets/procedures/*.png", { eager: true });
-const toolImages = import.meta.glob("../assets/tools/*.png", { eager: true });
+const procedureImages = import.meta.glob("../assets/procedures/*.webp", { eager: true });
+const toolImages = import.meta.glob("../assets/tools/*.webp", { eager: true });
 
 const ProcedureDetails = () => {
     const { id } = useParams();
@@ -23,12 +23,12 @@ const ProcedureDetails = () => {
 
     const getProcedureImagePath = (imagePath) => {
         const fileName = imagePath.replace("/assets/procedures/", "");
-        return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.png"]?.default;
+        return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.webp"]?.default;
     };
 
     const getToolImagePath = (imagePath) => {
         const fileName = imagePath.replace("/assets/tools/", "");
-        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.png"]?.default;
+        return toolImages[`../assets/tools/${fileName}`]?.default || toolImages["../assets/tools/image-placeholder.webp"]?.default;
     };
 
     Object.entries(proceduresData).forEach(([type, procedures]) => {
@@ -101,7 +101,7 @@ const ProcedureDetails = () => {
                                         href={procedure.imageUrl.startsWith("http") ? procedure.imageUrl : `https://${procedure.imageUrl}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-[#FC8EAC] hover:text-[#f97498] cursor-pointer"
+                                        className="text-[#395178] hover:text-[#f97498] cursor-pointer"
                                     >
                                         {procedure.imageCitation}
                                     </a>
@@ -157,7 +157,7 @@ const ProcedureDetails = () => {
                             <div
                                 className={clsx(
                                     "w-fit px-4 py-1 flex justify-center items-center mt-2 rounded-full mx-auto md:mx-0",
-                                    procedureType === "major" ? "bg-[#A6E5B4]" : "bg-[#E5DCA6]"
+                                    procedureType === "major" ? "bg-[#2D466A]" : "bg-[#FC8EAC]"
                                 )}
                             >
                                 <p className="text-sm text-white font-semibold">

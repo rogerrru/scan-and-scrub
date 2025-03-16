@@ -6,7 +6,7 @@ import BackToTop from "../components/BackToTop";
 import proceduresData from "../data/procedures.json";
 import "../styles/index.css";
 
-const procedureImages = import.meta.glob("../assets/procedures/*.png", { eager: true });
+const procedureImages = import.meta.glob("../assets/procedures/*.webp", { eager: true });
 
 const Procedures = () => {
   const [searchProcedure, setSearchProcedure] = useState("");
@@ -14,7 +14,7 @@ const Procedures = () => {
 
   const getProcedureImagePath = (imagePath) => {
     const fileName = imagePath.replace("/assets/procedures/", "");
-    return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.png"]?.default;
+    return procedureImages[`../assets/procedures/${fileName}`]?.default || procedureImages["../assets/procedures/image-placeholder.webp"]?.default;
   };
 
   return (

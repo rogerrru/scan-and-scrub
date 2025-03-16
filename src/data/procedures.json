@@ -2,7 +2,7 @@
     "major": [
         {
             "id": 1,
-            "image": "1_Abdominal Hysterectomy_TAHBS_TAHBSO.png",
+            "image": "1_Abdominal Hysterectomy_TAHBS_TAHBSO.webp",
             "imageCitation": "Medithics. (n.d.). Laparoscopic abdominal hysterectomy. Medithics Blog. Retrieved March 9, 2025, from https://blog.medithics.com/laparoscopic-abdominal-hysterectomy/",
             "imageUrl": "https://blog.medithics.com/laparoscopic-abdominal-hysterectomy/",
             "name": "Abdominal Hysterectomy/TAHBS/TAHBSO",
@@ -38,7 +38,7 @@
         },
         {
             "id": 3,
-            "image": "3_AmputationofMajorLimbs.png",
+            "image": "3_AmputationofMajorLimbs.webp",
             "imageCitation": "Fluss, G., Greenspan, J., Szczerepa, D., & Finlay, D. J. (2021). The optimal below knee amputation flap. Annals of Vascular Surgery - Brief Reports and Innovations, 1(1), 100003. https://doi.org/10.1016/j.avsurg.2021.100003",
             "imageUrl": "https://www.sciencedirect.com/science/article/pii/S2772687821000039",
             "name": "Amputation of Major Limbs",
@@ -70,7 +70,7 @@
         },
         {
             "id": 4,
-            "image": "4_Arthroplasty.png",
+            "image": "4_Arthroplasty.webp",
             "imageCitation": "Zimmer Biomet. (n.d.). Vanguard total knee replacement: Cruciate retaining. https://www.orthoracle.com/library/vanguard-total-knee-replacement-cruciate-retaining-zimmer-biomet/",
             "imageUrl": "https://www.orthoracle.com/library/vanguard-total-knee-replacement-cruciate-retaining-zimmer-biomet/",
             "name": "Arthroplasty",
@@ -99,7 +99,7 @@
         },
         {
             "id": 5,
-            "image": "5_Cesarean Section.png",
+            "image": "5_Cesarean Section.webp",
             "imageCitation": "Hirslanden. (n.d.). Caesarean birth. https://www.hirslanden.ch/en/corporate/treatments/caesarean-birth.html",
             "imageUrl": "https://www.hirslanden.ch/en/corporate/treatments/caesarean-birth.html",
             "name": "Cesarean Section",
@@ -124,7 +124,7 @@
         },
         {
             "id": 6,
-            "image": "6_Cholecystectomy.png",
+            "image": "6_Cholecystectomy.webp",
             "imageCitation": "ResearchGate. (2016). Conventional laparoscopic cholecystectomy. https://www.researchgate.net/figure/Conventional-laparoscopic-cholecystectomy_fig1_309182289",
             "imageUrl": "https://www.researchgate.net/figure/Conventional-laparoscopic-cholecystectomy_fig1_309182289",
             "name": "Cholecystectomy",
@@ -154,7 +154,7 @@
         },
         {
             "id": 7,
-            "image": "7_Gastrectomy.png",
+            "image": "7_Gastrectomy.webp",
             "imageCitation": "Puy, R. V., Alatorre, R., & Fort, J. M. (2019). Robotic Sleeve Gastrectomy. In Springer eBooks (pp. 63\u201370). https://doi.org/10.1007/978-3-030-17223-7_7",
             "imageUrl": "https://link.springer.com/chapter/10.1007/978-3-030-17223-7_7",
             "name": "Gastrectomy/Gastrojejunostomy",
@@ -169,7 +169,7 @@
         },
         {
             "id": 8,
-            "image": "8_Colonic surgery.png",
+            "image": "8_Colonic surgery.webp",
             "imageCitation": "Shutterstock. (2017). Constricting sigmoid colon tumour. https://www.shutterstock.com/image-photo/constricting-sigmoid-colon-tumour-639055660",
             "imageUrl": "https://www.shutterstock.com/image-photo/constricting-sigmoid-colon-tumour-639055660",
             "name": "Colonic Surgery",
@@ -194,7 +194,7 @@
         },
         {
             "id": 9,
-            "image": "9_Craniectomy.png",
+            "image": "9_Craniectomy.webp",
             "imageCitation": "Adobe Stock. (n.d.). Craniotomy images. Adobe. Retrieved March 9, 2025, from https://stock.adobe.com/search?k=craniotomy",
             "imageUrl": "https://stock.adobe.com/search?k=craniotomy",
             "name": "Craniectomy",
@@ -229,7 +229,7 @@
         },
         {
             "id": 10,
-            "image": "10_Craniotomy.png",
+            "image": "10_Craniotomy.webp",
             "imageCitation": "Depositphotos. (n.d.). Craniotomy. https://depositphotos.com/photos/craniotomy.html",
             "imageUrl": "https://depositphotos.com/photos/craniotomy.html",
             "name": "Craniotomy",
@@ -265,7 +265,7 @@
         },
         {
             "id": 13,
-            "image": "13_Exploratory Laparotomy.png",
+            "image": "13_Exploratory Laparotomy.webp",
             "imageCitation": "Exploratory Laparotomy. (n.d.). [Photograph of an exploratory laparotomy procedure]. Retrieved from https://www.instagram.com/firthy_/p/C4ISm_KPxg-/?img_index=1",
             "imageUrl": "https://www.instagram.com/firthy_/p/C4ISm_KPxg-/?img_index=1",
             "name": "Exploratory Laparotomy",
@@ -300,7 +300,7 @@
         },
         {
             "id": 15,
-            "image": "15_Laparoscopic Cholecystectomy.png",
+            "image": "15_Laparoscopic Cholecystectomy.webp",
             "imageCitation": "[Laparoscopic Cholecystectomy]. (n.d.). Retrieved from https://venushospital.com.np/laparoscopic-appendectomy-in-nepal/",
             "imageUrl": "https://venushospital.com.np/laparoscopic-appendectomy-in-nepal/",
             "name": "Laparoscopic Appendectomy ",
@@ -328,7 +328,7 @@
         },
         {
             "id": 16,
-            "image": "16_laparoscopic cholecystectomy.png",
+            "image": "16_laparoscopic cholecystectomy.webp",
             "imageCitation": "Marina's Clinic. (n.d.). Surgeons performing a Laparoscopic Cholecystectomy. Retrieved February 22, 2025, from https://marinasclinic.com/what-is-laparoscopic-cholecystectomy-procedure-risks-and-recovery/",
             "imageUrl": "https://marinasclinic.com/what-is-laparoscopic-cholecystectomy-procedure-risks-and-recovery/",
             "name": "Laparoscopic Cholecystectomy",
@@ -363,7 +363,7 @@
         },
         {
             "id": 38,
-            "image": "38_Thoracotomy.png",
+            "image": "38_Thoracotomy.webp",
             "imageCitation": "Wikipedia contributors. (2024, August 28). Thoracotomy. Wikipedia. https://en.m.wikipedia.org/wiki/Thoracotomy#/media/File%3AEmergency_Thoracotomy.png",
             "imageUrl": "https://en.m.wikipedia.org/wiki/Thoracotomy",
             "name": "Thoracotomy",
@@ -416,7 +416,7 @@
         },
         {
             "id": 42,
-            "image": "42_Thyroidectomy.png",
+            "image": "42_Thyroidectomy.webp",
             "imageCitation": "iStock. (n.d.). Schilddr\u00fcsenoperation [Photograph]. iStock. https://www.istockphoto.com/photo/schilddr%C3%BCsenoperation-gm163080366-9211150",
             "imageUrl": "https://www.istockphoto.com/photo/schilddr%C3%BCsenoperation-gm163080366-9211150",
             "name": "Thyroidectomy",
@@ -450,7 +450,7 @@
         },
         {
             "id": 43,
-            "image": "43_Radical Neck Dissection.png",
+            "image": "43_Radical Neck Dissection.webp",
             "imageCitation": "Open thoracotomy! - MEDizzy. (n.d.). https://medizzy.com/feed/4326078",
             "imageUrl": "https://www.optecoto.com/article/S1043-1810(24)00071-X/abstract",
             "name": "Radical Neck Dissection",
@@ -484,7 +484,7 @@
         },
         {
             "id": 44,
-            "image": "44_Laminectomy.png",
+            "image": "44_Laminectomy.webp",
             "imageCitation": "Shutterstock. (n.d.). Laminectomy\u2014Back operation. Retrieved March 13, 2025, from https://www.shutterstock.com/image-photo/laminectomyback-operation-86083867",
             "imageUrl": "https://www.shutterstock.com/image-photo/laminectomyback-operation-86083867",
             "name": "Laminectomy ",
@@ -512,7 +512,7 @@
         },
         {
             "id": 45,
-            "image": "42_Radical_Simple Mastectomy.png",
+            "image": "42_Radical_Simple Mastectomy.webp",
             "imageCitation": "Themes, U. (2016, July 24). Simple mastectomy. Basicmedical Key. https://basicmedicalkey.com/simple-mastectomy/ ",
             "imageUrl": "https://basicmedicalkey.com/wp-content/uploads/2016/07/C10-DA2-DB5-DC21-FF1.gif ",
             "name": "Radical/Simple Mastectomy",
@@ -544,7 +544,7 @@
         },
         {
             "id": 46,
-            "image": "46_Lobectomy.png",
+            "image": "46_Lobectomy.webp",
             "imageCitation": "Herrera, L. (n.d.). Robotic-Assisted left upper lobectomy in Non-Small cell lung cancer with N1 disease. CTSNet. https://doi.org/10.25373/ctsnet.6123011",
             "imageUrl": "https://www.ctsnet.org/article/robotic-assisted-left-upper-lobectomy-non-small-cell-lung-cancer-n1-disease",
             "name": "Lobectomy",
@@ -567,7 +567,7 @@
         },
         {
             "id": 47,
-            "image": "47_Pancreatectomy.png",
+            "image": "47_Pancreatectomy.webp",
             "imageCitation": "Cai, H., Feng, L., & Peng, B. (2021). Laparoscopic pancreatectomy for benign or low-grade malignant pancreatic tumors: outcomes in a single high-volume institution. BMC Surgery, 21(1). https://doi.org/10.1186/s12893-021-01414-w",
             "imageUrl": "https://bmcsurg.biomedcentral.com/articles/10.1186/s12893-021-01414-w",
             "name": "Pancreatectomy",
@@ -594,7 +594,7 @@
         },
         {
             "id": 48,
-            "image": "48_Cystectomy.png",
+            "image": "48_Cystectomy.webp",
             "imageCitation": "Science Photo Library. (n.d.).\u00a0Cystectomy surgery. https://www.sciencephoto.com/media/828528/view/cystectomy-surgery",
             "imageUrl": "https://www.sciencephoto.com/media/828528/view/cystectomy-surgery",
             "name": "Cystectomy",
@@ -625,7 +625,7 @@
         },
         {
             "id": 49,
-            "image": "49_coronary artery bypass.png",
+            "image": "49_coronary artery bypass.webp",
             "imageCitation": "RVO Health (n.d.). Heart Surgery: Aortic Valve Replacement. https://media.post.rvohealth.io/wp-content/uploads/sites/3/2024/03/Heart-Surgery-Aortic-Valve-Replacemen-header-1024x575.jpg",
             "imageUrl": "https://media.post.rvohealth.io/wp-content/uploads/sites/3/2024/03/Heart-Surgery-Aortic-Valve-Replacemen-header-1024x575.jpg",
             "name": "Coronary Artery Bypass Grafting",
@@ -671,7 +671,7 @@
         },
         {
             "id": 50,
-            "image": "50_pleurectomy.png",
+            "image": "50_pleurectomy.webp",
             "imageCitation": "Annals of Thoracic Surgery (n.d.). Thoracic surgery image. https://www.annalsthoracicsurgery.org/cms/10.1016/j.athoracsur.2018.05.087/asset/b945b8ed-fc64-4737-88ae-992984cd1f1b/main.assets/gr2_lrg.jpg",
             "imageUrl": "https://www.annalsthoracicsurgery.org/cms/10.1016/j.athoracsur.2018.05.087/asset/b945b8ed-fc64-4737-88ae-992984cd1f1b/main.assets/gr2_lrg.jpg",
             "name": "Pleurectomy",
@@ -711,7 +711,7 @@
         },
         {
             "id": 51,
-            "image": "51_myomectomy.png",
+            "image": "51_myomectomy.webp",
             "imageCitation": "Getty Images. (n.d.). Surgeons removing fibroids from wall of uterus [Photograph]. Getty Images. https://www.gettyimages.com/detail/news-photo/surgeons-removing-fibroids-from-wall-of-uterus-news-photo/129377747",
             "imageUrl": "https://www.gettyimages.com/detail/news-photo/surgeons-removing-fibroids-from-wall-of-uterus-news-photo/129377747?adppopup=true",
             "name": "Myomectomy",
@@ -738,7 +738,7 @@
         },
         {
             "id": 52,
-            "image": "52_Hemicolectomy.png",
+            "image": "52_Hemicolectomy.webp",
             "imageCitation": "Mitchell, B. G., & Mandava, N. (2023, June 5). Hemicolectomy. StatPearls - NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK555924/",
             "imageUrl": "https://www.ncbi.nlm.nih.gov/books/NBK555924/",
             "name": "Hemicolectomy",
@@ -770,7 +770,7 @@
         },
         {
             "id": 53,
-            "image": "53_Osteotomy of spine_clavicles_pelvis_femur.png",
+            "image": "53_Osteotomy of spine_clavicles_pelvis_femur.webp",
             "imageCitation": "Wang, Y., Xue, C., Song, K., Wang, T., Hu, W., Hu, F., Hao, Y., Zhang, Z., Wang, C., Yang, X., Fan, T., Zheng, G., Wang, Z., Wang, Y., & Zhang, X. (2019). Comparison of loss of correction between PSO and VCD technique in treating thoracolumbar kyphosis secondary to ankylosing spondylitis, a minimum 2 years follow-up. Journal of Orthopaedic Surgery and Research, 14(1). https://doi.org/10.1186/s13018-019-1170-5",
             "imageUrl": "https://www.researchgate.net/publication/333147910/figure/fig1/AS:759246111117312@1558029787780/Spine-osteotomy-techniques-a-Pedicle-subtraction-osteotomy-b-Y-shaped-vertebral.png",
             "name": "Osteotomy of spine/clavicles/pelvis/femur",
@@ -796,7 +796,7 @@
         },
         {
             "id": 54,
-            "image": "54_ORIF.png",
+            "image": "54_ORIF.webp",
             "imageCitation": "Buckley, R., & Sands, A. (n.d.). ORIF - Plate and screws through anteromedial approach. AO Surgery Reference. Retrieved March 13, 2025, from https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/complete-multifragmentary-articular-and-metaphyseal-fracture/orif-plate-and-screws-through-anteromedial-approach",
             "imageUrl": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-tibia/complete-multifragmentary-articular-and-metaphyseal-fracture/orif-plate-and-screws-through-anteromedial-approach#application-of-a-distractor",
             "name": "Open Reduction and Internal Fixation (ORIF)",
@@ -830,7 +830,7 @@
     "minor": [
         {
             "id": 2,
-            "image": "2_ACL Repair.png",
+            "image": "2_ACL Repair.webp",
             "imageCitation": "Momaya, A., Harris, C., & Hargreaves, M. (2024). Why your patient may need an ACL reconstruction plus lateral extra-articular tenodesis procedure. International Journal of Sports Physical Therapy, 19(3), 251-257. https://doi.org/10.26603/001c.94015",
             "imageUrl": "https://ijspt.scholasticahq.com/article/94015-why-your-patient-may-need-an-acl-reconstruction-plus-lateral-extra-articular-tenodesis-procedure",
             "name": "ACL Repair",
@@ -860,7 +860,7 @@
         },
         {
             "id": 11,
-            "image": "11_NEW_ExcisionofBreastMass.png",
+            "image": "11_NEW_ExcisionofBreastMass.webp",
             "imageCitation": "Penumadu, P., & Veeramani, M. (2020). A scar of excision biopsy for a right breast lump at a primary center with margin status. ResearchGate. https://www.researchgate.net/profile/Prasanth-Penumadu/publication/343394102/figure/fig1",
             "imageUrl": "https://www.researchgate.net/profile/Prasanth-Penumadu/publication/",
             "name": "Excision of Breast Mass",
@@ -884,7 +884,7 @@
         },
         {
             "id": 12,
-            "image": "12_ExcisionofCystMassLipomaMultipleDeep.png",
+            "image": "12_ExcisionofCystMassLipomaMultipleDeep.webp",
             "imageCitation": "Dr. Sandra Krishnan. (2025). Lumps and bump removal. https://www.drsandrakrishnan.com.au/lumps-and-bump-removal",
             "imageUrl": "https://www.drsandrakrishnan.com.au/lumps-and-bump-removal",
             "name": "Excision of Cyst Mass Lipoma: Multiple Deep",
@@ -906,7 +906,7 @@
         },
         {
             "id": 14,
-            "image": "14_Hemorrhoidectomy_Anal Encirclement.png",
+            "image": "14_Hemorrhoidectomy_Anal Encirclement.webp",
             "imageCitation": "Laser surgery for Hemorrhoids in Jalandhar,Punjba|laser treatment for Bawaseer in North india. (n.d.). https://www.karanhospital.com/hemorrhoids-treatment-jalandhar.php",
             "imageUrl": "https://www.karanhospital.com/hemorrhoids-treatment-jalandhar.php",
             "name": "Hemorrhoidectomy/Anal Encirclement",
@@ -935,7 +935,7 @@
         },
         {
             "id": 17,
-            "image": "17_lymphadenectomy.png",
+            "image": "17_lymphadenectomy.webp",
             "imageCitation": "MedPage Today. (n.d.) ",
             "imageUrl": "https://clf1.medpagetoday.com/assets/images/resource-center/Surg.jpg",
             "name": "Lymphadenectomy",
@@ -969,7 +969,7 @@
         },
         {
             "id": 18,
-            "image": "18_pharyngectomy.png",
+            "image": "18_pharyngectomy.webp",
             "imageCitation": "Ba\u015faran, B., & \u00dcnsaler, S. (2020). Carcinoma of the posterior wall of the hypopharynx: surgical treatment with larynx preservation. Brazilian Journal of Otorhinolaryngology, 88(2), 174\u2013180. https://doi.org/10.1016/j.bjorl.2020.05.013",
             "imageUrl": "https://www.scielo.br/j/bjorl/a/qbhCkH3qx7bXXCfGZZN9zTK/",
             "name": "Pharyngectomy",
@@ -997,7 +997,7 @@
         },
         {
             "id": 19,
-            "image": "19_AmputationofToes&Fingers.png",
+            "image": "19_AmputationofToes&Fingers.webp",
             "imageCitation": "Musculoskeletal Key. (n.d.). Fifth ray osteomyelitis. Musculoskeletal Key. Retrieved March 9, 2025, from https://musculoskeletalkey.com/fifth-ray-osteomyelitis/",
             "imageUrl": "https://musculoskeletalkey.com/fifth-ray-osteomyelitis/",
             "name": "Amputation of Toes/Fingers",
@@ -1019,7 +1019,7 @@
         },
         {
             "id": 20,
-            "image": "20_NEW_Appendectomy.png",
+            "image": "20_NEW_Appendectomy.webp",
             "imageCitation": "Eskandarlou, M., Nemati, A., & Seif-Rabiei, M. A. (2018). A new right groin incision versus McBurney\u2019s incision for open appendectomy: a randomized controlled trial. Langenbeck\u2019s Archives of Surgery, 403(7), 805\u2013810. https://doi.org/10.1007/s00423-018-1719-5",
             "imageUrl": "https://doi.org/10.1007/s00423-018-1719-5",
             "name": "Appendectomy (Suppurative or Congestive)",
@@ -1044,7 +1044,7 @@
         },
         {
             "id": 21,
-            "image": "21_ApplicationOfLongLegCast.png",
+            "image": "21_ApplicationOfLongLegCast.webp",
             "imageCitation": "Long leg cast then hinged knee brace for Partial articular fracture, lateral condyle, sagittal simple. (n.d.). https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/partial-articular-fracture-lateral-condyle-sagittal-simple/long-leg-cast-then-hinged-knee-brace",
             "imageUrl": "https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/distal-femur/partial-articular-fracture-lateral-condyle-sagittal-simple/long-leg-cast-then-hinged-knee-brace",
             "name": "Application of Long Leg Cast",
@@ -1061,7 +1061,7 @@
         },
         {
             "id": 22,
-            "image": "22_Arthrocentesis.png",
+            "image": "22_Arthrocentesis.webp",
             "imageCitation": "Arthrocentesis definition, procedure, indications, complications & risks. (2019, April 19). Health Jade. https://healthjade.com/arthrocentesis/",
             "imageUrl": "https://healthjade.com/arthrocentesis/",
             "name": "Arthrocentesis",
@@ -1076,7 +1076,7 @@
         },
         {
             "id": 23,
-            "image": "23_AvFistulaCreation.png",
+            "image": "23_AvFistulaCreation.webp",
             "imageCitation": "Alm\u00e1si-Sperling, V., Gall, C., Haney, B., Latzel, N., Knieling, F., Hilger, A. C., Regensburger, A. P., Meyer, A., Lang, W., & Rother, U. (2024). Long-Term experience of Arterio-Venous fistula surgery in children on hemodialysis. Journal of Clinical Medicine, 13(12), 3577. https://doi.org/10.3390/jcm13123577",
             "imageUrl": "https://www.mdpi.com/2834750",
             "name": "AV Fistula Creation",
@@ -1103,7 +1103,7 @@
         },
         {
             "id": 24,
-            "image": "24_AvFistulaGraft.png",
+            "image": "24_AvFistulaGraft.webp",
             "imageCitation": "Berardinelli, L. (2006). Grafts and graft materials as vascular substitutes for haemodialysis access construction. European Journal of Vascular and Endovascular Surgery, 32(2), 203\u2013211. https://doi.org/10.1016/j.ejvs.2006.01.001",
             "imageUrl": "https://www.sciencedirect.com/science/article/pii/S1078588406000074",
             "name": "AV Fistula w/ Graft",
@@ -1130,7 +1130,7 @@
         },
         {
             "id": 25,
-            "image": "25_ExcisionofMass.png",
+            "image": "25_ExcisionofMass.webp",
             "imageCitation": "Ince, B., Dadaci, M., Altuntas, Z., & Oltulu, P. (2015). Appearance of the mass excision [Figure]. In Intramuscular arteriovenous malformation of the deltoid muscle. ResearchGate. https://www.researchgate.net/figure/Appearance-of-the-mass-excision_fig6_312163260",
             "imageUrl": "https://www.researchgate.net/figure/Appearance-of-the-mass-excision_fig6_312163260",
             "name": "Excision of Mass (less than 5cm subq and more than 5cm subq)",
@@ -1152,7 +1152,7 @@
         },
         {
             "id": 27,
-            "image": "27_circumcision.png",
+            "image": "27_circumcision.webp",
             "imageCitation": "Circumcision. (n.d.). [Circumcision with thermocautery technique]. Retrieved from https://www.researchgate.net/figure/Circumcision-with-thermocautery-technique-a-b-The-foreskin-was-pulled-up-with-the_fig2_321272406",
             "imageUrl": "https://www.researchgate.net/figure/Circumcision-with-thermocautery-technique-a-b-The-foreskin-was-pulled-up-with-the_fig2_321272406",
             "name": "Circumcision",
@@ -1174,7 +1174,7 @@
         },
         {
             "id": 28,
-            "image": "28_ClosedReduction.png",
+            "image": "28_ClosedReduction.webp",
             "imageCitation": "Closed Reduction. (n.d.). [Closed reduction procedure]. Retrieved from https://www.researchgate.net/publication/327475397_Incidence_and_Radiological_Predictors_of_Concomitant_Meniscal_and_Cruciate_Ligament_Injuries_in_Operative_Tibial_Plateau_Fractures_A_Prospective_Diagnostic_Study",
             "imageUrl": "https://www.researchgate.net/publication/327475397_Incidence_and_Radiological_Predictors_of_Concomitant_Meniscal_and_Cruciate_Ligament_Injuries_in_Operative_Tibial_Plateau_Fractures_A_Prospective_Diagnostic_Study",
             "name": "Close Reduction",
@@ -1194,7 +1194,7 @@
         },
         {
             "id": 29,
-            "image": "29_Colostomy.png",
+            "image": "29_Colostomy.webp",
             "imageCitation": "Colostomy. (n.d.). [Creation of the colostomy]. Retrieved from https://www.researchgate.net/figure/Creation-of-the-colostomy-a-The-nylon-thread-is-pulled-out-of-the-body-and-a-circular_fig4_353953682",
             "imageUrl": "https://www.researchgate.net/figure/Creation-of-the-colostomy-a-The-nylon-thread-is-pulled-out-of-the-body-and-a-circular_fig4_353953682",
             "name": "Colostomy",
@@ -1219,7 +1219,7 @@
         },
         {
             "id": 30,
-            "image": "30_Cutdown.png",
+            "image": "30_Cutdown.webp",
             "imageCitation": "Cutdown. (n.d.). [Cutdown procedure]. Retrieved from https://www.vin.com/apputil/project/DefaultAdv1.aspx?pId=24437&SAId=-1&id=9382712",
             "imageUrl": "https://www.vin.com/apputil/project/DefaultAdv1.aspx?pId=24437&SAId=-1&id=9382712",
             "name": "Cutdown",
@@ -1239,7 +1239,7 @@
         },
         {
             "id": 32,
-            "image": "32_Fistulectomy_Fistulotomy.png",
+            "image": "32_Fistulectomy_Fistulotomy.webp",
             "imageCitation": "IntechOpen. (2021). Anal Fistula: Contemporary View of Complex Problem. https://www.intechopen.com/chapters/80541",
             "imageUrl": "https://www.intechopen.com/chapters/80541",
             "name": "Fistulectomy/Fistulotomy (depends on complexity)",
@@ -1269,7 +1269,7 @@
         },
         {
             "id": 33,
-            "image": "33_Internal Jugular (IJ) Catheter Insertion.png",
+            "image": "33_Internal Jugular (IJ) Catheter Insertion.webp",
             "imageCitation": "ResearchGate. (2024). A shows the catheters inserted in the internal jugular vein (right), from cranial to caudal position. https://www.researchgate.net/figure/a-shows-the-catheters-inserted-in-the-internal-jugular-vein-right-from-cranial-to_fig3_382002203",
             "imageUrl": "https://www.researchgate.net/figure/a-shows-the-catheters-inserted-in-the-internal-jugular-vein-right-from-cranial-to_fig3_382002203",
             "name": "Internal Jugular (IJ) Catheter Insertion",
@@ -1288,7 +1288,7 @@
         },
         {
             "id": 34,
-            "image": "34_incision and drainange.png",
+            "image": "34_incision and drainange.webp",
             "imageCitation": "Incision and Drainage. (n.d.). [Incision and drainage procedure]. Retrieved from https://www.drazouz.com/hidradenitis-suppurativa-treatment/",
             "imageUrl": "https://www.drazouz.com/hidradenitis-suppurativa-treatment/",
             "name": "Incision and Drainage",
@@ -1312,7 +1312,7 @@
         },
         {
             "id": 35,
-            "image": "35_NEW_wound debridement.png",
+            "image": "35_NEW_wound debridement.webp",
             "imageCitation": "Hamm, R. (2019). Wound Bed Preparation: Debridement. Accessmedicinenetwork.com; McGraw Hill. https://www.accessmedicinenetwork.com/amp/posts/54627-wound-bed-preparation-debridement",
             "imageUrl": "https://www.accessmedicinenetwork.com/amp/posts/54627-wound-bed-preparation-debridement",
             "name": "Wound Debridement/Debridement and Curettage",
@@ -1331,7 +1331,7 @@
         },
         {
             "id": 36,
-            "image": "36_transurethral resection of the prostate.png",
+            "image": "36_transurethral resection of the prostate.webp",
             "imageCitation": "Dr Amer Mousa. (2024, November 26). Best Urologist in Dubai | Expert in laparoscopic & robotic surgery. https://dramermousa.com/",
             "imageUrl": "https://dramermousa.com/",
             "name": "Transurethral Resection of the Prostate (TURP)",
@@ -1356,7 +1356,7 @@
         },
         {
             "id": 37,
-            "image": "37_Tracheostomy.png",
+            "image": "37_Tracheostomy.webp",
             "imageCitation": "Muscat, K., Bille, A., & Simo, R. (2017). A guide to open surgical tracheostomy. Shanghai Chest, 1, 4. https://doi.org/10.21037/shc.2017.05.05",
             "imageUrl": "https://shc.amegroups.org/article/view/3764/html",
             "name": "Tracheostomy",
@@ -1387,7 +1387,7 @@
         },
         {
             "id": 39,
-            "image": "39_Thoracostomy.png",
+            "image": "39_Thoracostomy.webp",
             "imageCitation": "Demetriades, D., Inaba, K., & Velmahos, G. (2015). Thoracostomy tube insertion. In Atlas of surgical techniques in trauma. Cambridge University Press. https://www.cambridge.org/core/books/atlas-of-surgical-techniques-in-trauma/thoracostomy-tube-insertion/DD3301F2BBCF658F21CC592F404CE87B",
             "imageUrl": "https://www.cambridge.org/core/books/abs/atlas-of-surgical-techniques-in-trauma/thoracostomy-tube-insertion/DD3301F2BBCF658F21CC592F404CE87B",
             "name": "Thoracostomy",
@@ -1413,7 +1413,7 @@
         },
         {
             "id": 40,
-            "image": "40_Herniorraphy.png",
+            "image": "40_Herniorraphy.webp",
             "imageCitation": "Shutterstock. (n.d.). Synthetic mesh being used to repair an inguinal hernia. Retrieved March 13, 2025, from https://www.shutterstock.com/image-photo/synthetic-mesh-being-used-repair-inguinal-1026252940",
             "imageUrl": "https://www.shutterstock.com/image-photo/synthetic-mesh-being-used-repair-inguinal-1026252940",
             "name": "Herniorraphy ",
@@ -1437,7 +1437,7 @@
         },
         {
             "id": 41,
-            "image": "41_Tonsillectomy.png",
+            "image": "41_Tonsillectomy.webp",
             "imageCitation": "Tonsillectomy surgery cost in India. (n.d.). hmsdesk.com. https://hmsdesk.com/list/procedures/tonsillectomy-surgery-hospitals-and-cost-in-philippines/5/10?spd=70",
             "imageUrl": "https://hmsdesk.com/list/procedures/tonsillectomy-surgery-hospitals-and-cost-in-philippines/5/10?spd=70",
             "name": "Tonsillectomy ",
