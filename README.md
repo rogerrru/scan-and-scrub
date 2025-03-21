@@ -16,16 +16,6 @@ A website designed for student nurses to instantly access detailed information a
 ## Usage
 After installation, access the application in your browser through[http://localhost:5173/]
 
-## Technologies Used
-Frontend: React, Vite, Tailwind CSS
-
-Backend: Python (Flask or Django)
-
-Styling: Tailwind CSS
-
-Package Management: npm and pip
-
-
 ## Contact
 For inquiries, feel free to reach out via GitHub:
 https://github.com/rogerrru 
