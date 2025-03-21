@@ -1,8 +1,32 @@
-# React + Vite
+# Scan&Scrub
+A website designed for student nurses to instantly access detailed information about various operations, including the instruments used for each procedure.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation/Setup
+*Assuming IDE used is Visual Studio Code 
+1. Install Node.js (https://nodejs.org/en/download)
+2. Fork the repository
+3. Clone the Forked Repository 
+4. Run "cd scan-and-scrub"
+5. Run "pip install -r requirements.txt
+6. Run "npm install tailwindcss @tailwindcss/postcss postcss"
+7. Navigate to Extensions of VS Code, Find and Install “Tailwind CSS IntelliSense” and “PostCSS Language Support”
+8. Run "npm install"
+9. Run "npm run dev"
 
-Currently, two official plugins are available:
+## Usage
+After installation, access the application in your browser through[http://localhost:5173/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+Frontend: React, Vite, Tailwind CSS
+
+Backend: Python (Flask or Django)
+
+Styling: Tailwind CSS
+
+Package Management: npm and pip
+
+
+## Contact
+For inquiries, feel free to reach out via GitHub:
+https://github.com/rogerrru 
+https://github.com/Yahds
